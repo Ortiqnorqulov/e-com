@@ -1,0 +1,15 @@
+.stars_wrapper{
+    display: flex;
+}
+
+.stars_wrapper input{
+    display: none;
+}
+
+.stars_wrapper label img{
+    user-select: none;
+}
+
+.stars_wrapper label:hover{
+    cursor: pointer;
+}

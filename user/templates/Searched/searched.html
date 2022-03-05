@@ -1,0 +1,90 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{% static "melody_static/vendors/iconfonts/font-awesome/css/all.min.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/vendors/css/vendor.bundle.base.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/vendors/css/vendor.bundle.addons.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/css/style.css" %}">
+    <link rel="shortcut icon" href="{% static 'melody_static/images/favicon.png' %}"/>
+</head>
+
+<body>
+
+<div class="container-scroller">
+
+    {% include 'Menu/dashbourd_top_menu.html' %}
+
+    <div class="container-fluid page-body-wrapper">
+
+        {% include 'Menu/dashbourd_theme.html' %}
+
+        {% include 'Menu/dashbourd_left_menu.html' %}
+
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+                    <h3 class="page-title">
+                        {% trans 'Searched' %}
+                    </h3>
+                    <nav aria-label="breadcrumb">
+                    </nav>
+                </div>
+                <div class="row grid-margin">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">{% trans 'Searched' %}</h4>
+                                <p class="card-text">
+                                    {% trans "Click on any image to open in product" %}
+                                </p>
+                                {% if product %}
+                                    <div id="lightgallery" class="row lightGallery">
+                                        {% for rs in product %}
+                                            <a href="{% url 'product_gallery_id' rs.id %}" class="image-tile"><img
+                                                    src="{{ rs.image.url }}" alt="image small"></a>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                    {% trans "Sorry, we couldn't find any results matching your search" %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+            <footer class="footer">
+                <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                    {% include 'Paginator/paginator.html' with page=product %}
+                </div>
+            </footer>
+            <!-- partial -->
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="{% static "melody_static/vendors/js/vendor.bundle.base.js" %}"></script>
+<script src="{% static "melody_static/vendors/js/vendor.bundle.addons.js" %}"></script>
+<script src="{% static "melody_static/js/off-canvas.js" %}"></script>
+<script src="{% static "melody_static/js/hoverable-collapse.js" %}"></script>
+<script src="{% static "melody_static/js/misc.js" %}"></script>
+<script src="{% static "melody_static/js/settings.js" %}"></script>
+<script src="{% static "melody_static/js/todolist.js" %}"></script>
+<script src="{% static "melody_static/js/file-upload.js" %}"></script>
+<script src="{% static "melody_static/js/typeahead.js" %}"></script>
+<script src="{% static "melody_static/js/select2.js" %}"></script>
+
+</body>
+
+</html>

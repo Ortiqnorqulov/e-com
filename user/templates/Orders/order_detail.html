@@ -1,0 +1,138 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Admin</title>
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/iconfonts/font-awesome/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/css/vendor.bundle.base.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/css/vendor.bundle.addons.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'dashboard_static/imgs/theme/favicon.svg' %}"/>
+</head>
+
+<body>
+
+<div class="container-scroller">
+
+    {% include 'Menu/dashbourd_top_menu.html' %}
+
+    <div class="container-fluid page-body-wrapper">
+
+        {% include 'Menu/dashbourd_theme.html' %}
+
+        {% include 'Menu/dashbourd_left_menu.html' %}
+
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+                    <nav aria-label="breadcrumb">
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card px-2">
+                            <div class="card-body">
+                                <div class="container-fluid d-flex justify-content-between">
+                                    <div class="col-lg-3 pr-0">
+                                        <h3 class="text-right my-5">{% trans 'Code' %} :
+                                            &nbsp;&nbsp;{{ order_product.order.code }}</h3>
+                                        <center>
+                                            <img src="{{ order_product.product.image.url }}" width="200px"
+                                                 height="250px">
+                                        </center>
+                                    </div>
+                                    <div class="col-lg-7 pl-0">
+                                        <p class="mt-5 mb-2">
+                                            <b>{% trans 'Order Address' %}</b>
+                                        </p>
+                                        <p>{% trans 'First Name' %}: {{ order_product.order.first_name }}</p>
+                                        <p>{% trans 'Lastname' %}: {{ order_product.order.last_name }}</p>
+                                        <p>{% trans 'Phone' %}: {{ order_product.order.phone }}</p>
+                                        <p>{% trans 'Email' %}: {{ order_product.order.email }}</p>
+                                        <p>{% trans 'Country' %}: {{ order_product.order.country }}</p>
+                                        <p>{% trans 'City' %}: {{ order_product.order.city }}</p>
+                                        <p>{% trans 'Address' %}: {{ order_product.order.address }}</p>
+                                        <p>{% trans 'Feedback' %}: {{ order_product.order.feedback }}</p>
+                                    </div>
+                                </div>
+                                <div class="container-fluid d-flex justify-content-between">
+                                    <div class="col-lg-3 pl-0">
+                                        <p class="mb-0 mt-5">{% trans 'Create at' %} : {{ order_product.create_at }}</p>
+                                        <p style="color: red;">{% trans 'Status' %} : {{ order_product.status }}</p>
+
+                                        <form method="post">
+                                            {% csrf_token %}
+                                            <div class="form-group">
+                                                <label for="exampleSelectGender">{% trans 'Status' %}</label>
+                                                <select class="form-control" name="status">
+                                                    <option {{ form.status }}></option>
+                                                </select>
+                                            </div>
+                                            <input type="submit">
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="container-fluid mt-5 d-flex justify-content-center w-100">
+                                    <div class="table-responsive w-100">
+                                        <table class="table table-hover">
+                                            <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">{% trans 'Product' %}</th>
+                                                <th scope="col">{% trans 'Native Price' %}</th>
+                                                <th scope="col">{% trans 'Quantity' %}</th>
+                                                <th scope="col">{% trans 'Total' %}</th>
+                                                <th scope="col">{% trans 'Size' %}</th>
+                                                <th scope="col">{% trans 'Collar' %}</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th>
+                                                    {{ order_product.product.title }}
+                                                </th>
+                                                <td>{{ order_product.product.sell_price }} {% trans 'sum' %}</td>
+                                                <td>{{ order_product.order.total_quantity }}</td>
+                                                <td>{{ order_product.order.total }} {% trans 'sum' %}</td>
+                                                <td>{{ order_product.order.size }}</td>
+                                                <td style="background-color: {{ order_product.order.collar }};width: 20px; height: 20px;"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="container-fluid mt-5 w-100">
+                                    <p class="text-right mb-2">{% trans 'Subtotal amount' %}: {{ order_product.order.total_quantity }}</p>
+                                    <h4 class="text-right mb-5">{% trans 'Total' %} : {{ order_product.order.total }} {% trans 'sum' %}</h4>
+                                    <hr>
+                                </div>
+                                <div class="container-fluid w-100">
+                                    <a href="{% url 'order_delete' pk=order_product.pk %}"
+                                       class="btn btn-primary float-right mt-4 ml-2"><i
+                                            class="fa fa-print mr-1"></i>{% trans 'Delete' %}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{% static 'melody_static/vendors/js/vendor.bundle.base.js' %}"></script>
+<script src="{% static 'melody_static/vendors/js/vendor.bundle.addons.js' %}"></script>
+<script src="{% static 'melody_static/js/off-canvas.js' %}"></script>
+<script src="{% static 'melody_static/js/hoverable-collapse.js' %}"></script>
+<script src="{% static 'melody_static/js/misc.js' %}"></script>
+<script src="{% static 'melody_static/js/settings.js' %}"></script>
+<script src="{% static 'melody_static/js/todolist.js' %}"></script>
+
+</body>
+
+</html>

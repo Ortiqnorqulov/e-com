@@ -1,0 +1,126 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Admin|blogcomedit</title>
+    <link rel="stylesheet" href="{% static "melody_static/vendors/iconfonts/font-awesome/css/all.min.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/vendors/css/vendor.bundle.base.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/vendors/css/vendor.bundle.addons.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/css/style.css" %}">
+    <link rel="shortcut icon" href="{% static 'dashboard_static/imgs/theme/favicon.svg' %}"/>
+</head>
+
+<body>
+
+<div class="container-scroller">
+
+    {% include 'Menu/dashbourd_top_menu.html' %}
+
+    <div class="container-fluid page-body-wrapper">
+
+        {% include 'Menu/dashbourd_theme.html' %}
+
+        {% include 'Menu/dashbourd_left_menu.html' %}
+
+        <div class="main-panel">
+            <div class="content-wrapper">
+
+                <div class="row">
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">{% trans 'Comment News' %}</h4>
+                                <p class="card-description">
+
+                                </p>
+
+                                <form class="forms-sample" method="post">
+                                    {% csrf_token %}
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">{% trans 'News' %}</label>
+                                        <input type="text" value="{{ comment.blog }}" disabled class="form-control"
+                                               id="exampleInputName1" placeholder="Title EN">
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">{% trans 'Name' %}</label>
+                                        <input type="text" value="{{ comment.name }}" disabled class="form-control"
+                                               id="exampleInputName1" placeholder="Title EN">
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">{% trans 'Email' %}</label>
+                                        <input type="text" value="{{ comment.email }}" disabled class="form-control"
+                                               id="exampleInputName1" placeholder="Title EN">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">{% trans 'Comment' %}</label>
+                                        <input type="text" value="{{ comment.comment }}" disabled class="form-control"
+                                               id="exampleInputName1" placeholder="Title EN">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleSelectGender">{% trans 'Status' %}</label>
+                                        <select class="form-control" name="status">
+                                            <option {{ form.status }}></option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">{% trans 'ip' %}</label>
+                                        <input type="text" value="{{ comment.ip }}" disabled class="form-control"
+                                               id="exampleInputName1" placeholder="Title EN">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">{% trans 'Create at' %}</label>
+                                        <input type="text" value="{{ comment.create_at }}" disabled class="form-control"
+                                               id="exampleInputName1" placeholder="Title EN">
+                                    </div>
+                                    <input type="submit" class="btn btn-primary">
+                                    <hr>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+            <footer class="footer">
+                <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                    {% include 'Paginator/paginator.html' with page=comment %}
+                </div>
+            </footer>
+            <!-- partial -->
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="{% static "melody_static/vendors/js/vendor.bundle.base.js" %}"></script>
+<script src="{% static "melody_static/vendors/js/vendor.bundle.addons.js" %}"></script>
+<script src="{% static "melody_static/js/off-canvas.js" %}"></script>
+<script src="{% static "melody_static/js/hoverable-collapse.js" %}"></script>
+<script src="{% static "melody_static/js/misc.js" %}"></script>
+<script src="{% static "melody_static/js/settings.js" %}"></script>
+<script src="{% static "melody_static/js/todolist.js" %}"></script>
+<script src="{% static "melody_static/js/file-upload.js" %}"></script>
+<script src="{% static "melody_static/js/typeahead.js" %}"></script>
+<script src="{% static "melody_static/js/select2.js" %}"></script>
+
+</body>
+
+</html>

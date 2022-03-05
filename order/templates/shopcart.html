@@ -1,0 +1,171 @@
+﻿{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:26:06 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>{% trans 'Evara - shopcart' %}</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+</head>
+
+<body>
+
+{% include 'header.html' %}
+
+<main class="main">
+    <section class="mt-50 mb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table shopping-summery text-center clean">
+                            <thead>
+                            <tr class="main-heading">
+                                <th scope="col">{% trans 'Image' %}</th>
+                                <th scope="col">{% trans 'Name' %}</th>
+                                <th scope="col">{% trans 'Collor/Size' %}</th>
+                                <th scope="col">{% trans 'Price' %}</th>
+                                <th scope="col">{% trans 'Quantity' %}</th>
+                                <th scope="col">{% trans 'Total' %}</th>
+                                <th scope="col">{% trans 'Remove' %}</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% if shopcart %}
+                                {% for rs in shopcart %}
+                                    <tr>
+                                        <td class="image product-thumbnail"><img src="{{ rs.product.image.url }}"
+                                                                                 alt="#" style="border-radius: 5px;">
+                                        </td>
+                                        <td class="product-des product-name">
+                                            <h5 class="product-name"><a href="#">{{ rs.product.title }}</a></h5>
+                                        </td>
+                                        <td class="product-des product-name">
+                                            <div style="display: flex; justify-content: center;">
+                                                <strong class="mr-10">Color :</strong>
+                                                <div style="background-color: {{ rs.collar }}; width: 40px; height: 20px; border-radius: 3px;"></div>
+                                            </div>
+                                            <div style="display: flex; justify-content: center;">
+                                                <strong class="mr-10">Size :</strong>
+                                                <div>{{ rs.size }}</div>
+                                            </div>
+                                        </td>
+
+                                        <td class="price" data-title="Price">
+                                            <span>{{ rs.product.sell_price }} {% trans "so'm" %}</span></td>
+                                        <td class="text-center" data-title="Stock">
+                                            <div class="detail-qty border radius  m-auto">
+                                                <span class="qty-val">{{ rs.quantity }}</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-right" data-title="Cart">
+                                            <span>{{ rs.amount }} {% trans "so'm" %}</span>
+                                        </td>
+                                        <td class="action" data-title="Remove"><a
+                                                href="{% url 'deletefromcart' rs.id %}"
+                                                onclick="return confirm('Delete! Are you sure?')"
+                                                class="btn btn--secondary cart__remove"
+                                                title="Remove tem"><i class="fi-rs-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            {% else %}
+                                <center><img src="{% static 'assets/imgs/slider/search.png' %}"></center>
+                                <center><br>
+                                    <h3>{% trans 'You have not added a product yet.' %}</h3><br>
+                                    <h5>{% trans 'the products will appear after you add something ' %}</h5><br><br>
+                                </center>
+                            {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cart-action text-end">
+                        <a href="{% url 'home' %}" class="btn "><i class="fi-rs-shopping-bag mr-10"
+                                           href="{% url 'orderproduct' %}"></i>{% trans 'Continue Shopping' %}</a>
+                    </div>
+                    <div class="divider center_icon mt-50 mb-50"><i class="fi-rs-fingerprint"></i></div>
+                    <div class="row mb-50">
+                        <div class="col-lg-6 offset-6 col-md-12">
+                            <div class="border p-md-4 p-30 border-radius cart-totals">
+                                <div class="heading_s1 mb-3">
+                                    <h4>{% trans 'Cart Totals' %}</h4>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td class="cart_total_label">{% trans 'Products' %}</td>
+                                            <td class="cart_total_amount"><span
+                                                    class="font-lg fw-900 text-brand">{{ total_qty }}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cart_total_label">{% trans 'Shipping' %}</td>
+                                            <td class="cart_total_amount"><i
+                                                    class="ti-gift mr-5"></i> {% trans 'Free Shipping' %}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cart_total_label">{% trans 'Total' %}</td>
+                                            <td class="cart_total_amount"><strong><span
+                                                    class="font-xl fw-900 text-brand">{{ total }} {% trans "so'm" %}</span></strong>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <a href="{% url 'orderproduct' %}" class="btn "> <i
+                                        class="fi-rs-box-alt mr-10"></i>{% trans 'Proceed To CheckOut' %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+{% include 'footer.html' %}
+
+<!-- Vendor JS-->
+<script src="{% static 'assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/slick.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.syotimer.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/wow.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery-ui.js' %}"></script>
+<script src="{% static 'assets/js/plugins/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'assets/js/plugins/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/select2.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/waypoints.js' %}"></script>
+<script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/images-loaded.js' %}"></script>
+<script src="{% static 'assets/js/plugins/isotope.js' %}"></script>
+<script src="{% static 'assets/js/plugins/scrollup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.vticker-min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.theia.sticky.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.elevatezoom.js' %}"></script>
+<!-- Template  JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+<script src="{% static 'assets/js/shop.js' %}"></script>
+</body>
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:26:06 GMT -->
+</html>

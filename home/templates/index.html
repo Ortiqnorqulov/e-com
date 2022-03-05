@@ -1,0 +1,371 @@
+﻿{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:20:36 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>{% trans 'Evara - home' %}</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+
+
+</head>
+
+<body>
+<!-- Modal -->
+
+{% include 'header.html' %}
+
+<main class="main">
+    <section class="home-slider position-relative pt-50">
+        <div class="hero-slider-1 dot-style-1 dot-style-1-position-1">
+            {% for rs in slider %}
+                <div class="single-hero-slider single-animation-wrap">
+                    <div class="container">
+                        <div class="row align-items-center slider-animated-1">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="hero-slider-content-2">
+                                    <h2 class="animated fw-900  text-brand">{{ rs.title }}</h2>
+                                    <p class="animated">{{ rs.description }}</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="single-slider-img single-slider-img-1">
+                                    <img class="animated slider-1-1" src="{{ rs.image.url }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="slider-arrow hero-slider-1-arrow"></div>
+    </section>
+    <section class="featured section-padding position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                    <div class="banner-features wow fadeIn animated hover-up">
+                        <img src="{% static 'assets/imgs/theme/icons/feature-1.png' %}" alt="">
+                        <h4 class="bg-1">{% trans 'Free Shipping' %}</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                    <div class="banner-features wow fadeIn animated hover-up">
+                        <img src="{% static 'assets/imgs/theme/icons/feature-2.png' %}" alt="">
+                        <h4 class="bg-3">{% trans 'Online Order' %}</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                    <div class="banner-features wow fadeIn animated hover-up">
+                        <img src="{% static 'assets/imgs/theme/icons/feature-3.png' %}" alt="">
+                        <h4 class="bg-2">{% trans 'Save Money' %}</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                    <div class="banner-features wow fadeIn animated hover-up">
+                        <img src="{% static 'assets/imgs/theme/icons/feature-4.png' %}" alt="">
+                        <h4 class="bg-4">{% trans 'Promotions' %}</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                    <div class="banner-features wow fadeIn animated hover-up">
+                        <img src="{% static 'assets/imgs/theme/icons/feature-5.png' %}" alt="">
+                        <h4 class="bg-5">{% trans 'Happy Sell' %}</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                    <div class="banner-features wow fadeIn animated hover-up">
+                        <img src="{% static 'assets/imgs/theme/icons/feature-6.png' %}" alt="">
+                        <h4 class="bg-6">{% trans '24/7 Support' %}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-tabs section-padding position-relative wow fadeIn animated">
+        <div class="bg-square"></div>
+        <div class="container">
+            <!--End nav-tabs-->
+            <div class="tab-content wow fadeIn animated" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                    <div class="row product-grid-4">
+                        <CENTER><h1>{% trans 'Products' %}</h1></CENTER>
+                        <br><br>
+                        {% for rs in product_picked %}
+                            <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                                <div class="product-cart-wrap mb-30">
+                                    <div class="product-img-action-wrap">
+                                        <div class="product-img product-img-zoom">
+                                            <a href="{% url 'product_detail' rs.id rs.slug %}">
+                                                <img class="default-img" src="{{ rs.image.url }}" alt="">
+                                                <img class="hover-img" src="{{ rs.image.url }}" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content-wrap">
+                                        <div class="product-category">
+                                            <a href="{% url 'product_detail' rs.id rs.slug %}">{% trans "Let's go shopping" %}</a>
+                                        </div>
+                                        <h2><a href="{% url 'product_detail' rs.id rs.slug %}">{{ rs.title }}</a></h2>
+                                        <div class="product-price">
+                                            <span>{{ rs.sell_price }} {% trans "so'm" %}</span>
+                                            <span class="old-price">{{ rs.old_price }} {% trans "so'm" %}</span>
+                                        </div>
+                                        <div class="product-action-1 show">
+                                            <a aria-label="Add To Cart" class="action-btn hover-up"
+                                               href="{% url 'product_detail' rs.id rs.slug %}"><i
+                                                    class="fi-rs-shopping-bag-add"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <!--End tab-content-->
+        </div>
+    </section>
+    <section class="banner-2 section-padding pb-0">
+        <div class="container">
+            <div class="banner-img banner-big wow fadeIn animated f-none">
+                <img src="{% static 'assets/imgs/banner/banner-4.png' %}" alt="">
+                <div class="banner-text d-md-block d-none">
+                    <h4 class="mb-15 mt-40 text-brand">{% trans 'Delivery service' %}</h4>
+                    <h1 class="fw-600 mb-20">{% trans 'We have the best and highest quality' %}
+                        <br> {% trans 'products' %}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular-categories section-padding mt-15 mb-25">
+        <div class="container wow fadeIn animated">
+            <h3 class="section-title mb-20"><span>{% trans 'Our' %}</span> {% trans 'Categories' %}</h3>
+            <div class="carausel-6-columns-cover position-relative">
+                <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-arrows"></div>
+                <div class="carausel-6-columns" id="carausel-6-columns">
+                    {% for rs in category %}
+                        <div class="card-1">
+                            <figure class=" img-hover-scale overflow-hidden">
+                                <a href="{% url 'category_product' rs.id rs.slug %}"><img src="{{ rs.image.url }}"
+                                                                                          alt=""></a>
+                            </figure>
+                            <h5><a href="{% url 'category_product' rs.id rs.slug %}">{{ rs.title }}</a></h5>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banners mb-15">
+        <div class="container">
+            <div class="row">
+                {% for rs in adversiting %}
+                    <div class="col-lg-4 col-md-6">
+                        <div class="banner-img wow fadeIn animated">
+                            <img src="{{ rs.image.url }}" alt="">
+                            <div class="banner-text">
+                                <h4>{{ rs.title }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="section-padding">
+        <div class="container wow fadeIn animated">
+            <h3 class="section-title mb-20"><span>{% trans 'New' %}</span> {% trans 'Arrivals' %}</h3>
+            <div class="carausel-6-columns-cover position-relative">
+                <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow"
+                     id="carausel-6-columns-2-arrows"></div>
+                <div class="carausel-6-columns carausel-arrow-center" id="carausel-6-columns-2">
+                    {% for rs in product_latest %}
+                        <div class="product-cart-wrap small hover-up">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <a href="{% url 'product_detail' rs.id rs.slug %}">
+                                        <img class="default-img" src="{{ rs.image.url }}" alt="">
+                                        <img class="hover-img" src="{{ rs.image.url }}" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="hot">{% trans 'New' %}</span>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">
+                                <h2><a href="{% url 'product_detail' rs.id rs.slug %}">{{ rs.title }}</a></h2>
+                                <div class="product-price">
+                                    <span>{{ rs.sell_price }} {% trans "so'm" %}</span>
+                                    <span class="old-price">{{ rs.old_price }} {% trans "so'm" %}</span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                    <!--End product-cart-wrap-2-->
+                    <!--End product-cart-wrap-2-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-grey-9 section-padding">
+        <div class="container pt-25 pb-25">
+            <div class="heading-tab d-flex">
+                <div class="heading-tab-left wow fadeIn animated">
+                    <h3 class="section-title mb-20"><span>{% trans 'Monthly' %}</span> {% trans 'Best Sell' %}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 d-none d-lg-flex">
+                    <div class="banner-img style-2 wow fadeIn animated">
+                        <img src="{% static 'assets/imgs/banner/banner-9.jpg' %}" alt="">
+                        <div class="banner-text">
+                            <span>{% trans 'For All ' %}</span>
+                            <h4 class="mt-5">{% trans 'Buy right ' %}<br> {% trans 'now' %}</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="tab-content wow fadeIn animated" id="myTabContent-1">
+                        <div class="tab-pane fade show active" id="tab-one-1" role="tabpanel"
+                             aria-labelledby="tab-one-1">
+                            <div class="carausel-4-columns-cover arrow-center position-relative">
+                                <div class="slider-arrow slider-arrow-2 carausel-4-columns-arrow"
+                                     id="carausel-4-columns-arrows"></div>
+                                <div class="carausel-4-columns carausel-arrow-center" id="carausel-4-columns">
+                                    {% for rs in product_slider %}
+                                        <div class="product-cart-wrap">
+                                            <div class="product-img-action-wrap">
+                                                <div class="product-img product-img-zoom">
+                                                    <a href="{% url 'product_detail' rs.id rs.slug %}">
+                                                        <img class="default-img" src="{{ rs.image.url }}" alt="">
+                                                        <img class="hover-img" src="{{ rs.image.url }}" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-content-wrap">
+                                                <div class="product-category">
+                                                    <a href="{% url 'product_detail' rs.id rs.slug %}">{% trans 'Shopping' %}</a>
+                                                </div>
+                                                <h2>
+                                                    <a href="{% url 'product_detail' rs.id rs.slug %}">{{ rs.title }}</a>
+                                                </h2>
+                                                <div class="product-price">
+                                                    <span>{{ rs.sell_price }} {% trans "so'm" %}</span>
+                                                    <span class="old-price">{{ rs.old_price }} {% trans "so'm" %}</span>
+                                                </div>
+                                                <div class="product-action-1 show">
+                                                    <a aria-label="Add To Cart" class="action-btn hover-up"
+                                                       href="{% url 'product_detail' rs.id rs.slug %}"><i
+                                                            class="fi-rs-shopping-bag-add"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding">
+        <div class="container pt-25 pb-20">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="section-title mb-20"><span>{% trans 'From' %}</span> {% trans 'blog' %}</h3>
+                    <div class="post-list mb-4 mb-lg-0">
+                        {% for rs in blog %}
+                            <article class="wow fadeIn animated">
+                                <div class="d-md-flex d-block">
+                                    <div class="post-thumb d-flex mr-15">
+                                        <a class="color-white" href="{% url 'blog_detail'  rs.id %}">
+                                            <img src="{{ rs.image.url }}" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="entry-meta mb-10 mt-10">
+                                            <a class="entry-meta meta-2" href="{% url 'blog_detail'  rs.id %}"><span
+                                                    class="post-in font-x-small">{{ rs.title }}</span></a>
+                                        </div>
+                                        <h4 class="post-title mb-25 text-limit-2-row">
+                                            <a href="{% url 'blog_detail'  rs.id %}">{{ rs.description |safe  |slice:"70" }}....</a>
+                                        </h4>
+                                        <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
+                                            <div>
+                                                <span class="post-on">{{ rs.create_at }}</span>
+                                            </div>
+                                            <a href="{% url 'blog_detail'  rs.id %}">{% trans 'Read More' %}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        {% for rs in adversiting %}
+                            <div class="col-md-6">
+                                <div class="banner-img banner-1 wow fadeIn animated">
+                                    <img src="{{ rs.image.url }}" alt="">
+
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+{% include 'footer.html' %}
+
+<!-- Vendor JS-->
+<script src="{% static 'assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/slick.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.syotimer.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/wow.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery-ui.js' %}"></script>
+<script src="{% static 'assets/js/plugins/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'assets/js/plugins/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/select2.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/waypoints.js' %}"></script>
+<script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/images-loaded.js' %}"></script>
+<script src="{% static 'assets/js/plugins/isotope.js' %}"></script>
+<script src="{% static 'assets/js/plugins/scrollup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.vticker-min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.theia.sticky.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.elevatezoom.js' %}"></script>
+<!-- Template  JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+<script src="{% static 'assets/js/shop.js' %}"></script>
+
+
+</body>
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:25:49 GMT -->
+</html>

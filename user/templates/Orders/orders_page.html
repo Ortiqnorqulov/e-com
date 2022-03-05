@@ -1,0 +1,141 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/iconfonts/font-awesome/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/css/vendor.bundle.base.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/css/vendor.bundle.addons.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'dashboard_static/imgs/theme/favicon.svg' %}"/>
+</head>
+
+<body>
+
+<div class="container-scroller">
+
+    {% include 'Menu/dashbourd_top_menu.html' %}
+
+    <div class="container-fluid page-body-wrapper">
+
+        {% include 'Menu/dashbourd_theme.html' %}
+
+        {% include 'Menu/dashbourd_left_menu.html' %}
+
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+
+                    <nav aria-label="breadcrumb">
+                        <a href="{% url 'order_delete_all' %}"><i
+                                class="fas fa-broom menu-icon">{% trans 'All clean' %}</i></a>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card px-2">
+                            {% for rs in order_all %}
+                                <div class="card-body">
+                                    <div class="container-fluid d-flex justify-content-between">
+                                        <div class="col-lg-3 pr-0">
+                                            <h3 class="text-right my-5">
+                                                {% trans 'Code : ' %}&nbsp;&nbsp;{{ rs.order.code }}
+                                            </h3>
+                                           <center><img src="{{ rs.product.image.url }}" width="200px" height="250px"></center>
+                                        </div>
+                                        <div class="col-lg-7 pl-0">
+                                            <p class="mt-5 mb-2">
+                                                <b>{% trans 'Order Address' %}</b>
+                                            </p>
+                                            <p>{% trans 'First Name' %}: {{ rs.order.first_name }}</p>
+                                            <p>{% trans 'Lastname' %}: {{ rs.order.last_name }}</p>
+                                            <p>{% trans 'Phone' %}: {{ rs.order.phone }}</p>
+                                            <p>{% trans 'Email' %}: {{ rs.order.email }}</p>
+                                            <p>{% trans 'Country' %}: {{ rs.order.country }}</p>
+                                            <p>{% trans 'City' %}: {{ rs.order.city }}</p>
+                                            <p>{% trans 'Address' %}: {{ rs.order.address }}</p>
+                                            <p>{% trans 'Feedback' %}: {{ rs.order.feedback }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid d-flex justify-content-between">
+                                        <div class="col-lg-3 pl-0">
+                                            <p class="mb-0 mt-5">{% trans 'Create at' %} : {{ rs.create_at }}</p>
+                                            <p style="color: red;">{% trans 'Status' %} : {{ rs.status }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid mt-5 d-flex justify-content-center w-100">
+                                        <div class="table-responsive w-100">
+                                            <table class="table table-hover">
+                                                <thead class="thead-dark">
+                                                <tr>
+                                                    <th scope="col">{% trans 'Product' %}</th>
+                                                    <th scope="col">{% trans 'Native Price' %}</th>
+                                                    <th scope="col">{% trans 'Quantity' %}</th>
+                                                    <th scope="col">{% trans 'Total' %}</th>
+                                                    <th scope="col">{% trans 'Size' %}</th>
+                                                    <th scope="col">{% trans 'Collar' %}</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th>
+                                                        {{ rs.product.title }}
+                                                    </th>
+                                                    <td>{{ rs.product.sell_price }} {% trans 'sum' %}</td>
+                                                    <td>{{ rs.order.total_quantity }}</td>
+                                                    <td>{{ rs.order.total }} {% trans 'sum' %}</td>
+                                                    <td>{{ rs.order.size }}</td>
+                                                    <td style="background-color: {{ rs.order.collar }};width: 20px; height: 20px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid mt-5 w-100">
+                                        <p class="text-right mb-2">{% trans 'Subtotal amount' %}: {{ rs.order.total_quantity }}</p>
+                                        <h4 class="text-right mb-5">{% trans 'Total' %}
+                                            : {{ rs.order.total }} {% trans "so'm" %}</h4>
+                                    </div>
+
+                                    <div class="container-fluid w-100">
+                                        <a href="{% url 'orders' rs.id %}"
+                                           class="btn btn-primary float-right mt-4 ml-2"><i
+                                                class="fa fa-print mr-1"></i>{% trans 'Detail' %}</a>
+                                        {#                            <a href="#" class="btn btn-success float-right mt-4"><i class="fas fa-trash-restore-alt mr-1"></i>Delate</a>#}
+                                    </div>
+                                </div>
+                                <hr>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+            <footer class="footer">
+                <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                    {% include 'Paginator/paginator.html' with page=order_all %}
+                </div>
+            </footer>
+            <!-- partial -->
+        </div>
+    </div>
+</div>
+
+
+<script src="{% static 'melody_static/vendors/js/vendor.bundle.base.js' %}"></script>
+<script src="{% static 'melody_static/vendors/js/vendor.bundle.addons.js' %}"></script>
+<script src="{% static 'melody_static/js/off-canvas.js' %}"></script>
+<script src="{% static 'melody_static/js/hoverable-collapse.js' %}"></script>
+<script src="{% static 'melody_static/js/misc.js' %}"></script>
+<script src="{% static 'melody_static/js/settings.js' %}"></script>
+<script src="{% static 'melody_static/js/todolist.js' %}"></script>
+
+</body>
+
+</html>

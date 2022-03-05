@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: home/templates/contact.html:10 home/templates/wishlist.html:58
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 23:04+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: home/templates/about_us.html:10
+msgid "Evara -about"
+msgstr "Haqida"
+
+#: home/templates/about_us.html:29
+msgid "Our Company"
+msgstr "Bizning kompaniya"
+
+#: home/templates/about_us.html:46
+msgid "News"
+msgstr "Yangiliklar"
+
+#: home/templates/about_us.html:59 home/templates/index.html:319
+msgid "Read More"
+msgstr "Ko'proq o'qish"
+
+#: home/templates/contact.html:39
+msgid "Get in touch"
+msgstr "Biz bilan bog'laning"
+
+#: home/templates/contact.html:41
+msgid "Let's Talk About"
+msgstr "Sizning Fikrlaringiz"
+
+#: home/templates/contact.html:41
+msgid "Your"
+msgstr " Haqida "
+
+#: home/templates/contact.html:42
+msgid "Idea"
+msgstr "Gaplashamiz"
+
+#: home/templates/contact.html:46 home/templates/footer.html:88
+msgid "About Us"
+msgstr "Biz Haqimizda"
+
+#: home/templates/contact.html:64 home/templates/footer.html:61
+msgid "Phone"
+msgstr "Telefon"
+
+#: home/templates/contact.html:65 home/templates/footer.html:64
+#: home/templates/product_detail.html:242
+msgid "Email"
+msgstr "Email"
+
+#: home/templates/contact.html:76 home/templates/footer.html:90
+msgid "Contact us"
+msgstr "Biz bilan bog'lanish"
+
+#: home/templates/contact.html:82
+msgid "First Name"
+msgstr "Ism"
+
+#: home/templates/contact.html:87
+msgid "Your Email"
+msgstr "Email manzilingiz"
+
+#: home/templates/contact.html:92
+msgid "Surname"
+msgstr "Familiya"
+
+#: home/templates/contact.html:97 home/templates/product_detail.html:248
+msgid "Subject"
+msgstr "Mavzu"
+
+#: home/templates/contact.html:102
+msgid "Message"
+msgstr "Xabar"
+
+#: home/templates/contact.html:105
+msgid "Send message"
+msgstr "Xabar yuborish"
+
+#: home/templates/faq1.html:10
+msgid "Evara - faq"
+msgstr "KBS"
+
+#: home/templates/footer.html:5
+msgid "Featured"
+msgstr "Tavsiya etilgan"
+
+#: home/templates/footer.html:5
+msgid "Brands"
+msgstr "Brendlar"
+
+#: home/templates/footer.html:30
+msgid "Sign up to be the first to know the news"
+msgstr ""
+"Yangiliklardan birinchi bo'lib xabardor bo'lish uchun ro'yxatdan o'ting"
+
+#: home/templates/footer.html:39
+msgid "Subscribe"
+msgstr "Obuna bo'ling"
+
+#: home/templates/footer.html:56 home/templates/header.html:127
+msgid "Contact"
+msgstr "Aloqa"
+
+#: home/templates/footer.html:58
+msgid "Address:"
+msgstr "Manzil"
+
+#: home/templates/footer.html:67 home/templates/product_detail.html:153
+msgid "Description"
+msgstr "Tavsif"
+
+#: home/templates/footer.html:69
+msgid "Follow Us"
+msgstr "Taqib eting"
+
+#: home/templates/footer.html:84
+msgid "Assistance"
+msgstr "Yordam"
+
+#: home/templates/footer.html:86 home/templates/header.html:107
+msgid "uy"
+msgstr "Asosiy"
+
+#: home/templates/footer.html:87 home/templates/header.html:123
+msgid "Blog"
+msgstr "Yangilik"
+
+#: home/templates/footer.html:89 home/templates/header.html:125
+msgid "FAQ"
+msgstr "KBS"
+
+#: home/templates/footer.html:94
+msgid "My Account"
+msgstr "Mening akkauntim"
+
+#: home/templates/footer.html:96 home/templates/header.html:51
+msgid "Log In"
+msgstr "Kirish"
+
+#: home/templates/footer.html:97 home/templates/header.html:52
+msgid "Sign Up"
+msgstr "Ro'yxatdan o'tish"
+
+#: home/templates/footer.html:98
+msgid "Shopcart"
+msgstr "Savatcha"
+
+#: home/templates/footer.html:99
+msgid "My Wishlist"
+msgstr "Mening istaklar roʻyxatim"
+
+#: home/templates/footer.html:100
+msgid "Help"
+msgstr "Yordam "
+
+#: home/templates/footer.html:111
+msgid "Secured Payment Gateways"
+msgstr "Xavfsiz to'lov"
+
+#: home/templates/footer.html:125
+msgid "Now Loading"
+msgstr "Yuklanmoqda"
+
+#: home/templates/header.html:69
+msgid "Search for items..."
+msgstr "Elementlarni qidirish..."
+
+#: home/templates/header.html:110
+msgid "About"
+msgstr "Haqimizda"
+
+#: home/templates/header.html:113
+msgid "Shop"
+msgstr "Do'kon"
+
+#: home/templates/index.html:10
+msgid "Evara - home"
+msgstr "asosiy"
+
+#: home/templates/index.html:43
+msgid "Shop Now"
+msgstr "Hoziroq xarid qiling"
+
+#: home/templates/index.html:64
+msgid "Free Shipping"
+msgstr "Yetkazib berish bepul"
+
+#: home/templates/index.html:70
+msgid "Online Order"
+msgstr "Onlayn buyurtma"
+
+#: home/templates/index.html:76
+msgid "Save Money"
+msgstr "Pulingizni tejang"
+
+#: home/templates/index.html:82
+msgid "Promotions"
+msgstr "Aktsiyalar"
+
+#: home/templates/index.html:88
+msgid "Happy Sell"
+msgstr "Quvnoq Harid"
+
+#: home/templates/index.html:94
+msgid "24/7 Support"
+msgstr "24/7 qo'llab-quvvatlash"
+
+#: home/templates/index.html:107
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#: home/templates/index.html:122
+msgid "Let's go shopping"
+msgstr "Keling, xarid qilaylik"
+
+#: home/templates/index.html:126 home/templates/index.html:127
+#: home/templates/index.html:218 home/templates/index.html:219
+#: home/templates/index.html:274 home/templates/index.html:275
+#: home/templates/product_detail.html:92 home/templates/product_detail.html:95
+#: home/templates/product_detail.html:293
+#: home/templates/product_detail.html:336 home/templates/search.html:47
+#: home/templates/search.html:48 home/templates/shop0.html:61
+#: home/templates/shop0.html:62 home/templates/shop0.html:105
+#: home/templates/wishlist.html:53 home/templates/wishlist.html:55
+msgid "so'm"
+msgstr "so'm"
+
+#: home/templates/index.html:149
+msgid "Delivery service"
+msgstr "Yetkazib berish xizmati"
+
+#: home/templates/index.html:150 home/templates/product_detail.html:306
+msgid "We have the best and highest quality"
+msgstr "Bizda eng yaxshi va eng yuqori sifat bor"
+
+#: home/templates/index.html:151 home/templates/product_detail.html:307
+msgid "products"
+msgstr "mahsulotlar"
+
+#: home/templates/index.html:158
+msgid "Our"
+msgstr "Bizning"
+
+#: home/templates/index.html:158
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: home/templates/index.html:193 home/templates/index.html:208
+msgid "New"
+msgstr "Yangi"
+
+#: home/templates/index.html:193
+msgid "Arrivals"
+msgstr "Qaytish"
+
+#: home/templates/index.html:235
+msgid "Monthly"
+msgstr "Oyning"
+
+#: home/templates/index.html:235
+msgid "Best Sell"
+msgstr "Eng yaxshi sotilganlari"
+
+#: home/templates/index.html:243
+msgid "For All "
+msgstr "Barcha uchun"
+
+#: home/templates/index.html:244
+msgid "Buy right "
+msgstr "Sotib oling"
+
+#: home/templates/index.html:244
+msgid "now"
+msgstr "Hoziroq"
+
+#: home/templates/index.html:268
+msgid "Shopping"
+msgstr "Xarid qilish"
+
+#: home/templates/index.html:297
+msgid "From"
+msgstr "Yangiliklar"
+
+#: home/templates/index.html:297
+msgid "blog"
+msgstr "blogi"
+
+#: home/templates/product_detail.html:106
+msgid "Color:"
+msgstr "Rang:"
+
+#: home/templates/product_detail.html:121
+msgid "Size:"
+msgstr "O'lcham:"
+
+#: home/templates/product_detail.html:140 home/templates/search.html:51
+#: home/templates/wishlist.html:61
+msgid "Add to cart"
+msgstr "Kartaga qo'shish"
+
+#: home/templates/product_detail.html:157
+msgid "Reviews"
+msgstr "Sharhlar"
+
+#: home/templates/product_detail.html:201
+msgid "Add a review"
+msgstr "Sharh qo'shing"
+
+#: home/templates/product_detail.html:210
+msgid "Rating"
+msgstr "Reyting"
+
+#: home/templates/product_detail.html:230
+msgid "Write Comment"
+msgstr "Kammentariya"
+
+#: home/templates/product_detail.html:236
+msgid "Name"
+msgstr "Ism"
+
+#: home/templates/product_detail.html:254
+msgid "Submit Review"
+msgstr "Yuklash"
+
+#: home/templates/product_detail.html:266
+#, fuzzy
+#| msgid "products"
+msgid "Related products"
+msgstr "mahsulotlar"
+
+#: home/templates/product_detail.html:305
+#, fuzzy
+#| msgid "Delivery service"
+msgid "Repair Services"
+msgstr "Yetkazib berish xizmati"
+
+#: home/templates/product_detail.html:315 home/templates/shop0.html:85
+#, fuzzy
+#| msgid "Categories"
+msgid "Category"
+msgstr "Kategoriyalar"
+
+#: home/templates/product_detail.html:325 home/templates/shop0.html:95
+#, fuzzy
+#| msgid "products"
+msgid "New products"
+msgstr "mahsulotlar"
+
+#: home/templates/search.html:8
+msgid "Evara - search"
+msgstr "qidiruv"
+
+#: home/templates/search.html:30 home/templates/wishlist.html:35
+msgid "Product"
+msgstr "Mahsulot"
+
+#: home/templates/search.html:31 home/templates/wishlist.html:36
+msgid "Sell Price"
+msgstr "Yangi narx"
+
+#: home/templates/search.html:32 home/templates/wishlist.html:37
+msgid "Old Price"
+msgstr "Eski narx"
+
+#: home/templates/search.html:33 home/templates/wishlist.html:39
+msgid "Action"
+msgstr "Harakat"
+
+#: home/templates/search.html:61
+msgid "Sorry, we couldn't find any results matching your search"
+msgstr "Kechirasiz, qidiruvingizga mos keladigan natija topilmadi"
+
+#: home/templates/search.html:65
+msgid ""
+"You can search again or return to the homepage by checking the word you "
+"typed. "
+msgstr "So'zni tekshiring yoki bosh sahifamizga o'ting"
+
+#: home/templates/wishlist.html:10
+msgid "Evara -wishlist"
+msgstr "wishlist"
+
+#: home/templates/wishlist.html:38
+msgid "Stock Status"
+msgstr "Birja holati"
+
+#: home/templates/wishlist.html:40
+msgid "Remove"
+msgstr "O'chirish"
+
+#: home/templates/wishlist.html:68
+msgid "You have not added a product yet."
+msgstr "Siz hali mahsulot qo'shmagansiz."
+
+#: home/templates/wishlist.html:69
+msgid "the products will appear after you add something "
+msgstr "biror narsa qo'shganingizdan keyin mahsulotlar paydo bo'ladi"
+
+#~ msgid "Additional info"
+#~ msgstr "Qo'shimcha ma'lumot"
+
+#~ msgid "Website"
+#~ msgstr "Veb-sayt"
+
+#~ msgid "Smart Offer"
+#~ msgstr "aqlli taklif"
+
+#~ msgid "With Us Everything"
+#~ msgstr "Biz Bilan "
+
+#~ msgid "Is Cheaper"
+#~ msgstr "Arzonroq"
+
+#~ msgid "Sale off"
+#~ msgstr "Sotish"
+
+#~ msgid "Great Seasonal "
+#~ msgstr "Ajoyib mavsumiy"
+
+#~ msgid "Collection"
+#~ msgstr "To'plam"
+
+#~ msgid "New Arrivals"
+#~ msgstr "Yangi kelganlar"
+
+#~ msgid "Shop Today’s"
+#~ msgstr "Bugun xarid qiling"
+
+#~ msgid "Deals & Offers"
+#~ msgstr "Murojat va Takliflar"
+
+#~ msgid "Women Zone"
+#~ msgstr "Ayollar uchun"
+
+#, fuzzy, python-format
+#~| msgid "Save Money"
+#~ msgid "Save 17%% on"
+#~ msgstr "Pulingizni tejang"
+
+#~ msgid "Office Dress"
+#~ msgstr "Ofis ko'ylaklari"

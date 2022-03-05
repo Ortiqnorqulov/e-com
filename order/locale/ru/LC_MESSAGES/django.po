@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 00:43+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: order/templates/checkout.html:10
+msgid "Evara - check"
+msgstr "чек"
+
+#: order/templates/checkout.html:41
+msgid "Billing details"
+msgstr "Платежные реквизиты"
+
+#: order/templates/checkout.html:44
+msgid "First Name"
+msgstr "Имя"
+
+#: order/templates/checkout.html:49
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: order/templates/checkout.html:56
+msgid "Email"
+msgstr "Email"
+
+#: order/templates/checkout.html:61
+msgid "Telephone"
+msgstr "Телефон"
+
+#: order/templates/checkout.html:71
+msgid "Country"
+msgstr "Страна"
+
+#: order/templates/checkout.html:75
+msgid "City"
+msgstr "Город"
+
+#: order/templates/checkout.html:82
+msgid "Address"
+msgstr "Адрес"
+
+#: order/templates/checkout.html:91
+msgid "Order Notes"
+msgstr "Примечания к заказу"
+
+#: order/templates/checkout.html:106
+msgid "Your Orders"
+msgstr "Ваши заказы"
+
+#: order/templates/checkout.html:112
+msgid "Product Name"
+msgstr "Товары"
+
+#: order/templates/checkout.html:113 order/templates/shopcart.html:40
+msgid "Price"
+msgstr "Цена"
+
+#: order/templates/checkout.html:114
+msgid "Qty"
+msgstr "Количество"
+
+#: order/templates/checkout.html:115
+msgid "Amount"
+msgstr "Итог Кол-во"
+
+#: order/templates/checkout.html:116
+msgid "Size"
+msgstr "Размер"
+
+#: order/templates/checkout.html:117
+msgid "Color"
+msgstr "Цвет"
+
+#: order/templates/checkout.html:133 order/templates/shopcart.html:116
+msgid "Shipping"
+msgstr "Перевозки"
+
+#: order/templates/checkout.html:134 order/templates/shopcart.html:118
+msgid "Free Shipping"
+msgstr "Доставка"
+
+#: order/templates/checkout.html:137 order/templates/shopcart.html:42
+#: order/templates/shopcart.html:122
+msgid "Total"
+msgstr "Итог"
+
+#: order/templates/checkout.html:139 order/templates/shopcart.html:68
+#: order/templates/shopcart.html:75 order/templates/shopcart.html:124
+msgid "so'm"
+msgstr "сумм"
+
+#: order/templates/shopcart.html:10
+msgid "Evara - shopcart"
+msgstr "shopcart"
+
+#: order/templates/shopcart.html:37
+msgid "Image"
+msgstr "Фото"
+
+#: order/templates/shopcart.html:38
+msgid "Name"
+msgstr "Имя"
+
+#: order/templates/shopcart.html:39
+msgid "Collor/Size"
+msgstr "Цвет/Размер"
+
+#: order/templates/shopcart.html:41
+msgid "Quantity"
+msgstr "Количество"
+
+#: order/templates/shopcart.html:43
+msgid "Remove"
+msgstr "Удалить"
+
+#: order/templates/shopcart.html:88
+msgid "You have not added a product yet."
+msgstr "Вы еще не добавили товар."
+
+#: order/templates/shopcart.html:89
+msgid "the products will appear after you add something "
+msgstr "товары появятся после того, как вы что-то добавите"
+
+#: order/templates/shopcart.html:97
+msgid "Continue Shopping"
+msgstr "Продолжить покупки"
+
+#: order/templates/shopcart.html:104
+msgid "Cart Totals"
+msgstr "Итог"
+
+#: order/templates/shopcart.html:110
+msgid "Products"
+msgstr "Продукты"
+
+#: order/templates/shopcart.html:131
+msgid "Proceed To CheckOut"
+msgstr "Перейти к оформлению заказа"
+
+#~ msgid "Apply Coupon"
+#~ msgstr "Применить купон"
+
+#~ msgid "Apply"
+#~ msgstr "Применять"

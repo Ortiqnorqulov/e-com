@@ -1,0 +1,108 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>{% trans 'Evara - search' %}</title>
+    <meta name="description" content="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+
+</head>
+<body class="page-template belle cart-variant1">
+
+{% include 'header.html' %}
+
+<main class="main">
+    <section class="mt-50 mb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table shopping-summery text-center">
+                            <thead>
+                            <tr class="main-heading">
+                                <th scope="col" colspan="2">{% trans 'Product' %}</th>
+                                <th scope="col">{% trans 'Sell Price' %}</th>
+                                <th scope="col">{% trans 'Old Price' %}</th>
+                                <th scope="col">{% trans 'Action' %}</th>
+                            </tr>
+                            </thead>
+                            {% if product %}
+                                {% for rs in product %}
+                                    <tbody>
+                                    <tr>
+                                        <td class="image product-thumbnail"><img src="{{ rs.image.url }}"
+                                                                                 alt="#">
+                                        </td>
+                                        <td class="product-des product-name">
+                                            <h5 class="product-name"><a
+                                                    href="{% url 'product_detail' rs.id rs.slug %}">{{ rs.title }}</a></h5>
+                                        </td>
+                                        <td class="price" data-title="Price"><span>{{ rs.sell_price }} {% trans "so'm" %}</span></td>
+                                        <td class="price" data-title="Price"><span>{{ rs.old_price }} {% trans "so'm" %}</span></td>
+                                        <td class="text-right" data-title="Cart">
+                                            <button class="btn btn-sm"><a href="{% url 'product_detail' rs.id rs.slug %}"> <i
+                                                    class="fi-rs-shopping-bag mr-5" style="color: #f9fafb">{% trans 'Add to cart' %}</i></a>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                {% endfor %}
+                            {% else %}
+                                <center><img src="{% static 'assets/imgs/slider/search.png' %}"></center>
+                                <center>
+                                <br>
+                                <h3>{% trans "Sorry, we couldn't find any results matching your search" %} <i
+                                        style="color: red">"{{ searched }}". </i></h3>
+                                <br>
+
+                                <h5>{% trans 'You can search again or return to the homepage by checking the word you typed. ' %}</h5>
+                                <br>
+                                <br>
+                                </center>
+                            {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+{% include 'footer.html' %}
+
+<script src="{% static 'assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/slick.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.syotimer.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/wow.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery-ui.js' %}"></script>
+<script src="{% static 'assets/js/plugins/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'assets/js/plugins/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/select2.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/waypoints.js' %}"></script>
+<script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/images-loaded.js' %}"></script>
+<script src="{% static 'assets/js/plugins/isotope.js' %}"></script>
+<script src="{% static 'assets/js/plugins/scrollup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.vticker-min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.theia.sticky.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.elevatezoom.js' %}"></script>
+<!-- Template  JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+<script src="{% static 'assets/js/shop.js' %}"></script>
+
+</body>
+
+
+</html>

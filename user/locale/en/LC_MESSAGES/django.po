@@ -1,0 +1,1226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 21:55+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: user/templates/About_us/about_add.html:38
+msgid "About us"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:45
+#: user/templates/About_us/about_edit.html:46
+#: user/templates/About_us/about_update.html:49
+#: user/templates/Adversiting/addadversiting.html:45
+#: user/templates/Adversiting/adversiting_edit.html:46
+#: user/templates/Adversiting/adversiting_update.html:48
+#: user/templates/Brands/add_brands.html:45
+#: user/templates/Brands/brand_edit.html:46
+#: user/templates/Brands/brand_update.html:48
+#: user/templates/Category/category_add.html:45
+#: user/templates/Category/category_update.html:48
+#: user/templates/Information/information_add.html:47
+#: user/templates/Information/information_update.html:47
+#: user/templates/News/news_add.html:45 user/templates/News/news_edit.html:46
+#: user/templates/News/news_update.html:48
+#: user/templates/Product/product_add.html:52
+#: user/templates/Product/product_update.html:52
+#: user/templates/Slider/slider_add.html:45
+#: user/templates/Slider/slider_edit.html:46
+#: user/templates/Slider/slider_update.html:48
+msgid "Title EN"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:50
+#: user/templates/About_us/about_edit.html:52
+#: user/templates/About_us/about_update.html:54
+#: user/templates/Adversiting/addadversiting.html:50
+#: user/templates/Adversiting/adversiting_edit.html:52
+#: user/templates/Adversiting/adversiting_update.html:53
+#: user/templates/Brands/add_brands.html:50
+#: user/templates/Brands/brand_edit.html:52
+#: user/templates/Brands/brand_update.html:54
+#: user/templates/Category/category_add.html:50
+#: user/templates/Category/category_update.html:54
+#: user/templates/Information/information_add.html:52
+#: user/templates/Information/information_update.html:52
+#: user/templates/News/news_add.html:50 user/templates/News/news_edit.html:52
+#: user/templates/News/news_update.html:53
+#: user/templates/Product/product_add.html:57
+#: user/templates/Product/product_update.html:57
+#: user/templates/Slider/slider_add.html:50
+#: user/templates/Slider/slider_edit.html:52
+#: user/templates/Slider/slider_update.html:54
+msgid "Title RU"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:55
+#: user/templates/About_us/about_edit.html:58
+#: user/templates/About_us/about_update.html:59
+#: user/templates/Adversiting/addadversiting.html:55
+#: user/templates/Adversiting/adversiting_edit.html:58
+#: user/templates/Adversiting/adversiting_update.html:58
+#: user/templates/Brands/add_brands.html:55
+#: user/templates/Brands/brand_edit.html:58
+#: user/templates/Brands/brand_update.html:60
+#: user/templates/Category/category_add.html:55
+#: user/templates/Category/category_update.html:60
+#: user/templates/Information/information_add.html:57
+#: user/templates/Information/information_update.html:57
+#: user/templates/News/news_add.html:55 user/templates/News/news_edit.html:58
+#: user/templates/News/news_update.html:58
+#: user/templates/Product/product_add.html:62
+#: user/templates/Product/product_update.html:62
+#: user/templates/Slider/slider_add.html:55
+#: user/templates/Slider/slider_edit.html:58
+#: user/templates/Slider/slider_update.html:60
+msgid "Title UZ"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:61
+#: user/templates/About_us/about_edit.html:63
+#: user/templates/Adversiting/addadversiting.html:61
+#: user/templates/Adversiting/adversiting_edit.html:65
+#: user/templates/Brands/add_brands.html:61
+#: user/templates/Brands/brand_edit.html:65
+#: user/templates/Category/category_add.html:61
+#: user/templates/Category/category_edit.html:71
+#: user/templates/Client/page-account.html:279
+#: user/templates/Client/user_update_client.html:121
+#: user/templates/Creator_add/add_user_permission.html:74
+#: user/templates/Details/detail_add.html:67
+#: user/templates/Details/detail_edit.html:67
+#: user/templates/Information/information_add.html:129
+#: user/templates/Information/information_edit.html:136
+#: user/templates/Information/information_update.html:141
+#: user/templates/News/news_add.html:61 user/templates/News/news_edit.html:65
+#: user/templates/Product/product_add.html:78
+#: user/templates/Product/product_edit.html:83
+#: user/templates/Slider/slider_add.html:61
+#: user/templates/Slider/slider_edit.html:65
+msgid "Image"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:68
+#: user/templates/About_us/about_edit.html:70
+#: user/templates/Adversiting/addadversiting.html:68
+#: user/templates/Adversiting/adversiting_edit.html:72
+#: user/templates/Brands/add_brands.html:68
+#: user/templates/Brands/brand_edit.html:72
+#: user/templates/Category/category_add.html:68
+#: user/templates/Category/category_edit.html:78
+#: user/templates/Creator_add/add_user_permission.html:81
+#: user/templates/Details/detail_add.html:74
+#: user/templates/Details/detail_edit.html:74
+#: user/templates/Information/information_add.html:136
+#: user/templates/Information/information_add.html:149
+#: user/templates/Information/information_add.html:163
+#: user/templates/Information/information_edit.html:144
+#: user/templates/Information/information_edit.html:158
+#: user/templates/Information/information_edit.html:172
+#: user/templates/News/news_add.html:68 user/templates/News/news_edit.html:73
+#: user/templates/Product/product_add.html:85
+#: user/templates/Product/product_edit.html:90
+#: user/templates/Slider/slider_add.html:68
+#: user/templates/Slider/slider_edit.html:72
+msgid "Upload"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:75
+#: user/templates/About_us/about_edit.html:76
+#: user/templates/About_us/about_update.html:65
+#: user/templates/Adversiting/addadversiting.html:75
+#: user/templates/Adversiting/adversiting_edit.html:80
+#: user/templates/Adversiting/adversiting_update.html:64
+#: user/templates/Brands/add_brands.html:75
+#: user/templates/Brands/brand_edit.html:79
+#: user/templates/Brands/brand_update.html:66
+#: user/templates/Category/category_add.html:79
+#: user/templates/Category/category_edit.html:99
+#: user/templates/Category/category_update.html:73
+#: user/templates/Client/page-account.html:122
+#: user/templates/Contact/contact_edit.html:80
+#: user/templates/Contact/contact_get.html:81
+#: user/templates/Creator/creator.html:205 user/templates/Faq/faq_add.html:67
+#: user/templates/Faq/faq_edit.html:71 user/templates/Faq/faq_update.html:76
+#: user/templates/Information/information_update.html:136
+#: user/templates/News/news_add.html:76 user/templates/News/news_edit.html:81
+#: user/templates/News/news_update.html:64
+#: user/templates/News_comment/news_comment_edit.html:72
+#: user/templates/News_comment/news_comment_get.html:75
+#: user/templates/Orders/order_detail.html:66
+#: user/templates/Orders/order_detail.html:71
+#: user/templates/Orders/orders_page.html:68
+#: user/templates/Product/product_add.html:97
+#: user/templates/Product/product_edit.html:102
+#: user/templates/Product/product_update.html:85
+#: user/templates/Product_comment/product_comment_edit.html:90
+#: user/templates/Product_comment/product_comment_get.html:86
+#: user/templates/Slider/slider_add.html:75
+#: user/templates/Slider/slider_edit.html:79
+#: user/templates/Slider/slider_update.html:66
+msgid "Status"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:83
+#: user/templates/About_us/about_edit.html:82
+#: user/templates/About_us/about_update.html:70
+#: user/templates/Category/category_add.html:87
+#: user/templates/Category/category_update.html:79
+#: user/templates/Information/information_add.html:169
+#: user/templates/Information/information_update.html:121
+#: user/templates/News/news_add.html:84 user/templates/News/news_edit.html:89
+#: user/templates/News/news_update.html:69
+#: user/templates/Product/product_add.html:105
+#: user/templates/Product/product_update.html:90
+#: user/templates/Slider/slider_add.html:83
+#: user/templates/Slider/slider_edit.html:87
+msgid "Description EN"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:89
+#: user/templates/About_us/about_edit.html:87
+#: user/templates/About_us/about_update.html:77
+#: user/templates/Category/category_add.html:93
+#: user/templates/Category/category_update.html:87
+#: user/templates/Information/information_add.html:175
+#: user/templates/Information/information_update.html:126
+#: user/templates/News/news_add.html:90 user/templates/News/news_edit.html:95
+#: user/templates/News/news_update.html:76
+#: user/templates/Product/product_add.html:111
+#: user/templates/Product/product_update.html:96
+#: user/templates/Slider/slider_add.html:89
+#: user/templates/Slider/slider_edit.html:93
+msgid "Description RU"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:95
+#: user/templates/About_us/about_edit.html:92
+#: user/templates/About_us/about_update.html:83
+#: user/templates/Category/category_add.html:99
+#: user/templates/Category/category_update.html:94
+#: user/templates/Information/information_add.html:181
+#: user/templates/Information/information_update.html:131
+#: user/templates/News/news_add.html:96 user/templates/News/news_edit.html:101
+#: user/templates/News/news_update.html:82
+#: user/templates/Product/product_add.html:117
+#: user/templates/Product/product_update.html:102
+#: user/templates/Slider/slider_add.html:95
+#: user/templates/Slider/slider_edit.html:99
+msgid "Description UZ"
+msgstr ""
+
+#: user/templates/About_us/about_add.html:99
+#: user/templates/About_us/about_edit.html:95
+#: user/templates/Adversiting/addadversiting.html:80
+#: user/templates/Adversiting/adversiting_edit.html:85
+#: user/templates/Brands/add_brands.html:81
+#: user/templates/Brands/brand_edit.html:85
+#: user/templates/Category/category_add.html:104
+#: user/templates/Category/category_edit.html:105
+#: user/templates/Client/user_password_client.html:59
+#: user/templates/Client/user_update_client.html:129
+#: user/templates/Creator_add/add_user_permission.html:87
+#: user/templates/Details/detail_add.html:80
+#: user/templates/Details/detail_edit.html:80
+#: user/templates/Faq/faq_add.html:91 user/templates/Faq/faq_edit.html:92
+#: user/templates/Information/information_add.html:193
+#: user/templates/Information/information_edit.html:208
+#: user/templates/News/news_add.html:100 user/templates/News/news_edit.html:105
+#: user/templates/Product/product_add.html:121
+#: user/templates/Product/product_edit.html:123
+#: user/templates/Product_comment/product_comment_edit.html:96
+#: user/templates/Slider/slider_add.html:99
+#: user/templates/Slider/slider_edit.html:103
+msgid "Submit"
+msgstr ""
+
+#: user/templates/About_us/about_edit.html:38
+#: user/templates/Menu/dashbourd_left_menu.html:168
+#: user/templates/News/news_add.html:38 user/templates/News/news_edit.html:38
+#: user/templates/News/news_update.html:39
+#: user/templates/News_comment/news_comment_edit.html:46
+#: user/templates/News_comment/news_comment_get.html:49
+msgid "News"
+msgstr ""
+
+#: user/templates/About_us/about_update.html:34
+#: user/templates/Adversiting/adversiting_update.html:34
+#: user/templates/Brands/brand_update.html:34
+#: user/templates/Category/category_update.html:33
+#: user/templates/Contact/contact_edit.html:33
+#: user/templates/Contact/contact_get.html:34
+#: user/templates/Creator_add/get_users.html:34
+#: user/templates/News/news_update.html:33
+#: user/templates/News_comment/news_comment_get.html:34
+#: user/templates/Newsletter/newsletter_get.html:34
+#: user/templates/Orders/orders_page.html:36
+#: user/templates/Slider/slider_update.html:34
+msgid "All clean"
+msgstr ""
+
+#: user/templates/About_us/about_update.html:40
+#: user/templates/Creator_add/get_users.html:65
+#: user/templates/Menu/dashbourd_left_menu.html:198
+msgid "About"
+msgstr ""
+
+#: user/templates/About_us/about_update.html:95
+#: user/templates/Adversiting/adversiting_update.html:74
+#: user/templates/Brands/brand_update.html:78
+#: user/templates/Category/category_update.html:101
+#: user/templates/Contact/contact_get.html:98
+#: user/templates/Creator_add/get_users.html:78
+#: user/templates/Details/detail_update.html:71
+#: user/templates/Faq/faq_update.html:97
+#: user/templates/Information/information_update.html:148
+#: user/templates/News/news_update.html:88
+#: user/templates/News_comment/news_comment_get.html:93
+#: user/templates/Product/product_update.html:108
+#: user/templates/Product_comment/product_comment_get.html:104
+#: user/templates/Slider/slider_update.html:78
+msgid "Edit"
+msgstr ""
+
+#: user/templates/About_us/about_update.html:98
+#: user/templates/Adversiting/adversiting_update.html:77
+#: user/templates/Brands/brand_update.html:81
+#: user/templates/Category/category_update.html:104
+#: user/templates/Client/page_order_detail.html:89
+#: user/templates/Contact/contact_get.html:101
+#: user/templates/Creator_add/get_users.html:82
+#: user/templates/Details/detail_update.html:74
+#: user/templates/Faq/faq_update.html:100
+#: user/templates/Information/information_update.html:153
+#: user/templates/News/news_update.html:91
+#: user/templates/News_comment/news_comment_get.html:96
+#: user/templates/Newsletter/newsletter_get.html:70
+#: user/templates/Orders/order_detail.html:116
+#: user/templates/Product/product_update.html:111
+#: user/templates/Product_comment/product_comment_get.html:107
+#: user/templates/Slider/slider_update.html:81
+msgid "Delete"
+msgstr ""
+
+#: user/templates/Adversiting/addadversiting.html:38
+msgid "Add Advertising"
+msgstr ""
+
+#: user/templates/Adversiting/adversiting_edit.html:38
+msgid "Advertising Edit"
+msgstr ""
+
+#: user/templates/Adversiting/adversiting_update.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:223
+msgid "Advertising"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:29
+msgid "Create admin"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:30
+msgid "Admin can change everything!"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:34
+#: user/templates/Authenticate/register_creator.html:42
+msgid "Username"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:46
+#: user/templates/Authenticate/register_creator.html:54
+#: user/templates/Client/page-account.html:113
+#: user/templates/Client/user_update_client.html:78
+#: user/templates/Creator/creator.html:196
+#: user/templates/Orders/order_detail.html:53
+#: user/templates/Orders/orders_page.html:55
+msgid "First Name"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:58
+#: user/templates/Authenticate/register_creator.html:66
+#: user/templates/Client/page-account.html:239
+#: user/templates/Client/user_update_client.html:84
+#: user/templates/Orders/order_detail.html:54
+#: user/templates/Orders/orders_page.html:56
+msgid "Lastname"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:70
+#: user/templates/Authenticate/register_creator.html:78
+#: user/templates/Client/page-account.html:252
+#: user/templates/Client/user_update_client.html:91
+#: user/templates/Contact/contact_edit.html:61
+#: user/templates/Contact/contact_get.html:62
+#: user/templates/Creator_add/get_users.html:111
+#: user/templates/Information/information_add.html:99
+#: user/templates/Information/information_edit.html:106
+#: user/templates/Information/information_update.html:95
+#: user/templates/News_comment/news_comment_edit.html:60
+#: user/templates/News_comment/news_comment_get.html:63
+#: user/templates/Newsletter/newsletter_get.html:50
+#: user/templates/Orders/order_detail.html:56
+#: user/templates/Orders/orders_page.html:58
+#: user/templates/Product_comment/product_comment_edit.html:58
+#: user/templates/Product_comment/product_comment_get.html:62
+msgid "Email"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:82
+#: user/templates/Authenticate/register_creator.html:91
+msgid "Password"
+msgstr ""
+
+#: user/templates/Authenticate/register_creator.html:95
+#: user/templates/Authenticate/register_creator.html:104
+msgid "Confirm Password"
+msgstr ""
+
+#: user/templates/Authenticate/user_password.html:8
+msgid "Reset Password"
+msgstr ""
+
+#: user/templates/Authenticate/user_password.html:10
+#: user/templates/Authenticate/user_update.html:11
+#: user/templates/Reset_password/password_reset_complete.html:9
+msgid "Evara - home"
+msgstr ""
+
+#: user/templates/Brands/add_brands.html:38
+#: user/templates/Menu/dashbourd_left_menu.html:81
+msgid "Add Brand"
+msgstr ""
+
+#: user/templates/Brands/brand_edit.html:38
+msgid "Edit Brand"
+msgstr ""
+
+#: user/templates/Brands/brand_update.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:61
+#: user/templates/Slider/slider_add.html:38
+#: user/templates/Slider/slider_edit.html:38
+#: user/templates/Slider/slider_update.html:40
+msgid "Slider"
+msgstr ""
+
+#: user/templates/Category/category_add.html:38
+#: user/templates/Category/category_edit.html:38
+#: user/templates/Category/category_update.html:39
+#: user/templates/Creator/creator.html:50
+#: user/templates/Creator/creator.html:52
+#: user/templates/Creator/creator.html:78
+#: user/templates/Menu/dashbourd_left_menu.html:96
+#: user/templates/Product/product_add.html:45
+#: user/templates/Product/product_edit.html:45
+#: user/templates/Product/product_update.html:47
+#: user/templates/Product_gallery/gallery_id.html:65
+msgid "Category"
+msgstr ""
+
+#: user/templates/Category/category_add.html:74
+#: user/templates/Category/category_edit.html:65
+#: user/templates/Category/category_update.html:66
+#: user/templates/Product/product_add.html:92
+#: user/templates/Product/product_edit.html:96
+#: user/templates/Product/product_update.html:80
+msgid "Slug"
+msgstr ""
+
+#: user/templates/Category/category_edit.html:46
+#: user/templates/Information/information_edit.html:45
+#: user/templates/Product/product_edit.html:52
+msgid "Title [EN]"
+msgstr ""
+
+#: user/templates/Category/category_edit.html:52
+#: user/templates/Information/information_edit.html:51
+#: user/templates/Product/product_edit.html:58
+msgid "Title [RU]"
+msgstr ""
+
+#: user/templates/Category/category_edit.html:58
+#: user/templates/Information/information_edit.html:57
+#: user/templates/Product/product_edit.html:64
+msgid "Title [UZ]"
+msgstr ""
+
+#: user/templates/Category/category_edit.html:84
+#: user/templates/Information/information_edit.html:179
+#: user/templates/Product/product_edit.html:110
+msgid "Description [EN]"
+msgstr ""
+
+#: user/templates/Category/category_edit.html:89
+#: user/templates/Information/information_edit.html:186
+#: user/templates/Product/product_edit.html:115
+msgid "Description [RU]"
+msgstr ""
+
+#: user/templates/Category/category_edit.html:94
+#: user/templates/Information/information_edit.html:193
+#: user/templates/Product/product_edit.html:120
+msgid "Description [UZ]"
+msgstr ""
+
+#: user/templates/Client/page-account.html:10
+#: user/templates/Client/user_password_client.html:10
+msgid "Evara - My Account"
+msgstr ""
+
+#: user/templates/Client/page-account.html:110
+#: user/templates/Creator/creator.html:193
+#: user/templates/Orders/order_detail.html:42
+msgid "Code"
+msgstr ""
+
+#: user/templates/Client/page-account.html:116
+#: user/templates/Client/page-account.html:245
+#: user/templates/Client/user_update_client.html:97
+#: user/templates/Creator/creator.html:199
+#: user/templates/Creator_add/get_users.html:119
+#: user/templates/Information/information_add.html:93
+#: user/templates/Information/information_edit.html:100
+#: user/templates/Information/information_update.html:90
+#: user/templates/Orders/order_detail.html:55
+#: user/templates/Orders/orders_page.html:57
+msgid "Phone"
+msgstr ""
+
+#: user/templates/Client/page-account.html:119
+#: user/templates/Creator/creator.html:202
+#: user/templates/Orders/order_detail.html:88
+#: user/templates/Orders/order_detail.html:110
+#: user/templates/Orders/orders_page.html:79
+#: user/templates/Orders/orders_page.html:101
+msgid "Total"
+msgstr ""
+
+#: user/templates/Client/page-account.html:126
+#: user/templates/Creator/creator.html:209
+#: user/templates/Details/detail_add.html:39
+#: user/templates/Details/detail_edit.html:39
+#: user/templates/Details/detail_update.html:39
+msgid "Details"
+msgstr ""
+
+#: user/templates/Client/page-account.html:165
+#: user/templates/Menu/dashbourd_left_menu.html:313
+#: user/templates/Menu/navbar_client.html:20
+#: user/templates/Navbar/navbar_client.html:20
+msgid "Change Password"
+msgstr ""
+
+#: user/templates/Client/page-account.html:172
+#: user/templates/Client/user_password_client.html:41
+msgid "Old Password"
+msgstr ""
+
+#: user/templates/Client/page-account.html:179
+msgid "Change Password "
+msgstr ""
+
+#: user/templates/Client/page-account.html:232
+#: user/templates/Client/user_update_client.html:72
+msgid "User Name"
+msgstr ""
+
+#: user/templates/Client/page-account.html:259
+#: user/templates/Client/user_update_client.html:114
+#: user/templates/Creator_add/get_users.html:131
+#: user/templates/Information/information_add.html:62
+#: user/templates/Information/information_edit.html:63
+#: user/templates/Information/information_update.html:62
+#: user/templates/Orders/order_detail.html:57
+#: user/templates/Orders/orders_page.html:59
+msgid "Country"
+msgstr ""
+
+#: user/templates/Client/page-account.html:266
+#: user/templates/Client/user_update_client.html:108
+#: user/templates/Creator_add/get_users.html:139
+#: user/templates/Information/information_add.html:67
+#: user/templates/Information/information_edit.html:69
+#: user/templates/Information/information_update.html:67
+#: user/templates/Orders/order_detail.html:58
+#: user/templates/Orders/orders_page.html:60
+msgid "City"
+msgstr ""
+
+#: user/templates/Client/page-account.html:272
+#: user/templates/Client/user_update_client.html:102
+#: user/templates/Creator_add/get_users.html:147
+#: user/templates/Orders/order_detail.html:59
+#: user/templates/Orders/orders_page.html:61
+msgid "Address"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:10
+msgid "Evara - Order Detail"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:42
+msgid "Product Name"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:53
+msgid "Product color"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:60
+#: user/templates/Details/detail_add.html:60
+#: user/templates/Details/detail_edit.html:60
+#: user/templates/Details/detail_update.html:59
+#: user/templates/Orders/order_detail.html:89
+#: user/templates/Orders/orders_page.html:80
+msgid "Size"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:67
+msgid "Product Price"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:73
+#: user/templates/Orders/order_detail.html:87
+#: user/templates/Orders/orders_page.html:78
+msgid "Quantity"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:80
+msgid "Total Price"
+msgstr ""
+
+#: user/templates/Client/user_password_client.html:47
+msgid "New Password 1"
+msgstr ""
+
+#: user/templates/Client/user_password_client.html:53
+msgid "New Password 2"
+msgstr ""
+
+#: user/templates/Client/user_update_client.html:40
+msgid "Shop"
+msgstr ""
+
+#: user/templates/Client/user_update_client.html:53
+msgid "Edit profil"
+msgstr ""
+
+#: user/templates/Client/user_update_client.html:64
+msgid "Update Client"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:39
+#: user/templates/Creator/creator.html:65
+#: user/templates/Creator/creator.html:67
+msgid "Contact"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:48
+#: user/templates/Contact/contact_get.html:49
+#: user/templates/Creator_add/get_users.html:103
+#: user/templates/News_comment/news_comment_edit.html:53
+#: user/templates/News_comment/news_comment_get.html:56
+#: user/templates/Product_comment/product_comment_edit.html:52
+#: user/templates/Product_comment/product_comment_get.html:55
+msgid "Name"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:54
+#: user/templates/Contact/contact_get.html:55
+msgid "Surname"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:68
+#: user/templates/Contact/contact_get.html:69
+#: user/templates/Product_comment/product_comment_edit.html:65
+#: user/templates/Product_comment/product_comment_get.html:68
+msgid "Subject"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:74
+#: user/templates/Contact/contact_get.html:75
+msgid "Message"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:87
+#: user/templates/Newsletter/newsletter_get.html:57
+msgid "IP"
+msgstr ""
+
+#: user/templates/Contact/contact_edit.html:93
+#: user/templates/Newsletter/newsletter_get.html:63
+msgid "Create_at"
+msgstr ""
+
+#: user/templates/Contact/contact_get.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:285
+msgid "Contact_us messages"
+msgstr ""
+
+#: user/templates/Contact/contact_get.html:87
+#: user/templates/News_comment/news_comment_edit.html:79
+#: user/templates/News_comment/news_comment_get.html:81
+msgid "ip"
+msgstr ""
+
+#: user/templates/Contact/contact_get.html:93
+#: user/templates/Creator_add/get_users.html:155
+#: user/templates/News_comment/news_comment_edit.html:85
+#: user/templates/News_comment/news_comment_get.html:87
+#: user/templates/Orders/order_detail.html:65
+#: user/templates/Orders/orders_page.html:67
+#: user/templates/Product_comment/product_comment_edit.html:78
+#: user/templates/Product_comment/product_comment_get.html:98
+#: user/templates/Product_gallery/gallery_id.html:71
+msgid "Create at"
+msgstr ""
+
+#: user/templates/Creator/creator.html:35
+#: user/templates/Menu/dashbourd_left_menu.html:29
+#: user/templates/Menu/navbar_client.html:7
+#: user/templates/Navbar/navbar_client.html:7
+#: user/templates/Searched/dashbourd_search.html:35
+msgid "Dashboard"
+msgstr ""
+
+#: user/templates/Creator/creator.html:45
+msgid "New users"
+msgstr ""
+
+#: user/templates/Creator/creator.html:47
+msgid "New Users"
+msgstr ""
+
+#: user/templates/Creator/creator.html:55
+#: user/templates/Creator/creator.html:57
+#: user/templates/Creator/creator.html:128
+#: user/templates/Details/detail_add.html:46
+#: user/templates/Details/detail_edit.html:46
+#: user/templates/Details/detail_update.html:53
+#: user/templates/Menu/dashbourd_left_menu.html:120
+#: user/templates/Orders/order_detail.html:85
+#: user/templates/Orders/orders_page.html:76
+#: user/templates/Product/product_add.html:38
+#: user/templates/Product/product_edit.html:38
+#: user/templates/Product/product_update.html:39
+#: user/templates/Product_comment/product_comment_edit.html:46
+#: user/templates/Product_comment/product_comment_get.html:48
+#: user/templates/Product_gallery/gallery_id.html:47
+#: user/templates/Searched/dashbourd_search.html:43
+msgid "Product"
+msgstr ""
+
+#: user/templates/Creator/creator.html:60
+#: user/templates/Creator/creator.html:62
+msgid "Order"
+msgstr ""
+
+#: user/templates/Creator/creator.html:80
+#: user/templates/Creator/creator.html:130
+#: user/templates/Creator/creator.html:186
+#: user/templates/Searched/dashbourd_search.html:45
+msgid "Count"
+msgstr ""
+
+#: user/templates/Creator/creator.html:87
+#: user/templates/Creator/creator.html:149
+#: user/templates/Searched/dashbourd_search.html:64
+msgid "CATEGORY"
+msgstr ""
+
+#: user/templates/Creator/creator.html:90
+#: user/templates/Creator/creator.html:140
+#: user/templates/Searched/dashbourd_search.html:55
+msgid "TITLE"
+msgstr ""
+
+#: user/templates/Creator/creator.html:93
+msgid "STATUS"
+msgstr ""
+
+#: user/templates/Creator/creator.html:96
+msgid "CREATE AT"
+msgstr ""
+
+#: user/templates/Creator/creator.html:137
+#: user/templates/Searched/dashbourd_search.html:52
+msgid "PRODUCT"
+msgstr ""
+
+#: user/templates/Creator/creator.html:143
+#: user/templates/Searched/dashbourd_search.html:58
+msgid "OLD PRICE"
+msgstr ""
+
+#: user/templates/Creator/creator.html:146
+#: user/templates/Searched/dashbourd_search.html:61
+msgid "SELL PRICE"
+msgstr ""
+
+#: user/templates/Creator/creator.html:184
+#: user/templates/Menu/dashbourd_left_menu.html:271
+msgid "Orders"
+msgstr ""
+
+#: user/templates/Creator_add/add_user_permission.html:38
+msgid "User Permission"
+msgstr ""
+
+#: user/templates/Creator_add/add_user_permission.html:45
+msgid "User"
+msgstr ""
+
+#: user/templates/Creator_add/get_users.html:40
+msgid "Clients"
+msgstr ""
+
+#: user/templates/Creator_add/get_users.html:70
+msgid "Timeline"
+msgstr ""
+
+#: user/templates/Creator_add/get_users.html:95
+msgid "User Id"
+msgstr ""
+
+#: user/templates/Creator_add/get_users.html:163
+msgid "Your Bio"
+msgstr ""
+
+#: user/templates/Details/detail_add.html:54
+#: user/templates/Details/detail_edit.html:54
+msgid "Collor"
+msgstr ""
+
+#: user/templates/Details/detail_update.html:65
+msgid "Color"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:38 user/templates/Faq/faq_edit.html:38
+#: user/templates/Faq/faq_update.html:41
+#: user/templates/Menu/dashbourd_left_menu.html:247
+msgid "FAQ"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:45 user/templates/Faq/faq_edit.html:45
+#: user/templates/Faq/faq_update.html:50
+msgid "Ordernumber"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:51 user/templates/Faq/faq_edit.html:52
+#: user/templates/Faq/faq_update.html:57
+msgid "Question EN"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:56 user/templates/Faq/faq_edit.html:58
+#: user/templates/Faq/faq_update.html:63
+msgid "Question RU"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:61 user/templates/Faq/faq_edit.html:64
+#: user/templates/Faq/faq_update.html:69
+msgid "Question UZ"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:75 user/templates/Faq/faq_edit.html:79
+#: user/templates/Faq/faq_update.html:81
+msgid "Answer EN"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:81 user/templates/Faq/faq_edit.html:84
+#: user/templates/Faq/faq_update.html:87
+msgid "Answer RU"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:87 user/templates/Faq/faq_edit.html:89
+#: user/templates/Faq/faq_update.html:92
+msgid "Answer UZ"
+msgstr ""
+
+#: user/templates/Header/header_client.html:46
+msgid "Edit Profile"
+msgstr ""
+
+#: user/templates/Header/header_client.html:48
+#: user/templates/Menu/dashbourd_left_menu.html:320
+msgid "Logout"
+msgstr ""
+
+#: user/templates/Information/information_add.html:34
+#: user/templates/Information/information_edit.html:39
+#: user/templates/Information/information_update.html:40
+msgid "Informatsion"
+msgstr ""
+
+#: user/templates/Information/information_add.html:73
+#: user/templates/Information/information_update.html:72
+msgid "Address EN"
+msgstr ""
+
+#: user/templates/Information/information_add.html:78
+#: user/templates/Information/information_update.html:78
+msgid "Address RU"
+msgstr ""
+
+#: user/templates/Information/information_add.html:83
+#: user/templates/Information/information_update.html:84
+msgid "Address UZ"
+msgstr ""
+
+#: user/templates/Information/information_add.html:88
+#: user/templates/Information/information_edit.html:94
+msgid "Location"
+msgstr ""
+
+#: user/templates/Information/information_add.html:105
+#: user/templates/Information/information_edit.html:112
+#: user/templates/Information/information_update.html:100
+msgid "Telegram"
+msgstr ""
+
+#: user/templates/Information/information_add.html:111
+#: user/templates/Information/information_edit.html:118
+#: user/templates/Information/information_update.html:105
+msgid "Instagram"
+msgstr ""
+
+#: user/templates/Information/information_add.html:117
+#: user/templates/Information/information_edit.html:124
+#: user/templates/Information/information_update.html:110
+msgid "Facebook"
+msgstr ""
+
+#: user/templates/Information/information_add.html:123
+#: user/templates/Information/information_edit.html:130
+#: user/templates/Information/information_update.html:115
+msgid "Twitter"
+msgstr ""
+
+#: user/templates/Information/information_add.html:142
+#: user/templates/Information/information_edit.html:150
+msgid "Logo"
+msgstr ""
+
+#: user/templates/Information/information_add.html:156
+#: user/templates/Information/information_edit.html:164
+msgid "Icon"
+msgstr ""
+
+#: user/templates/Information/information_edit.html:75
+msgid "Address [EN]"
+msgstr ""
+
+#: user/templates/Information/information_edit.html:81
+msgid "Address [RU]"
+msgstr ""
+
+#: user/templates/Information/information_edit.html:87
+msgid "Address [UZ]"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:18
+msgid "Super Admin"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:37
+msgid "Information"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:45
+msgid "Add Info"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:51
+msgid "Update Info"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:69
+msgid "Add Slider"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:75
+msgid "Update Slider"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:87
+msgid "Update Brand"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:104
+msgid "Add Category"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:110
+msgid "Update Category"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:128
+msgid "Add Product"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:134
+msgid "Update Product"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:140
+msgid "Add Detail Product"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:146
+msgid "Update Detail Product"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:152
+msgid "Product Gallery"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:158
+#: user/templates/Product_comment/product_comment_edit.html:38
+#: user/templates/Product_comment/product_comment_get.html:39
+msgid "Comment Product"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:176
+msgid "Add News"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:182
+msgid "News Update"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:188
+#: user/templates/News_comment/news_comment_edit.html:37
+#: user/templates/News_comment/news_comment_get.html:40
+msgid "Comment News"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:206
+msgid "Add Aboutus"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:212
+msgid "About Update"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:231
+msgid "Add Adversiting"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:237
+msgid "Adversiting Update"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:255
+msgid "Add Faq"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:261
+msgid "Faq Update"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:278
+#: user/templates/Newsletter/newsletter_get.html:40
+msgid "Newsletter"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:292
+msgid "Users"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:299
+msgid "Create Creator"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_left_menu.html:306
+msgid "Update Admin"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_theme.html:8
+msgid "SIDEBAR SKINS"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_theme.html:11
+msgid "Light"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_theme.html:15
+msgid "Dark"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_theme.html:17
+msgid "HEADER SKINS"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_top_menu.html:27
+msgid "Search for items..."
+msgstr ""
+
+#: user/templates/Menu/dashbourd_top_menu.html:36
+msgid "+ Create CATEGORY"
+msgstr ""
+
+#: user/templates/Menu/dashbourd_top_menu.html:41
+msgid "+ Create PRODUCT"
+msgstr ""
+
+#: user/templates/Menu/navbar_client.html:12
+#: user/templates/Navbar/navbar_client.html:12
+msgid "Product Orders"
+msgstr ""
+
+#: user/templates/Menu/navbar_client.html:16
+#: user/templates/Navbar/navbar_client.html:16
+msgid "Client Update"
+msgstr ""
+
+#: user/templates/Menu/navbar_client.html:26
+msgid "Log Out "
+msgstr ""
+
+#: user/templates/Navbar/navbar_client.html:25
+msgid "Log Out"
+msgstr ""
+
+#: user/templates/News_comment/news_comment_edit.html:66
+#: user/templates/News_comment/news_comment_get.html:69
+#: user/templates/Product_comment/product_comment_edit.html:72
+#: user/templates/Product_comment/product_comment_get.html:74
+msgid "Comment"
+msgstr ""
+
+#: user/templates/Orders/order_detail.html:51
+#: user/templates/Orders/orders_page.html:53
+msgid "Order Address"
+msgstr ""
+
+#: user/templates/Orders/order_detail.html:60
+#: user/templates/Orders/orders_page.html:62
+msgid "Feedback"
+msgstr ""
+
+#: user/templates/Orders/order_detail.html:86
+#: user/templates/Orders/orders_page.html:77
+msgid "Native Price"
+msgstr ""
+
+#: user/templates/Orders/order_detail.html:90
+#: user/templates/Orders/orders_page.html:81
+msgid "Collar"
+msgstr ""
+
+#: user/templates/Orders/order_detail.html:98
+#: user/templates/Orders/order_detail.html:100
+#: user/templates/Orders/order_detail.html:110
+#: user/templates/Orders/orders_page.html:89
+#: user/templates/Orders/orders_page.html:91
+msgid "sum"
+msgstr ""
+
+#: user/templates/Orders/order_detail.html:109
+#: user/templates/Orders/orders_page.html:100
+msgid "Subtotal amount"
+msgstr ""
+
+#: user/templates/Orders/orders_page.html:47
+msgid "Code : "
+msgstr ""
+
+#: user/templates/Orders/orders_page.html:102
+msgid "so'm"
+msgstr ""
+
+#: user/templates/Orders/orders_page.html:108
+msgid "Detail"
+msgstr ""
+
+#: user/templates/Product/product_add.html:67
+#: user/templates/Product/product_edit.html:70
+#: user/templates/Product/product_update.html:67
+msgid "Old Price"
+msgstr ""
+
+#: user/templates/Product/product_add.html:72
+#: user/templates/Product/product_edit.html:76
+#: user/templates/Product/product_update.html:73
+msgid "Sell Price"
+msgstr ""
+
+#: user/templates/Product_comment/product_comment_edit.html:84
+msgid "ip address"
+msgstr ""
+
+#: user/templates/Product_comment/product_comment_get.html:80
+msgid "Rate"
+msgstr ""
+
+#: user/templates/Product_comment/product_comment_get.html:92
+msgid "Ip"
+msgstr ""
+
+#: user/templates/Product_gallery/gallery.html:34
+msgid "Gallery"
+msgstr ""
+
+#: user/templates/Product_gallery/gallery.html:43
+msgid "light Gallery"
+msgstr ""
+
+#: user/templates/Product_gallery/gallery.html:45
+msgid "Click on any image to open in lightbox gallery"
+msgstr ""
+
+#: user/templates/Product_gallery/gallery_id.html:39
+msgid "Product Details"
+msgstr ""
+
+#: user/templates/Product_gallery/gallery_id.html:53
+msgid "Sell price"
+msgstr ""
+
+#: user/templates/Product_gallery/gallery_id.html:59
+msgid "Old price"
+msgstr ""
+
+#: user/templates/Reset_password/password_reset_complete.html:57
+msgid "Password Reset Complete"
+msgstr ""
+
+#: user/templates/Reset_password/password_reset_complete.html:58
+msgid "Your password has been reset. Please login now."
+msgstr ""
+
+#: user/templates/Reset_password/password_reset_done.html:46
+msgid "Recovery Email Sent"
+msgstr ""
+
+#: user/templates/Reset_password/password_reset_done.html:47
+msgid "A Recovery Email has been sent to your Email ID, if it exists."
+msgstr ""
+
+#: user/templates/Searched/dashbourd_search.html:96
+#: user/templates/Searched/searched.html:55
+msgid "Sorry, we couldn't find any results matching your search"
+msgstr ""
+
+#: user/templates/Searched/searched.html:34
+#: user/templates/Searched/searched.html:43
+msgid "Searched"
+msgstr ""
+
+#: user/templates/Searched/searched.html:45
+msgid "Click on any image to open in product"
+msgstr ""

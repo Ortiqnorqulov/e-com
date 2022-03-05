@@ -1,0 +1,261 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/iconfonts/font-awesome/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/css/vendor.bundle.base.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/vendors/css/vendor.bundle.addons.css' %}">
+    <link rel="stylesheet" href="{% static 'melody_static/css/style.css' %}">
+</head>
+
+<body>
+
+<div class="container-scroller">
+
+    {% include 'Menu/dashbourd_top_menu.html' %}
+
+    <div class="container-fluid page-body-wrapper">
+
+        {% include 'Menu/dashbourd_theme.html' %}
+
+        {% include 'Menu/dashbourd_left_menu.html' %}
+
+        <div class="main-panel">
+
+            <div class="content-wrapper">
+
+                <div class="page-header">
+                    <h3 class="page-title">
+                        {% trans 'Dashboard' %}
+                    </h3>
+                </div>
+
+                <div class="row grid-margin">
+                    <div class="col-12">
+                        <div class="card card-statistics">
+                            <div class="card-body">
+                                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                                    <div class="statistics-item">
+                                        <p><i class="icon-sm fa fa-user mr-2"></i>{% trans 'New users' %}</p>
+                                        <h2>{{ client_count }}</h2>
+                                        <label class="badge badge-outline-success badge-pill">{% trans 'New Users' %}</label>
+                                    </div>
+                                    <div class="statistics-item">
+                                        <p><i class="fas fa-gem mr-2"></i></i>{% trans 'Category' %}</p>
+                                        <h2>{{ category_count }}</h2>
+                                        <label class="badge badge-outline-danger badge-pill">{% trans 'Category' %}</label>
+                                    </div>
+                                    <div class="statistics-item">
+                                        <p><i class="fas fa-shopping-bag mr-2"></i></i>{% trans 'Product' %}</p>
+                                        <h2>{{ product_count }}</h2>
+                                        <label class="badge badge-outline-success badge-pill">{% trans 'Product' %}</label>
+                                    </div>
+                                    <div class="statistics-item">
+                                        <p><i class="fas fa-cart-arrow-down mr-2"></i></i>{% trans 'Order' %}</p>
+                                        <h2>{{ order_product_count }}</h2>
+                                        <label class="badge badge-outline-success badge-pill">{% trans 'Order' %}</label>
+                                    </div>
+                                    <div class="statistics-item">
+                                        <p><i class="icon-sm fas fa-chart-line mr-2"></i>{% trans 'Contact' %}</p>
+                                        <h2>{{ contact_count }}</h2>
+                                        <label class="badge badge-outline-success badge-pill">{% trans 'Contact' %}</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 grid-margin stretch-card table-wrapper-scroll-y my-custom-scrollbar">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">{% trans 'Category' %}</h4>
+                            <p class="card-description">
+                                {% trans 'Count' %}:<code> {{ category_count }}</code>
+                            </p>
+                            <div class="table-responsive" style="overflow-y: scroll; height: 175px;">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr style="text-align: center">
+                                        <th>
+                                            {% trans 'CATEGORY' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'TITLE' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'STATUS' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'CREATE AT' %}
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for rs in category %}
+                                        <tr style="text-transform: uppercase; text-align: center">
+                                            <td class="py-1">
+                                                <img style="width: 30px; height: 30px; border-radius: 10px"
+                                                     src="{{ rs.image.url }}" alt="image"/>
+                                            </td>
+                                            <td>
+                                                {{ rs.title }}
+                                            </td>
+                                            <td>
+                                                {{ rs.status }}
+                                            </td>
+                                            <td>
+                                                {{ rs.create_at }}
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">{% trans 'Product' %}</h4>
+                            <p class="card-description">
+                                {% trans 'Count' %}: <code>{{ product_count }}</code>
+                            </p>
+                            <div class="table-responsive" style="overflow-y: scroll; height: 175px;">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr style="text-align: center;">
+                                        <th>
+                                            {% trans 'PRODUCT' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'TITLE' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'OLD PRICE' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'SELL PRICE' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'CATEGORY' %}
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for rs in product %}
+                                        <tr style="text-transform: uppercase; text-align: center">
+                                            <td>
+                                                <img style="width: 30px; height: 30px; border-radius: 10px"
+                                                     src="{{ rs.image.url }}" alt="image"/>
+                                            </td>
+                                            <td>
+                                                {{ rs.title }}
+                                            </td>
+                                            <td>
+                                                {{ rs.old_price }}
+                                            </td>
+                                            <td>
+                                                {{ rs.sell_price }}
+                                            </td>
+                                            <td>
+                                                {{ rs.category }}
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 grid-margin stretch-card table-wrapper-scroll-y my-custom-scrollbar">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">{% trans 'Orders' %}</h4>
+                            <p class="card-description">
+                                {% trans 'Count' %} <code>{{ order_product_count }}</code>
+                            </p>
+                            <div class="table-responsive" style="overflow-y: scroll; height: 175px;">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>
+                                            {% trans 'Code' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'First Name' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'Phone' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'Total' %}
+                                        </th>
+                                        <th>
+                                            {% trans 'Status' %}
+                                        </th>
+
+                                        <th>
+                                            {% trans 'Details' %}
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for rs in order %}
+                                        <tr>
+                                            <td class="py-1">
+                                                {{ rs.code }}
+                                            </td>
+                                            <td>
+                                                {{ rs.first_name }}
+                                            </td>
+                                            <td>
+                                                {{ rs.phone }}
+                                            </td>
+                                            <td>
+                                                {{ rs.total }}
+                                            </td>
+                                            <td>
+                                                {{ rs.status }}
+                                            </td>
+                                            <td>
+                                                <a href="{% url 'orders' rs.id %}"> <i
+                                                        class="fas fa-angle-double-right menu-icon"></i></a>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="{% static 'melody_static/vendors/js/vendor.bundle.base.js' %}"></script>
+<script src="{% static 'melody_static/vendors/js/vendor.bundle.addons.js' %}"></script>
+<script src="{% static 'melody_static/js/off-canvas.js' %}"></script>
+<script src="{% static 'melody_static/js/hoverable-collapse.js' %}"></script>
+<script src="{% static 'melody_static/js/misc.js' %}"></script>
+<script src="{% static 'melody_static/js/settings.js' %}"></script>
+<script src="{% static 'melody_static/js/todolist.js' %}"></script>
+<script src="{% static 'melody_static/js/dashboard.js' %}"></script>
+
+</body>
+
+</html>

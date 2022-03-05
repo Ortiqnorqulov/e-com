@@ -1,0 +1,1 @@
+web: gunicorn ECOm.wsgi --log-file -

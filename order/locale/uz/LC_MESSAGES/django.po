@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 23:04+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: order/templates/checkout.html:10
+msgid "Evara - check"
+msgstr "check"
+
+#: order/templates/checkout.html:41
+msgid "Billing details"
+msgstr "Hisob-kitob tafsilotlari"
+
+#: order/templates/checkout.html:44
+msgid "First Name"
+msgstr "Ism"
+
+#: order/templates/checkout.html:49
+msgid "Last Name"
+msgstr "Familiya"
+
+#: order/templates/checkout.html:56
+msgid "Email"
+msgstr "Email po'chta"
+
+#: order/templates/checkout.html:61
+msgid "Telephone"
+msgstr "Telefon"
+
+#: order/templates/checkout.html:71
+msgid "Country"
+msgstr "Mamlakat"
+
+#: order/templates/checkout.html:75
+msgid "City"
+msgstr "Shahar"
+
+#: order/templates/checkout.html:82
+msgid "Address"
+msgstr "Manzil"
+
+#: order/templates/checkout.html:91
+msgid "Order Notes"
+msgstr "Buyurtma eslatmalari"
+
+#: order/templates/checkout.html:106
+msgid "Your Orders"
+msgstr "Buyurtmalaringiz"
+
+#: order/templates/checkout.html:112
+msgid "Product Name"
+msgstr "Mahsulot nomi"
+
+#: order/templates/checkout.html:113 order/templates/shopcart.html:40
+msgid "Price"
+msgstr "Narxi"
+
+#: order/templates/checkout.html:114
+msgid "Qty"
+msgstr "Soni"
+
+#: order/templates/checkout.html:115
+msgid "Amount"
+msgstr "Miqdori"
+
+#: order/templates/checkout.html:116
+msgid "Size"
+msgstr "O'lcham"
+
+#: order/templates/checkout.html:117
+msgid "Color"
+msgstr "Rang"
+
+#: order/templates/checkout.html:133 order/templates/shopcart.html:116
+msgid "Shipping"
+msgstr "Yetkazib berish"
+
+#: order/templates/checkout.html:134 order/templates/shopcart.html:118
+msgid "Free Shipping"
+msgstr "Yetkazib berish bepul"
+
+#: order/templates/checkout.html:137 order/templates/shopcart.html:42
+#: order/templates/shopcart.html:122
+msgid "Total"
+msgstr "Jami"
+
+#: order/templates/checkout.html:139 order/templates/shopcart.html:68
+#: order/templates/shopcart.html:75 order/templates/shopcart.html:124
+msgid "so'm"
+msgstr "so'm"
+
+#: order/templates/shopcart.html:10
+msgid "Evara - shopcart"
+msgstr "cart"
+
+#: order/templates/shopcart.html:37
+msgid "Image"
+msgstr "Rasm"
+
+#: order/templates/shopcart.html:38
+msgid "Name"
+msgstr "Ism"
+
+#: order/templates/shopcart.html:39
+msgid "Collor/Size"
+msgstr "Rang/O'lcham"
+
+#: order/templates/shopcart.html:41
+msgid "Quantity"
+msgstr "Soni"
+
+#: order/templates/shopcart.html:43
+msgid "Remove"
+msgstr "O'chirish"
+
+#: order/templates/shopcart.html:88
+msgid "You have not added a product yet."
+msgstr "Siz hali mahsulot qo'shmagansiz."
+
+#: order/templates/shopcart.html:89
+msgid "the products will appear after you add something "
+msgstr "biror narsa qo'shganingizdan keyin mahsulotlar paydo bo'ladi"
+
+#: order/templates/shopcart.html:97
+msgid "Continue Shopping"
+msgstr "Xarid qilishda davom etish"
+
+#: order/templates/shopcart.html:104
+msgid "Cart Totals"
+msgstr "Jami"
+
+#: order/templates/shopcart.html:110
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#: order/templates/shopcart.html:131
+msgid "Proceed To CheckOut"
+msgstr "To'lov"
+
+#~ msgid "Apply Coupon"
+#~ msgstr "Kuponni qo'llash"
+
+#~ msgid "Apply"
+#~ msgstr "Murojaat qiling"

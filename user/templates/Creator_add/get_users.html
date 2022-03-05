@@ -1,0 +1,207 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{% static "melody_static/vendors/iconfonts/font-awesome/css/all.min.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/vendors/css/vendor.bundle.base.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/vendors/css/vendor.bundle.addons.css" %}">
+    <link rel="stylesheet" href="{% static "melody_static/css/style.css" %}">
+    <link rel="shortcut icon" href="{% static 'dashboard_static/imgs/theme/favicon.svg' %}"/>
+</head>
+
+<body>
+
+<div class="container-scroller">
+
+    {% include 'Menu/dashbourd_top_menu.html' %}
+
+    <div class="container-fluid page-body-wrapper">
+
+        {% include 'Menu/dashbourd_theme.html' %}
+
+        {% include 'Menu/dashbourd_left_menu.html' %}
+
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+                    <a href="{% url 'users_delete_all' %}"> <i
+                            class="fas fa-broom menu-icon">{% trans 'All clean' %}</i></a>
+                </div>
+                <div class="row">
+                    <div class="col-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">{% trans 'Clients' %}</h4>
+                                <p class="card-description">
+                                </p>
+                                {% for rs in users %}
+                                    <div class="container emp-profile">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="profile-img">
+                                                        <img src="{{ rs.image.url }}" width="300px" height="200px"
+                                                             alt=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="profile-head">
+                                                        <h5>
+                                                            {{ rs.user.username }}
+                                                        </h5>
+                                                        <h6>
+                                                            {{ rs.user.last_name }}
+                                                        </h6>
+                                                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" id="home-tab"
+                                                                   data-toggle="tab" href="#home" role="tab"
+                                                                   aria-controls="home" aria-selected="true">{% trans 'About' %}</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" id="profile-tab" data-toggle="tab"
+                                                                   href="#profile" role="tab" aria-controls="profile"
+                                                                   aria-selected="false">{% trans 'Timeline' %}</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2" style="display: flex">
+                                                    <a href="{% url 'user_add_permission' rs.id %}">
+                                                        <button type="button"
+                                                                class="btn btn-primary">{% trans 'Edit' %}</button>
+                                                    </a>
+                                                    <a href="{% url 'users_delete' rs.id %}">
+                                                        <button type="button"
+                                                                class="btn btn-danger">{% trans 'Delete' %}</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="tab-content profile-tab" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                                             aria-labelledby="home-tab">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'User Id' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.id }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'Name' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.user.first_name }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'Email' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.user.email }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'Phone' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.phone }}</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="profile" role="tabpanel"
+                                                             aria-labelledby="profile-tab">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'Country' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.country }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'City' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.city }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'Address' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.address }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>{% trans 'Create at' %}</label>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>{{ rs.create_at }}</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <label>{% trans 'Your Bio' %}</label><br/>
+                                                                    <p>{{ rs.description }}</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+            <footer class="footer">
+                <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                    {% include 'Paginator/paginator.html' with page=users %}
+                </div>
+            </footer>
+            <!-- partial -->
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="{% static "melody_static/vendors/js/vendor.bundle.base.js" %}"></script>
+<script src="{% static "melody_static/vendors/js/vendor.bundle.addons.js" %}"></script>
+<script src="{% static "melody_static/js/off-canvas.js" %}"></script>
+<script src="{% static "melody_static/js/hoverable-collapse.js" %}"></script>
+<script src="{% static "melody_static/js/misc.js" %}"></script>
+<script src="{% static "melody_static/js/settings.js" %}"></script>
+<script src="{% static "melody_static/js/todolist.js" %}"></script>
+<script src="{% static "melody_static/js/file-upload.js" %}"></script>
+<script src="{% static "melody_static/js/typeahead.js" %}"></script>
+<script src="{% static "melody_static/js/select2.js" %}"></script>
+
+</body>
+
+</html>

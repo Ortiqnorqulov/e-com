@@ -1,0 +1,248 @@
+﻿{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/blog-post-right.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:27:15 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>{% trans 'Evara - blog' %}</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+</head>
+
+<body>
+{% include 'header.html' %}
+<main class="main">
+    <section class="mt-50 mb-50">
+        <div class="container custom">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="single-page pr-30">
+                        <div class="single-header style-2">
+                            <h1 class="mb-30">{{ blog_detail.title }}</h1>
+                            <div class="single-header-meta">
+
+                                <div class="entry-meta meta-1 font-xs mt-15 mb-15">
+                                    <span class="post-on has-dot">{{ blog_detail.create_at }}</span>
+                                </div>
+                                <div class="social-icons single-share">
+                                    <ul class="text-grey-5 d-inline-block">
+                                        <li><strong class="mr-10">{% trans 'Share this:' %}</strong></li>
+                                        {% for rs in info %}
+                                            <li class="social-facebook"><a href="{{ rs.facebook }}"><img
+                                                    src="{% static 'assets/imgs/theme/icons/icon-facebook.svg' %}"
+                                                    alt=""></a>
+                                            </li>
+                                            <li class="social-twitter"><a href="{{ rs.twitter }}"><img
+                                                    src="{% static 'assets/imgs/theme/icons/icon-twitter.svg' %}"
+                                                    alt=""></a>
+                                            </li>
+                                            <li class="social-instagram"><a href="{{ rs.instagram }}"><img
+                                                    src="{% static 'assets/imgs/theme/icons/icon-instagram.svg' %}"
+                                                    alt=""></a>
+                                            </li>
+                                            <li class="social-linkedin"><a href="{{ rs.telegram }}"><img
+                                                    src="{% static 'assets/imgs/theme/icons/icon-pinterest.svg' %}"
+                                                    alt=""></a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="single-thumbnail">
+                            <img src="{{ blog_detail.image.url }}" alt="">
+                        </figure>
+                        <div class="single-content">
+                            <p>{{ blog_detail.description }}</p>
+                        </div>
+                        <div class="entry-bottom mt-50 mb-30 wow fadeIn  animated"
+                             style="visibility: visible; animation-name: fadeIn;">
+                            <div class="social-icons single-share">
+                                <ul class="text-grey-5 d-inline-block">
+                                    <li><strong class="mr-10">{% trans 'Share this:' %}</strong></li>
+                                    {% for rs in info %}
+                                        <li class="social-facebook"><a href="{{ rs.facebook }}"><img
+                                                src="{% static 'assets/imgs/theme/icons/icon-facebook.svg' %}"
+                                                alt=""></a>
+                                        </li>
+                                        <li class="social-twitter"><a href="{{ rs.twitter }}"><img
+                                                src="{% static 'assets/imgs/theme/icons/icon-twitter.svg' %}"
+                                                alt=""></a>
+                                        </li>
+                                        <li class="social-instagram"><a href="{{ rs.instagram }}"><img
+                                                src="{% static 'assets/imgs/theme/icons/icon-instagram.svg' %}" alt=""></a>
+                                        </li>
+                                        <li class="social-linkedin"><a href="{{ rs.telegram }}"><img
+                                                src="{% static 'assets/imgs/theme/icons/icon-pinterest.svg' %}" alt=""></a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comments-area">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4 class="mb-30">{% trans 'Comments' %}</h4>
+                                    <div class="comment-list">
+                                        {% for rs in comment_blog %}
+                                            <div class="single-comment justify-content-between d-flex">
+                                                <div class="user justify-content-between d-flex">
+                                                    <div class="thumb text-center">
+                                                        <img src="{{ rs.client.image.url }}" alt="">
+                                                        <h6>{{ rs.name }}</h6>
+                                                    </div>
+                                                    <div class="desc">
+                                                        <p>{{ rs.comment }}</p>
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="d-flex align-items-center">
+                                                                <p class="font-xs mr-30">{{ rs.create_at }}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-form">
+                            <h4 class="mb-15">{% trans 'Leave a Comment' %}</h4>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12">
+                                    <form class="form-contact comment_form"
+                                          action="{% url 'comment_blog' blog_detail.id %}" id="commentForm"
+                                          method="post">
+                                        {% csrf_token %}
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control w-100" name="comment" id="comment"
+                                                              cols="30" rows="9" placeholder="{% trans 'Write Comment' %}"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" name="name" id="name" type="text"
+                                                           placeholder="{% trans 'Name' %}">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" name="email" id="email" type="email"
+                                                           placeholder="{% trans 'Email' %}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit"
+                                                    class="button button-contactForm">{% trans 'Post Comment' %}
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 primary-sidebar sticky-sidebar">
+                    <div class="widget-area">
+                        <!--Widget categories-->
+                        <div class="sidebar-widget widget_categories mb-40">
+                            <div class="widget-header position-relative mb-20 pb-10">
+                                <h5 class="widget-title">{% trans 'Categories' %}</h5>
+                            </div>
+                            <div class="post-block-list post-module-1 post-module-5">
+                                {% for rs in category %}
+                                    <ul>
+                                        <li class="cat-item cat-item-2"><a
+                                                href="{% url 'category_product' rs.id rs.slug %}">{{ rs.title }}</a>
+                                        </li>
+                                    </ul>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <!--Widget latest posts style 1-->
+                        <div class="sidebar-widget widget_alitheme_lastpost mb-20">
+                            <div class="widget-header position-relative mb-20 pb-10">
+                                <h5 class="widget-title">{% trans "Also don't forget to read this news!" %}</h5>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 sm-grid-content mb-30">
+                                    {% for rs in blog_two %}
+                                        <div class="post-thumb d-flex border-radius-5 img-hover-scale mb-15">
+                                            <a href="{% url 'blog_detail' rs.id %}">
+                                                <img src="{{ rs.image.url }}" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h4 class="post-title mb-10 text-limit-2-row">{{ rs.title }} </h4>
+                                            <div class="entry-meta meta-13 font-xxs color-grey">
+                                                <span class="post-on mr-10">{{ rs.create_at }}</span>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                                <!--Widget ads-->
+                                            {% for rs in adversiting %}
+                                <div class="banner-img wow fadeIn mb-45 animated d-lg-block d-none animated">
+                                        <img src="{{rs.image.url}}" alt="">
+                                        <div class="banner-text">
+                                            <span>{% trans 'For All' %}</span>
+                                            <h4>{{rs.title}}</h4>
+                                        </div>
+                                </div>
+                                            {% endfor %}
+                                <!--Widget Tags-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+{% include 'footer.html' %}
+
+<!-- Vendor JS-->
+<script src="{% static 'assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/slick.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.syotimer.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/wow.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery-ui.js' %}"></script>
+<script src="{% static 'assets/js/plugins/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'assets/js/plugins/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/select2.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/waypoints.js' %}"></script>
+<script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/images-loaded.js' %}"></script>
+<script src="{% static 'assets/js/plugins/isotope.js' %}"></script>
+<script src="{% static 'assets/js/plugins/scrollup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.vticker-min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.theia.sticky.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.elevatezoom.js' %}"></script>
+<!-- Template  JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+<script src="{% static 'assets/js/shop.js' %}"></script>
+</body>
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/blog-post-right.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:27:15 GMT -->
+</html>

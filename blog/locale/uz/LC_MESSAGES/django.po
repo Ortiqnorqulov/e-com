@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 23:04+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: blog/templates/blog.html:10 blog/templates/blog_details.html:10
+msgid "Evara - blog"
+msgstr "Yangiliklar"
+
+#: blog/templates/blog.html:35
+msgid "Our Blog"
+msgstr "Yangiliklar"
+
+#: blog/templates/blog.html:57
+msgid "Read more"
+msgstr "Ko'proq o'qish"
+
+#: blog/templates/blog_details.html:41 blog/templates/blog_details.html:74
+msgid "Share this:"
+msgstr "Ulashish"
+
+#: blog/templates/blog_details.html:97
+msgid "Comments"
+msgstr "Izohlar"
+
+#: blog/templates/blog_details.html:122
+msgid "Leave a Comment"
+msgstr "Izoh qoldiring"
+
+#: blog/templates/blog_details.html:133
+msgid "Write Comment"
+msgstr "Izoh yozing"
+
+#: blog/templates/blog_details.html:139
+msgid "Name"
+msgstr "Ism"
+
+#: blog/templates/blog_details.html:145
+msgid "Email"
+msgstr "Email"
+
+#: blog/templates/blog_details.html:151
+msgid "Post Comment"
+msgstr "Yuklash"
+
+#: blog/templates/blog_details.html:165
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: blog/templates/blog_details.html:180
+msgid "Also don't forget to read this news!"
+msgstr "Shuningdek, ushbu yangilikni o'qishni unutmang!"
+
+#: blog/templates/blog_details.html:203
+msgid "For All"
+msgstr "Barcha uchun"
+
+#: blog/templates/blog_details.html:204
+msgid "Buy right"
+msgstr "Sotib Oling"
+
+#: blog/templates/blog_details.html:204
+msgid "now"
+msgstr "Hoziroq"
+
+#: blog/templates/blog_details.html:205
+msgid "Shopping"
+msgstr "Xarid"

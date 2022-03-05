@@ -1,0 +1,1424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 23:04+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: user/templates/About_us/about_add.html:38
+msgid "About us"
+msgstr "Biz haqimizda"
+
+#: user/templates/About_us/about_add.html:45
+#: user/templates/About_us/about_edit.html:46
+#: user/templates/About_us/about_update.html:49
+#: user/templates/Adversiting/addadversiting.html:45
+#: user/templates/Adversiting/adversiting_edit.html:46
+#: user/templates/Adversiting/adversiting_update.html:48
+#: user/templates/Brands/add_brands.html:45
+#: user/templates/Brands/brand_edit.html:46
+#: user/templates/Brands/brand_update.html:48
+#: user/templates/Category/category_add.html:45
+#: user/templates/Category/category_update.html:48
+#: user/templates/Information/information_add.html:47
+#: user/templates/Information/information_update.html:47
+#: user/templates/News/news_add.html:45 user/templates/News/news_edit.html:46
+#: user/templates/News/news_update.html:48
+#: user/templates/Product/product_add.html:52
+#: user/templates/Product/product_update.html:52
+#: user/templates/Slider/slider_add.html:45
+#: user/templates/Slider/slider_edit.html:46
+#: user/templates/Slider/slider_update.html:48
+msgid "Title EN"
+msgstr "Sarlavha EN"
+
+#: user/templates/About_us/about_add.html:50
+#: user/templates/About_us/about_edit.html:52
+#: user/templates/About_us/about_update.html:54
+#: user/templates/Adversiting/addadversiting.html:50
+#: user/templates/Adversiting/adversiting_edit.html:52
+#: user/templates/Adversiting/adversiting_update.html:53
+#: user/templates/Brands/add_brands.html:50
+#: user/templates/Brands/brand_edit.html:52
+#: user/templates/Brands/brand_update.html:54
+#: user/templates/Category/category_add.html:50
+#: user/templates/Category/category_update.html:54
+#: user/templates/Information/information_add.html:52
+#: user/templates/Information/information_update.html:52
+#: user/templates/News/news_add.html:50 user/templates/News/news_edit.html:52
+#: user/templates/News/news_update.html:53
+#: user/templates/Product/product_add.html:57
+#: user/templates/Product/product_update.html:57
+#: user/templates/Slider/slider_add.html:50
+#: user/templates/Slider/slider_edit.html:52
+#: user/templates/Slider/slider_update.html:54
+msgid "Title RU"
+msgstr "Sarlavha RU"
+
+#: user/templates/About_us/about_add.html:55
+#: user/templates/About_us/about_edit.html:58
+#: user/templates/About_us/about_update.html:59
+#: user/templates/Adversiting/addadversiting.html:55
+#: user/templates/Adversiting/adversiting_edit.html:58
+#: user/templates/Adversiting/adversiting_update.html:58
+#: user/templates/Brands/add_brands.html:55
+#: user/templates/Brands/brand_edit.html:58
+#: user/templates/Brands/brand_update.html:60
+#: user/templates/Category/category_add.html:55
+#: user/templates/Category/category_update.html:60
+#: user/templates/Information/information_add.html:57
+#: user/templates/Information/information_update.html:57
+#: user/templates/News/news_add.html:55 user/templates/News/news_edit.html:58
+#: user/templates/News/news_update.html:58
+#: user/templates/Product/product_add.html:62
+#: user/templates/Product/product_update.html:62
+#: user/templates/Slider/slider_add.html:55
+#: user/templates/Slider/slider_edit.html:58
+#: user/templates/Slider/slider_update.html:60
+msgid "Title UZ"
+msgstr "Sarlavha UZ"
+
+#: user/templates/About_us/about_add.html:61
+#: user/templates/About_us/about_edit.html:63
+#: user/templates/Adversiting/addadversiting.html:61
+#: user/templates/Adversiting/adversiting_edit.html:65
+#: user/templates/Brands/add_brands.html:61
+#: user/templates/Brands/brand_edit.html:65
+#: user/templates/Category/category_add.html:61
+#: user/templates/Category/category_edit.html:71
+#: user/templates/Client/page-account.html:270
+#: user/templates/Client/user_update_client.html:121
+#: user/templates/Creator_add/add_user_permission.html:74
+#: user/templates/Details/detail_add.html:67
+#: user/templates/Details/detail_edit.html:67
+#: user/templates/Information/information_add.html:129
+#: user/templates/Information/information_update.html:141
+#: user/templates/News/news_add.html:61 user/templates/News/news_edit.html:65
+#: user/templates/Product/product_add.html:78
+#: user/templates/Product/product_edit.html:83
+#: user/templates/Slider/slider_add.html:61
+#: user/templates/Slider/slider_edit.html:65
+msgid "Image"
+msgstr "Rasm"
+
+#: user/templates/About_us/about_add.html:68
+#: user/templates/About_us/about_edit.html:70
+#: user/templates/Adversiting/addadversiting.html:68
+#: user/templates/Adversiting/adversiting_edit.html:72
+#: user/templates/Brands/add_brands.html:68
+#: user/templates/Brands/brand_edit.html:72
+#: user/templates/Category/category_add.html:68
+#: user/templates/Category/category_edit.html:78
+#: user/templates/Creator_add/add_user_permission.html:81
+#: user/templates/Details/detail_add.html:74
+#: user/templates/Details/detail_edit.html:74
+#: user/templates/Information/information_add.html:136
+#: user/templates/Information/information_add.html:149
+#: user/templates/Information/information_add.html:163
+#: user/templates/Information/information_edit.html:145
+#: user/templates/Information/information_edit.html:159
+#: user/templates/News/news_add.html:68 user/templates/News/news_edit.html:73
+#: user/templates/Product/product_add.html:85
+#: user/templates/Product/product_edit.html:90
+#: user/templates/Slider/slider_add.html:68
+#: user/templates/Slider/slider_edit.html:72
+msgid "Upload"
+msgstr "Yuklash"
+
+#: user/templates/About_us/about_add.html:75
+#: user/templates/About_us/about_edit.html:76
+#: user/templates/About_us/about_update.html:65
+#: user/templates/Adversiting/addadversiting.html:75
+#: user/templates/Adversiting/adversiting_edit.html:80
+#: user/templates/Adversiting/adversiting_update.html:64
+#: user/templates/Brands/add_brands.html:75
+#: user/templates/Brands/brand_edit.html:79
+#: user/templates/Brands/brand_update.html:66
+#: user/templates/Category/category_add.html:79
+#: user/templates/Category/category_edit.html:99
+#: user/templates/Category/category_update.html:73
+#: user/templates/Client/page-account.html:110
+#: user/templates/Contact/contact_edit.html:80
+#: user/templates/Contact/contact_get.html:81
+#: user/templates/Creator/creator.html:205 user/templates/Faq/faq_add.html:67
+#: user/templates/Faq/faq_edit.html:71 user/templates/Faq/faq_update.html:76
+#: user/templates/Information/information_update.html:136
+#: user/templates/News/news_add.html:76 user/templates/News/news_edit.html:81
+#: user/templates/News/news_update.html:64
+#: user/templates/News_comment/news_comment_edit.html:72
+#: user/templates/News_comment/news_comment_get.html:75
+#: user/templates/Orders/order_detail.html:66
+#: user/templates/Orders/order_detail.html:71
+#: user/templates/Orders/orders_page.html:68
+#: user/templates/Product/product_add.html:97
+#: user/templates/Product/product_edit.html:102
+#: user/templates/Product/product_update.html:85
+#: user/templates/Product_comment/product_comment_edit.html:90
+#: user/templates/Product_comment/product_comment_get.html:86
+#: user/templates/Slider/slider_add.html:75
+#: user/templates/Slider/slider_edit.html:79
+#: user/templates/Slider/slider_update.html:66
+msgid "Status"
+msgstr "Holat"
+
+#: user/templates/About_us/about_add.html:83
+#: user/templates/About_us/about_edit.html:82
+#: user/templates/About_us/about_update.html:70
+#: user/templates/Category/category_add.html:87
+#: user/templates/Category/category_update.html:79
+#: user/templates/Information/information_add.html:169
+#: user/templates/Information/information_update.html:121
+#: user/templates/News/news_add.html:84 user/templates/News/news_edit.html:89
+#: user/templates/News/news_update.html:69
+#: user/templates/Product/product_add.html:105
+#: user/templates/Product/product_update.html:90
+#: user/templates/Slider/slider_add.html:83
+#: user/templates/Slider/slider_edit.html:87
+msgid "Description EN"
+msgstr "Tavsif EN"
+
+#: user/templates/About_us/about_add.html:89
+#: user/templates/About_us/about_edit.html:87
+#: user/templates/About_us/about_update.html:77
+#: user/templates/Category/category_add.html:93
+#: user/templates/Category/category_update.html:87
+#: user/templates/Information/information_add.html:175
+#: user/templates/Information/information_update.html:126
+#: user/templates/News/news_add.html:90 user/templates/News/news_edit.html:95
+#: user/templates/News/news_update.html:76
+#: user/templates/Product/product_add.html:111
+#: user/templates/Product/product_update.html:96
+#: user/templates/Slider/slider_add.html:89
+#: user/templates/Slider/slider_edit.html:93
+msgid "Description RU"
+msgstr "Tavsif RU"
+
+#: user/templates/About_us/about_add.html:95
+#: user/templates/About_us/about_edit.html:92
+#: user/templates/About_us/about_update.html:83
+#: user/templates/Category/category_add.html:99
+#: user/templates/Category/category_update.html:94
+#: user/templates/Information/information_add.html:181
+#: user/templates/Information/information_update.html:131
+#: user/templates/News/news_add.html:96 user/templates/News/news_edit.html:101
+#: user/templates/News/news_update.html:82
+#: user/templates/Product/product_add.html:117
+#: user/templates/Product/product_update.html:102
+#: user/templates/Slider/slider_add.html:95
+#: user/templates/Slider/slider_edit.html:99
+msgid "Description UZ"
+msgstr "Tavsif UZ"
+
+#: user/templates/About_us/about_add.html:99
+#: user/templates/About_us/about_edit.html:95
+#: user/templates/Adversiting/addadversiting.html:80
+#: user/templates/Adversiting/adversiting_edit.html:85
+#: user/templates/Brands/add_brands.html:81
+#: user/templates/Brands/brand_edit.html:85
+#: user/templates/Category/category_add.html:104
+#: user/templates/Category/category_edit.html:105
+#: user/templates/Client/user_password_client.html:59
+#: user/templates/Client/user_update_client.html:129
+#: user/templates/Creator_add/add_user_permission.html:87
+#: user/templates/Details/detail_add.html:80
+#: user/templates/Details/detail_edit.html:80
+#: user/templates/Faq/faq_add.html:91 user/templates/Faq/faq_edit.html:92
+#: user/templates/Information/information_add.html:193
+#: user/templates/Information/information_edit.html:195
+#: user/templates/News/news_add.html:100 user/templates/News/news_edit.html:105
+#: user/templates/Product/product_add.html:121
+#: user/templates/Product/product_edit.html:123
+#: user/templates/Product_comment/product_comment_edit.html:96
+#: user/templates/Slider/slider_add.html:99
+#: user/templates/Slider/slider_edit.html:103
+msgid "Submit"
+msgstr "Qo'shish"
+
+#: user/templates/About_us/about_edit.html:38
+#: user/templates/Menu/dashbourd_left_menu.html:168
+#: user/templates/News/news_add.html:38 user/templates/News/news_edit.html:38
+#: user/templates/News/news_update.html:39
+#: user/templates/News_comment/news_comment_edit.html:46
+#: user/templates/News_comment/news_comment_get.html:49
+msgid "News"
+msgstr "Yangiliklar"
+
+#: user/templates/About_us/about_update.html:34
+#: user/templates/Adversiting/adversiting_update.html:34
+#: user/templates/Brands/brand_update.html:34
+#: user/templates/Category/category_update.html:33
+#: user/templates/Contact/contact_edit.html:33
+#: user/templates/Contact/contact_get.html:34
+#: user/templates/Creator_add/get_users.html:34
+#: user/templates/News/news_update.html:33
+#: user/templates/News_comment/news_comment_get.html:34
+#: user/templates/Newsletter/newsletter_get.html:34
+#: user/templates/Orders/orders_page.html:36
+#: user/templates/Slider/slider_update.html:34
+msgid "All clean"
+msgstr "Hammasini tozalang"
+
+#: user/templates/About_us/about_update.html:40
+#: user/templates/Creator_add/get_users.html:65
+#: user/templates/Menu/dashbourd_left_menu.html:198
+msgid "About"
+msgstr "Haqida"
+
+#: user/templates/About_us/about_update.html:95
+#: user/templates/Adversiting/adversiting_update.html:74
+#: user/templates/Brands/brand_update.html:78
+#: user/templates/Category/category_update.html:101
+#: user/templates/Client/page-account.html:189
+#: user/templates/Client/page-account.html:204
+#: user/templates/Contact/contact_get.html:98
+#: user/templates/Creator_add/get_users.html:78
+#: user/templates/Details/detail_update.html:71
+#: user/templates/Faq/faq_update.html:97
+#: user/templates/Information/information_update.html:148
+#: user/templates/News/news_update.html:88
+#: user/templates/News_comment/news_comment_get.html:93
+#: user/templates/Product/product_update.html:108
+#: user/templates/Product_comment/product_comment_get.html:104
+#: user/templates/Slider/slider_update.html:78
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#: user/templates/About_us/about_update.html:98
+#: user/templates/Adversiting/adversiting_update.html:77
+#: user/templates/Brands/brand_update.html:81
+#: user/templates/Category/category_update.html:104
+#: user/templates/Client/page_order_detail.html:89
+#: user/templates/Contact/contact_get.html:101
+#: user/templates/Creator_add/get_users.html:82
+#: user/templates/Details/detail_update.html:74
+#: user/templates/Faq/faq_update.html:100
+#: user/templates/Information/information_update.html:153
+#: user/templates/News/news_update.html:91
+#: user/templates/News_comment/news_comment_get.html:96
+#: user/templates/Newsletter/newsletter_get.html:70
+#: user/templates/Orders/order_detail.html:116
+#: user/templates/Product/product_update.html:111
+#: user/templates/Product_comment/product_comment_get.html:107
+#: user/templates/Slider/slider_update.html:81
+msgid "Delete"
+msgstr "O'chirish"
+
+#: user/templates/Adversiting/addadversiting.html:38
+msgid "Add Advertising"
+msgstr "Reklama qo'shish"
+
+#: user/templates/Adversiting/adversiting_edit.html:38
+msgid "Advertising Edit"
+msgstr "Reklamani tahrirlash"
+
+#: user/templates/Adversiting/adversiting_update.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:223
+msgid "Advertising"
+msgstr "Reklama"
+
+#: user/templates/Authenticate/register_creator.html:29
+#, fuzzy
+#| msgid "Create at"
+msgid "Create admin"
+msgstr "Yaratildi"
+
+#: user/templates/Authenticate/register_creator.html:30
+msgid "Admin can change everything!"
+msgstr "Admin hamma narsalarni o'zgartirishi mumkin!"
+
+#: user/templates/Authenticate/register_creator.html:34
+#: user/templates/Authenticate/register_creator.html:42
+msgid "Username"
+msgstr "Foydalanuvchi nomi"
+
+#: user/templates/Authenticate/register_creator.html:46
+#: user/templates/Authenticate/register_creator.html:54
+#: user/templates/Client/page-account.html:101
+#: user/templates/Client/user_update_client.html:78
+#: user/templates/Creator/creator.html:196
+#: user/templates/Orders/order_detail.html:53
+#: user/templates/Orders/orders_page.html:55
+msgid "First Name"
+msgstr "Ism"
+
+#: user/templates/Authenticate/register_creator.html:58
+#: user/templates/Authenticate/register_creator.html:66
+#: user/templates/Client/page-account.html:230
+#: user/templates/Client/user_update_client.html:84
+#: user/templates/Orders/order_detail.html:54
+#: user/templates/Orders/orders_page.html:56
+msgid "Lastname"
+msgstr "Familiya"
+
+#: user/templates/Authenticate/register_creator.html:70
+#: user/templates/Authenticate/register_creator.html:78
+#: user/templates/Client/page-account.html:243
+#: user/templates/Client/user_update_client.html:91
+#: user/templates/Contact/contact_edit.html:61
+#: user/templates/Contact/contact_get.html:62
+#: user/templates/Creator_add/get_users.html:111
+#: user/templates/Information/information_add.html:99
+#: user/templates/Information/information_edit.html:106
+#: user/templates/Information/information_update.html:95
+#: user/templates/News_comment/news_comment_edit.html:60
+#: user/templates/News_comment/news_comment_get.html:63
+#: user/templates/Newsletter/newsletter_get.html:50
+#: user/templates/Orders/order_detail.html:56
+#: user/templates/Orders/orders_page.html:58
+#: user/templates/Product_comment/product_comment_edit.html:58
+#: user/templates/Product_comment/product_comment_get.html:62
+msgid "Email"
+msgstr "Email"
+
+#: user/templates/Authenticate/register_creator.html:82
+#: user/templates/Authenticate/register_creator.html:91
+#, fuzzy
+#| msgid "Change Password"
+msgid "Password"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Authenticate/register_creator.html:95
+#: user/templates/Authenticate/register_creator.html:104
+#, fuzzy
+#| msgid "Change Password"
+msgid "Confirm Password"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Authenticate/user_password.html:8
+#, fuzzy
+#| msgid "Change Password"
+msgid "Reset Password"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Authenticate/user_password.html:10
+#: user/templates/Authenticate/user_update.html:11
+#: user/templates/Reset_password/password_reset_complete.html:9
+msgid "Evara - home"
+msgstr "home"
+
+#: user/templates/Brands/add_brands.html:38
+#: user/templates/Menu/dashbourd_left_menu.html:81
+#, fuzzy
+#| msgid "Add Faq"
+msgid "Add Brand"
+msgstr "Kbs qo'shish"
+
+#: user/templates/Brands/brand_edit.html:38
+#, fuzzy
+#| msgid "Order"
+msgid "Edit Brand"
+msgstr "Buyurtma"
+
+#: user/templates/Brands/brand_update.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:61
+#: user/templates/Slider/slider_add.html:38
+#: user/templates/Slider/slider_edit.html:38
+#: user/templates/Slider/slider_update.html:40
+msgid "Slider"
+msgstr "Slayder"
+
+#: user/templates/Category/category_add.html:38
+#: user/templates/Category/category_edit.html:38
+#: user/templates/Category/category_update.html:39
+#: user/templates/Creator/creator.html:50
+#: user/templates/Creator/creator.html:52
+#: user/templates/Creator/creator.html:78
+#: user/templates/Menu/dashbourd_left_menu.html:96
+#: user/templates/Product/product_add.html:45
+#: user/templates/Product/product_edit.html:45
+#: user/templates/Product/product_update.html:47
+#: user/templates/Product_gallery/gallery_id.html:65
+msgid "Category"
+msgstr "Kategoriya"
+
+#: user/templates/Category/category_add.html:74
+#: user/templates/Category/category_edit.html:65
+#: user/templates/Category/category_update.html:66
+#: user/templates/Product/product_add.html:92
+#: user/templates/Product/product_edit.html:96
+#: user/templates/Product/product_update.html:80
+msgid "Slug"
+msgstr "Slug"
+
+#: user/templates/Category/category_edit.html:46
+#: user/templates/Information/information_edit.html:45
+#: user/templates/Product/product_edit.html:52
+msgid "Title [EN]"
+msgstr "Sarlavha [EN]"
+
+#: user/templates/Category/category_edit.html:52
+#: user/templates/Information/information_edit.html:51
+#: user/templates/Product/product_edit.html:58
+msgid "Title [RU]"
+msgstr "Sarlavha [RU]"
+
+#: user/templates/Category/category_edit.html:58
+#: user/templates/Information/information_edit.html:57
+#: user/templates/Product/product_edit.html:64
+msgid "Title [UZ]"
+msgstr "Sarlavha [UZ]"
+
+#: user/templates/Category/category_edit.html:84
+#: user/templates/Information/information_edit.html:166
+#: user/templates/Product/product_edit.html:110
+msgid "Description [EN]"
+msgstr "Tavsif [EN]"
+
+#: user/templates/Category/category_edit.html:89
+#: user/templates/Information/information_edit.html:173
+#: user/templates/Product/product_edit.html:115
+msgid "Description [RU]"
+msgstr "Tavsif [RU]"
+
+#: user/templates/Category/category_edit.html:94
+#: user/templates/Information/information_edit.html:180
+#: user/templates/Product/product_edit.html:120
+msgid "Description [UZ]"
+msgstr "Tavsif [UZ]"
+
+#: user/templates/Client/page-account.html:10
+#: user/templates/Client/user_password_client.html:10
+#, fuzzy
+#| msgid "Evara - home"
+msgid "Evara - My Account"
+msgstr "home"
+
+#: user/templates/Client/page-account.html:43
+#: user/templates/Creator/creator.html:35
+#: user/templates/Menu/dashbourd_left_menu.html:29
+#: user/templates/Menu/navbar_client.html:7
+#: user/templates/Navbar/navbar_client.html:7
+#: user/templates/Searched/dashbourd_search.html:35
+msgid "Dashboard"
+msgstr "Boshqaruv paneli"
+
+#: user/templates/Client/page-account.html:48
+#: user/templates/Creator/creator.html:184
+#: user/templates/Menu/dashbourd_left_menu.html:271
+msgid "Orders"
+msgstr "Buyurtmalar"
+
+#: user/templates/Client/page-account.html:54
+#: user/templates/Client/page-account.html:153
+#: user/templates/Menu/dashbourd_left_menu.html:313
+#: user/templates/Menu/navbar_client.html:20
+#: user/templates/Navbar/navbar_client.html:20
+msgid "Change Password"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Client/page-account.html:59
+#, fuzzy
+#| msgid "Address"
+msgid "My Address"
+msgstr "Manzil"
+
+#: user/templates/Client/page-account.html:64
+#, fuzzy
+#| msgid "Account Settings"
+msgid "Account details"
+msgstr "Akkaunt sozlamasi"
+
+#: user/templates/Client/page-account.html:68
+#: user/templates/Header/header_client.html:48
+#: user/templates/Menu/dashbourd_left_menu.html:320
+msgid "Logout"
+msgstr "Chiqish"
+
+#: user/templates/Client/page-account.html:79
+msgid "Hello"
+msgstr ""
+
+#: user/templates/Client/page-account.html:83
+msgid ""
+"From your account dashboard you can easily check details, view your recent "
+"orders, manage your shipping and billing addresses and edit your password "
+"and accountdetails."
+msgstr "Boshqaruv panelidan ma'lumotlarni osongina tekshirishingiz, so'nggi buyurtmalaringizni ko'rishingiz, etkazib berish va hisob-kitob manzillaringizni boshqarishingiz, parol va hisob ma'lumotlarini tahrirlashingiz mumkin."
+
+#: user/templates/Client/page-account.html:90
+#, fuzzy
+#| msgid "Product Gallery"
+msgid "Your Orders"
+msgstr "Mahsulot galereyasi"
+
+#: user/templates/Client/page-account.html:98
+#: user/templates/Creator/creator.html:193
+#: user/templates/Orders/order_detail.html:42
+msgid "Code"
+msgstr "Kod"
+
+#: user/templates/Client/page-account.html:104
+#: user/templates/Client/page-account.html:236
+#: user/templates/Client/user_update_client.html:97
+#: user/templates/Creator/creator.html:199
+#: user/templates/Creator_add/get_users.html:119
+#: user/templates/Information/information_add.html:93
+#: user/templates/Information/information_edit.html:100
+#: user/templates/Information/information_update.html:90
+#: user/templates/Orders/order_detail.html:55
+#: user/templates/Orders/orders_page.html:57
+msgid "Phone"
+msgstr "Telefon"
+
+#: user/templates/Client/page-account.html:107
+#: user/templates/Creator/creator.html:202
+#: user/templates/Orders/order_detail.html:88
+#: user/templates/Orders/order_detail.html:110
+#: user/templates/Orders/orders_page.html:79
+#: user/templates/Orders/orders_page.html:101
+msgid "Total"
+msgstr "Jami"
+
+#: user/templates/Client/page-account.html:114
+#: user/templates/Creator/creator.html:209
+#: user/templates/Details/detail_add.html:39
+#: user/templates/Details/detail_edit.html:39
+#: user/templates/Details/detail_update.html:39
+msgid "Details"
+msgstr "Tafsilotlar"
+
+#: user/templates/Client/page-account.html:161
+#: user/templates/Client/user_password_client.html:41
+#, fuzzy
+#| msgid "Change Password"
+msgid "Old Password"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Client/page-account.html:169
+#, fuzzy
+#| msgid "Change Password"
+msgid "Change Password "
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Client/page-account.html:182
+#, fuzzy
+#| msgid "ip address"
+msgid "Billing Address"
+msgstr "ip manzil"
+
+#: user/templates/Client/page-account.html:197
+#, fuzzy
+#| msgid "ip address"
+msgid "Shipping Address"
+msgstr "ip manzil"
+
+#: user/templates/Client/page-account.html:202
+#, fuzzy
+#| msgid "Phone"
+msgid "Phone:"
+msgstr "Telefon"
+
+#: user/templates/Client/page-account.html:215
+#, fuzzy
+#| msgid "Account Settings"
+msgid "Account Details"
+msgstr "Akkaunt sozlamasi"
+
+#: user/templates/Client/page-account.html:223
+#: user/templates/Client/user_update_client.html:72
+#, fuzzy
+#| msgid "Username"
+msgid "User Name"
+msgstr "Foydalanuvchi nomi"
+
+#: user/templates/Client/page-account.html:250
+#: user/templates/Client/user_update_client.html:114
+#: user/templates/Creator_add/get_users.html:131
+#: user/templates/Information/information_add.html:62
+#: user/templates/Information/information_edit.html:63
+#: user/templates/Information/information_update.html:62
+#: user/templates/Orders/order_detail.html:57
+#: user/templates/Orders/orders_page.html:59
+msgid "Country"
+msgstr "Mamlakat"
+
+#: user/templates/Client/page-account.html:257
+#: user/templates/Client/user_update_client.html:108
+#: user/templates/Creator_add/get_users.html:139
+#: user/templates/Information/information_add.html:67
+#: user/templates/Information/information_edit.html:69
+#: user/templates/Information/information_update.html:67
+#: user/templates/Orders/order_detail.html:58
+#: user/templates/Orders/orders_page.html:60
+msgid "City"
+msgstr "Shahar"
+
+#: user/templates/Client/page-account.html:263
+#: user/templates/Client/user_update_client.html:102
+#: user/templates/Creator_add/get_users.html:147
+#: user/templates/Orders/order_detail.html:59
+#: user/templates/Orders/orders_page.html:61
+msgid "Address"
+msgstr "Manzil"
+
+#: user/templates/Client/page-account.html:281
+msgid "Save"
+msgstr ""
+
+#: user/templates/Client/page_order_detail.html:10
+#, fuzzy
+#| msgid "Product Details"
+msgid "Evara - Order Detail"
+msgstr "Mahsulot tafsilotlari"
+
+#: user/templates/Client/page_order_detail.html:42
+#, fuzzy
+#| msgid "Product Gallery"
+msgid "Product Name"
+msgstr "Mahsulot galereyasi"
+
+#: user/templates/Client/page_order_detail.html:53
+#, fuzzy
+#| msgid "Product Gallery"
+msgid "Product color"
+msgstr "Mahsulot galereyasi"
+
+#: user/templates/Client/page_order_detail.html:60
+#: user/templates/Details/detail_add.html:60
+#: user/templates/Details/detail_edit.html:60
+#: user/templates/Details/detail_update.html:59
+#: user/templates/Orders/order_detail.html:89
+#: user/templates/Orders/orders_page.html:80
+msgid "Size"
+msgstr "O'lcham"
+
+#: user/templates/Client/page_order_detail.html:67
+#, fuzzy
+#| msgid "Product"
+msgid "Product Price"
+msgstr "Mahsulot"
+
+#: user/templates/Client/page_order_detail.html:73
+#: user/templates/Orders/order_detail.html:87
+#: user/templates/Orders/orders_page.html:78
+msgid "Quantity"
+msgstr "Soni"
+
+#: user/templates/Client/page_order_detail.html:80
+#, fuzzy
+#| msgid "Old Price"
+msgid "Total Price"
+msgstr "Eski narx"
+
+#: user/templates/Client/user_password_client.html:47
+#, fuzzy
+#| msgid "Change Password"
+msgid "New Password 1"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Client/user_password_client.html:53
+#, fuzzy
+#| msgid "Change Password"
+msgid "New Password 2"
+msgstr "Kodni o'zgartirish"
+
+#: user/templates/Client/user_update_client.html:40
+msgid "Shop"
+msgstr "Harid"
+
+#: user/templates/Client/user_update_client.html:53
+msgid "Edit profil"
+msgstr "Profilni o'zgartirish"
+
+#: user/templates/Client/user_update_client.html:64
+#, fuzzy
+#| msgid "Update Slider"
+msgid "Update Client"
+msgstr "Slayderni yangilash"
+
+#: user/templates/Contact/contact_edit.html:39
+#: user/templates/Creator/creator.html:65
+#: user/templates/Creator/creator.html:67
+msgid "Contact"
+msgstr "Aloqa"
+
+#: user/templates/Contact/contact_edit.html:48
+#: user/templates/Contact/contact_get.html:49
+#: user/templates/Creator_add/get_users.html:103
+#: user/templates/News_comment/news_comment_edit.html:53
+#: user/templates/News_comment/news_comment_get.html:56
+#: user/templates/Product_comment/product_comment_edit.html:52
+#: user/templates/Product_comment/product_comment_get.html:55
+msgid "Name"
+msgstr "Ism"
+
+#: user/templates/Contact/contact_edit.html:54
+#: user/templates/Contact/contact_get.html:55
+#, fuzzy
+#| msgid "Username"
+msgid "Surname"
+msgstr "Foydalanuvchi nomi"
+
+#: user/templates/Contact/contact_edit.html:68
+#: user/templates/Contact/contact_get.html:69
+#: user/templates/Product_comment/product_comment_edit.html:65
+#: user/templates/Product_comment/product_comment_get.html:68
+msgid "Subject"
+msgstr "Mavzu"
+
+#: user/templates/Contact/contact_edit.html:74
+#: user/templates/Contact/contact_get.html:75
+msgid "Message"
+msgstr "Xabar"
+
+#: user/templates/Contact/contact_edit.html:87
+#: user/templates/Newsletter/newsletter_get.html:57
+msgid "IP"
+msgstr "IP"
+
+#: user/templates/Contact/contact_edit.html:93
+#: user/templates/Newsletter/newsletter_get.html:63
+#, fuzzy
+#| msgid "Create at"
+msgid "Create_at"
+msgstr "Yaratildi"
+
+#: user/templates/Contact/contact_get.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:285
+msgid "Contact_us messages"
+msgstr "Tezkor aloqa"
+
+#: user/templates/Contact/contact_get.html:87
+#: user/templates/News_comment/news_comment_edit.html:79
+#: user/templates/News_comment/news_comment_get.html:81
+msgid "ip"
+msgstr "ip"
+
+#: user/templates/Contact/contact_get.html:93
+#: user/templates/Creator_add/get_users.html:155
+#: user/templates/News_comment/news_comment_edit.html:85
+#: user/templates/News_comment/news_comment_get.html:87
+#: user/templates/Orders/order_detail.html:65
+#: user/templates/Orders/orders_page.html:67
+#: user/templates/Product_comment/product_comment_edit.html:78
+#: user/templates/Product_comment/product_comment_get.html:98
+#: user/templates/Product_gallery/gallery_id.html:71
+msgid "Create at"
+msgstr "Yaratildi"
+
+#: user/templates/Creator/creator.html:45
+msgid "New users"
+msgstr "Yangi foydalanuvchilar"
+
+#: user/templates/Creator/creator.html:47
+msgid "New Users"
+msgstr "Yangi foydalanuvchilar"
+
+#: user/templates/Creator/creator.html:55
+#: user/templates/Creator/creator.html:57
+#: user/templates/Creator/creator.html:128
+#: user/templates/Details/detail_add.html:46
+#: user/templates/Details/detail_edit.html:46
+#: user/templates/Details/detail_update.html:53
+#: user/templates/Menu/dashbourd_left_menu.html:120
+#: user/templates/Orders/order_detail.html:85
+#: user/templates/Orders/orders_page.html:76
+#: user/templates/Product/product_add.html:38
+#: user/templates/Product/product_edit.html:38
+#: user/templates/Product/product_update.html:39
+#: user/templates/Product_comment/product_comment_edit.html:46
+#: user/templates/Product_comment/product_comment_get.html:48
+#: user/templates/Product_gallery/gallery_id.html:47
+#: user/templates/Searched/dashbourd_search.html:43
+msgid "Product"
+msgstr "Mahsulot"
+
+#: user/templates/Creator/creator.html:60
+#: user/templates/Creator/creator.html:62
+msgid "Order"
+msgstr "Buyurtma"
+
+#: user/templates/Creator/creator.html:80
+#: user/templates/Creator/creator.html:130
+#: user/templates/Creator/creator.html:186
+#: user/templates/Searched/dashbourd_search.html:45
+msgid "Count"
+msgstr "Hisoblash"
+
+#: user/templates/Creator/creator.html:87
+#: user/templates/Creator/creator.html:149
+#: user/templates/Searched/dashbourd_search.html:64
+msgid "CATEGORY"
+msgstr "KATEGORIYA"
+
+#: user/templates/Creator/creator.html:90
+#: user/templates/Creator/creator.html:140
+#: user/templates/Searched/dashbourd_search.html:55
+msgid "TITLE"
+msgstr "SARLAVHA"
+
+#: user/templates/Creator/creator.html:93
+msgid "STATUS"
+msgstr "HOLAT"
+
+#: user/templates/Creator/creator.html:96
+msgid "CREATE AT"
+msgstr "YARATILDI"
+
+#: user/templates/Creator/creator.html:137
+#: user/templates/Searched/dashbourd_search.html:52
+msgid "PRODUCT"
+msgstr "MAHSULOT"
+
+#: user/templates/Creator/creator.html:143
+#: user/templates/Searched/dashbourd_search.html:58
+msgid "OLD PRICE"
+msgstr "ESKI NARX"
+
+#: user/templates/Creator/creator.html:146
+#: user/templates/Searched/dashbourd_search.html:61
+msgid "SELL PRICE"
+msgstr "SOTISH NARXI"
+
+#: user/templates/Creator_add/add_user_permission.html:38
+msgid "User Permission"
+msgstr "Foydalanuvchi ruxsati"
+
+#: user/templates/Creator_add/add_user_permission.html:45
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#: user/templates/Creator_add/get_users.html:40
+msgid "Clients"
+msgstr "Mijozlar"
+
+#: user/templates/Creator_add/get_users.html:70
+msgid "Timeline"
+msgstr "Vaqt jadvali"
+
+#: user/templates/Creator_add/get_users.html:95
+#, fuzzy
+#| msgid "User"
+msgid "User Id"
+msgstr "Foydalanuvchi"
+
+#: user/templates/Creator_add/get_users.html:163
+msgid "Your Bio"
+msgstr "Biografiya"
+
+#: user/templates/Details/detail_add.html:54
+#: user/templates/Details/detail_edit.html:54
+msgid "Collor"
+msgstr "Rang"
+
+#: user/templates/Details/detail_update.html:65
+msgid "Color"
+msgstr ""
+
+#: user/templates/Faq/faq_add.html:38 user/templates/Faq/faq_edit.html:38
+#: user/templates/Faq/faq_update.html:41
+#: user/templates/Menu/dashbourd_left_menu.html:247
+msgid "FAQ"
+msgstr "KBS"
+
+#: user/templates/Faq/faq_add.html:45 user/templates/Faq/faq_edit.html:45
+#: user/templates/Faq/faq_update.html:50
+msgid "Ordernumber"
+msgstr "Buyurtma raqami"
+
+#: user/templates/Faq/faq_add.html:51 user/templates/Faq/faq_edit.html:52
+#: user/templates/Faq/faq_update.html:57
+msgid "Question EN"
+msgstr "Savol EN"
+
+#: user/templates/Faq/faq_add.html:56 user/templates/Faq/faq_edit.html:58
+#: user/templates/Faq/faq_update.html:63
+msgid "Question RU"
+msgstr "Savol RU"
+
+#: user/templates/Faq/faq_add.html:61 user/templates/Faq/faq_edit.html:64
+#: user/templates/Faq/faq_update.html:69
+msgid "Question UZ"
+msgstr "Savol UZ"
+
+#: user/templates/Faq/faq_add.html:75 user/templates/Faq/faq_edit.html:79
+#: user/templates/Faq/faq_update.html:81
+msgid "Answer EN"
+msgstr "Javob EN"
+
+#: user/templates/Faq/faq_add.html:81 user/templates/Faq/faq_edit.html:84
+#: user/templates/Faq/faq_update.html:87
+msgid "Answer RU"
+msgstr "Javob RU"
+
+#: user/templates/Faq/faq_add.html:87 user/templates/Faq/faq_edit.html:89
+#: user/templates/Faq/faq_update.html:92
+msgid "Answer UZ"
+msgstr "Javob UZ"
+
+#: user/templates/Header/header_client.html:46
+msgid "Edit Profile"
+msgstr "Profilni o'zgartirish"
+
+#: user/templates/Information/information_add.html:34
+#: user/templates/Information/information_edit.html:39
+#: user/templates/Information/information_update.html:40
+msgid "Informatsion"
+msgstr "Axborot"
+
+#: user/templates/Information/information_add.html:73
+#: user/templates/Information/information_update.html:72
+msgid "Address EN"
+msgstr "Manzil EN"
+
+#: user/templates/Information/information_add.html:78
+#: user/templates/Information/information_update.html:78
+msgid "Address RU"
+msgstr "Manzil RU"
+
+#: user/templates/Information/information_add.html:83
+#: user/templates/Information/information_update.html:84
+msgid "Address UZ"
+msgstr "Manzil UZ"
+
+#: user/templates/Information/information_add.html:88
+#: user/templates/Information/information_edit.html:94
+#, fuzzy
+#| msgid "Information"
+msgid "Location"
+msgstr "Ma `lumot"
+
+#: user/templates/Information/information_add.html:105
+#: user/templates/Information/information_edit.html:112
+#: user/templates/Information/information_update.html:100
+msgid "Telegram"
+msgstr "Telegram"
+
+#: user/templates/Information/information_add.html:111
+#: user/templates/Information/information_edit.html:118
+#: user/templates/Information/information_update.html:105
+msgid "Instagram"
+msgstr "Instagram"
+
+#: user/templates/Information/information_add.html:117
+#: user/templates/Information/information_edit.html:124
+#: user/templates/Information/information_update.html:110
+msgid "Facebook"
+msgstr "Facebook"
+
+#: user/templates/Information/information_add.html:123
+#: user/templates/Information/information_edit.html:130
+#: user/templates/Information/information_update.html:115
+msgid "Twitter"
+msgstr "Twitter"
+
+#: user/templates/Information/information_add.html:142
+#: user/templates/Information/information_edit.html:137
+#, fuzzy
+#| msgid "Logout"
+msgid "Logo"
+msgstr "Chiqish"
+
+#: user/templates/Information/information_add.html:156
+#: user/templates/Information/information_edit.html:151
+msgid "Icon"
+msgstr ""
+
+#: user/templates/Information/information_edit.html:75
+msgid "Address [EN]"
+msgstr "Manzil [EN]"
+
+#: user/templates/Information/information_edit.html:81
+msgid "Address [RU]"
+msgstr "Manzil [RU]"
+
+#: user/templates/Information/information_edit.html:87
+msgid "Address [UZ]"
+msgstr "Manzil [UZ]"
+
+#: user/templates/Menu/dashbourd_left_menu.html:18
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: user/templates/Menu/dashbourd_left_menu.html:37
+msgid "Information"
+msgstr "Ma `lumot"
+
+#: user/templates/Menu/dashbourd_left_menu.html:45
+msgid "Add Info"
+msgstr "Ma'lumot qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:51
+msgid "Update Info"
+msgstr "Ma'lumotni yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:69
+msgid "Add Slider"
+msgstr "Slayder qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:75
+msgid "Update Slider"
+msgstr "Slayderni yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:87
+#, fuzzy
+#| msgid "Update Info"
+msgid "Update Brand"
+msgstr "Ma'lumotni yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:104
+msgid "Add Category"
+msgstr "Kategoriya qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:110
+msgid "Update Category"
+msgstr "Kategoriyani yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:128
+msgid "Add Product"
+msgstr "Mahsulot qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:134
+msgid "Update Product"
+msgstr "Mahsulotni yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:140
+msgid "Add Detail Product"
+msgstr "Mahsulot tavsilotini qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:146
+msgid "Update Detail Product"
+msgstr "Mahsulot tavsilotini yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:152
+msgid "Product Gallery"
+msgstr "Mahsulot galereyasi"
+
+#: user/templates/Menu/dashbourd_left_menu.html:158
+#: user/templates/Product_comment/product_comment_edit.html:38
+#: user/templates/Product_comment/product_comment_get.html:39
+msgid "Comment Product"
+msgstr "Mahsulotlar Izohi"
+
+#: user/templates/Menu/dashbourd_left_menu.html:176
+msgid "Add News"
+msgstr "Yangiliklar qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:182
+msgid "News Update"
+msgstr "Yangiliklarni yangilanishi"
+
+#: user/templates/Menu/dashbourd_left_menu.html:188
+#: user/templates/News_comment/news_comment_edit.html:37
+#: user/templates/News_comment/news_comment_get.html:40
+msgid "Comment News"
+msgstr "Yangiliklar Izohi"
+
+#: user/templates/Menu/dashbourd_left_menu.html:206
+msgid "Add Aboutus"
+msgstr "'Biz haqimizda' qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:212
+msgid "About Update"
+msgstr "'Biz haqimizda' yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:231
+msgid "Add Adversiting"
+msgstr "Reklama qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:237
+#, fuzzy
+#| msgid "News Update"
+msgid "Adversiting Update"
+msgstr "Yangiliklarni yangilanishi"
+
+#: user/templates/Menu/dashbourd_left_menu.html:255
+msgid "Add Faq"
+msgstr "Kbs qo'shish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:261
+msgid "Faq Update"
+msgstr "Kbs yangilash"
+
+#: user/templates/Menu/dashbourd_left_menu.html:278
+#: user/templates/Newsletter/newsletter_get.html:40
+msgid "Newsletter"
+msgstr "Axborot tarqatish"
+
+#: user/templates/Menu/dashbourd_left_menu.html:292
+msgid "Users"
+msgstr "Foydalanuvchilar"
+
+#: user/templates/Menu/dashbourd_left_menu.html:299
+msgid "Create Creator"
+msgstr "Yaratuvchi yarating"
+
+#: user/templates/Menu/dashbourd_left_menu.html:306
+msgid "Update Admin"
+msgstr "Administratorni yangilang"
+
+#: user/templates/Menu/dashbourd_theme.html:8
+msgid "SIDEBAR SKINS"
+msgstr "Yon paneldagi ko'rinish"
+
+#: user/templates/Menu/dashbourd_theme.html:11
+msgid "Light"
+msgstr "Yorqin"
+
+#: user/templates/Menu/dashbourd_theme.html:15
+msgid "Dark"
+msgstr "Qorong'i"
+
+#: user/templates/Menu/dashbourd_theme.html:17
+msgid "HEADER SKINS"
+msgstr "Sarlavha ko'rinishi "
+
+#: user/templates/Menu/dashbourd_top_menu.html:27
+msgid "Search for items..."
+msgstr "Elementlarni qidirish..."
+
+#: user/templates/Menu/dashbourd_top_menu.html:36
+msgid "+ Create CATEGORY"
+msgstr "+ Kategoriya"
+
+#: user/templates/Menu/dashbourd_top_menu.html:41
+msgid "+ Create PRODUCT"
+msgstr "+ Mahsulot"
+
+#: user/templates/Menu/navbar_client.html:12
+#: user/templates/Navbar/navbar_client.html:12
+#, fuzzy
+#| msgid "Product Gallery"
+msgid "Product Orders"
+msgstr "Mahsulot galereyasi"
+
+#: user/templates/Menu/navbar_client.html:16
+#: user/templates/Navbar/navbar_client.html:16
+#, fuzzy
+#| msgid "News Update"
+msgid "Client Update"
+msgstr "Yangiliklarni yangilanishi"
+
+#: user/templates/Menu/navbar_client.html:26
+msgid "Log Out "
+msgstr "Chiqish"
+
+#: user/templates/Navbar/navbar_client.html:25
+msgid "Log Out"
+msgstr "Chiqish"
+
+#: user/templates/News_comment/news_comment_edit.html:66
+#: user/templates/News_comment/news_comment_get.html:69
+#: user/templates/Product_comment/product_comment_edit.html:72
+#: user/templates/Product_comment/product_comment_get.html:74
+msgid "Comment"
+msgstr "Izoh"
+
+#: user/templates/Orders/order_detail.html:51
+#: user/templates/Orders/orders_page.html:53
+msgid "Order Address"
+msgstr "Buyurtma manzili"
+
+#: user/templates/Orders/order_detail.html:60
+#: user/templates/Orders/orders_page.html:62
+msgid "Feedback"
+msgstr "Fikr-mulohaza"
+
+#: user/templates/Orders/order_detail.html:86
+#: user/templates/Orders/orders_page.html:77
+msgid "Native Price"
+msgstr "Mahalliy narx"
+
+#: user/templates/Orders/order_detail.html:90
+#: user/templates/Orders/orders_page.html:81
+msgid "Collar"
+msgstr "Rang"
+
+#: user/templates/Orders/order_detail.html:98
+#: user/templates/Orders/order_detail.html:100
+#: user/templates/Orders/order_detail.html:110
+#: user/templates/Orders/orders_page.html:89
+#: user/templates/Orders/orders_page.html:91
+msgid "sum"
+msgstr "so'm"
+
+#: user/templates/Orders/order_detail.html:109
+#: user/templates/Orders/orders_page.html:100
+msgid "Subtotal amount"
+msgstr "Umumiy miqdor"
+
+#: user/templates/Orders/orders_page.html:47
+#, fuzzy
+#| msgid "Code"
+msgid "Code : "
+msgstr "Kod"
+
+#: user/templates/Orders/orders_page.html:102
+msgid "so'm"
+msgstr "so'm"
+
+#: user/templates/Orders/orders_page.html:108
+msgid "Detail"
+msgstr "Tafsilot"
+
+#: user/templates/Product/product_add.html:67
+#: user/templates/Product/product_edit.html:70
+#: user/templates/Product/product_update.html:67
+msgid "Old Price"
+msgstr "Eski narx"
+
+#: user/templates/Product/product_add.html:72
+#: user/templates/Product/product_edit.html:76
+#: user/templates/Product/product_update.html:73
+msgid "Sell Price"
+msgstr "Yangi narx"
+
+#: user/templates/Product_comment/product_comment_edit.html:84
+msgid "ip address"
+msgstr "ip manzil"
+
+#: user/templates/Product_comment/product_comment_get.html:80
+msgid "Rate"
+msgstr "Baho"
+
+#: user/templates/Product_comment/product_comment_get.html:92
+msgid "Ip"
+msgstr "Ip"
+
+#: user/templates/Product_gallery/gallery.html:34
+msgid "Gallery"
+msgstr "Galereya"
+
+#: user/templates/Product_gallery/gallery.html:43
+msgid "light Gallery"
+msgstr "yorug'"
+
+#: user/templates/Product_gallery/gallery.html:45
+msgid "Click on any image to open in lightbox gallery"
+msgstr "Lightbox galereyasida ochish uchun istalgan rasmni bosing"
+
+#: user/templates/Product_gallery/gallery_id.html:39
+msgid "Product Details"
+msgstr "Mahsulot tafsilotlari"
+
+#: user/templates/Product_gallery/gallery_id.html:53
+msgid "Sell price"
+msgstr "Yangi narx"
+
+#: user/templates/Product_gallery/gallery_id.html:59
+msgid "Old price"
+msgstr "Eski narx"
+
+#: user/templates/Reset_password/password_reset_complete.html:57
+msgid "Password Reset Complete"
+msgstr "Parolni tiklash tugallandi"
+
+#: user/templates/Reset_password/password_reset_complete.html:58
+msgid "Your password has been reset. Please login now."
+msgstr "Parolingiz qayta tiklandi. Iltimos, hozir tizimga kiring."
+
+#: user/templates/Reset_password/password_reset_done.html:46
+msgid "Recovery Email Sent"
+msgstr "Qayta tiklash elektron pochtasiga yuborildi"
+
+#: user/templates/Reset_password/password_reset_done.html:47
+msgid "A Recovery Email has been sent to your Email ID, if it exists."
+msgstr "Elektron pochtangizni tekshiring"
+
+#: user/templates/Searched/dashbourd_search.html:96
+#: user/templates/Searched/searched.html:55
+msgid "Sorry, we couldn't find any results matching your search"
+msgstr "Kechirasiz, qidiruvingizga mos keladigan natija topilmadi"
+
+#: user/templates/Searched/searched.html:34
+#: user/templates/Searched/searched.html:43
+msgid "Searched"
+msgstr "Qidirildi"
+
+#: user/templates/Searched/searched.html:45
+msgid "Click on any image to open in product"
+msgstr "Mahsulotni ochish uchun istalgan rasm ustiga bosing"
+
+#, fuzzy
+#~| msgid "Add Product"
+#~ msgid "Order Products"
+#~ msgstr "Mahsulot qo'shish"
+
+#, fuzzy
+#~| msgid "Add Product"
+#~ msgid "Orders Product"
+#~ msgstr "Mahsulot qo'shish"
+
+#~ msgid "Enter"
+#~ msgstr "Kirish"
+
+#, fuzzy
+#~| msgid "Lastname"
+#~ msgid "Last Name"
+#~ msgstr "Familiya"
+
+#~ msgid "Copyright © 2022. All rights reserved"
+#~ msgstr "Mualliflik huquqi © 2022. Barcha huquqlar himoyalangan"
+
+#~ msgid "Author"
+#~ msgstr "Muallif"
+
+#~ msgid "QTY"
+#~ msgstr "Son"
+
+#, fuzzy
+#~| msgid "Code"
+#~ msgid "Code :"
+#~ msgstr "Kod"
+
+#, fuzzy
+#~| msgid "First Name"
+#~ msgid "First Name:"
+#~ msgstr "Ism"
+
+#, fuzzy
+#~| msgid "Lastname"
+#~ msgid "Last Name:"
+#~ msgstr "Familiya"
+
+#, fuzzy
+#~| msgid "Create at"
+#~ msgid "Create at Date : "
+#~ msgstr "Yaratildi"
+
+#, fuzzy
+#~| msgid "STATUS"
+#~ msgid "STATUS :"
+#~ msgstr "HOLAT"
+
+#, fuzzy
+#~| msgid "Subtotal amount"
+#~ msgid "Subtotal amount:"
+#~ msgstr "Umumiy miqdor"
+
+#, fuzzy
+#~| msgid "Total"
+#~ msgid "Total : "
+#~ msgstr "Jami"
+
+#~ msgid "Print"
+#~ msgstr "Chop etish"
+
+#, fuzzy
+#~| msgid "Order"
+#~ msgid "Edit Order"
+#~ msgstr "Buyurtma"
+
+#, fuzzy
+#~| msgid "Gallery"
+#~ msgid "Wallet"
+#~ msgstr "Galereya"
+
+#~ msgid "Billing"
+#~ msgstr "Hisob-kitob"
+
+#~ msgid "Help center"
+#~ msgstr "Yordam markazi"

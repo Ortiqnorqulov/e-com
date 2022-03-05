@@ -1,0 +1,53 @@
+{% load static %}
+{% load i18n %}
+<header class="main-header navbar">
+    <div>
+
+    </div>
+    <div class="col-nav">
+
+        <ul class="nav" style="padding-right: 80px">
+
+            <li class="nav-item">
+                <a class="nav-link btn-icon darkmode" href="#"> <i class="material-icons md-nights_stay"></i> </a>
+            </li>
+
+            <li class="dropdown nav-item">
+                <div class="nav-link">
+                    <form class="form-inline" action="{% url 'selectlanguage_client' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="{{ redirect_to }}">
+                        <select name="language" onchange="submit()"
+                                style=" width: 130px; height: 35px; background-color: white;">
+                            {% get_current_language as LANGUAGE_CODE %}
+                            {% get_available_languages as LANGUAGES %}
+                            {% get_language_info_list for LANGUAGES as languages %}
+                            {% for language in languages %}
+                                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                                        selected{% endif %}>
+                                    {{ language.name_local }} ({{ language.code }})
+                                </option>
+                            {% endfor %}
+                        </select>
+                        <noscript>
+                            <input type="submit" value="Set"/>
+                        </noscript>
+                    </form>
+                </div>
+            </li>
+            <li class="dropdown nav-item">
+                <a class="" data-bs-toggle="dropdown" href="#" id="dropdownAccount"
+                   aria-expanded="false">
+                    <img class="img-xs rounded-circle" src="{{ client.image.url }}" alt="profile"/></a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownAccount">
+                    <a class="dropdown-item" href="{% url 'client' %}"><i
+                            class="material-icons"></i><h5 style="color: #0a53be">{{ client.user }}</h5></a>
+                    <a class="dropdown-item" href="{% url 'user_update' %}"><i
+                            class="material-icons md-perm_identity"></i>{% trans 'Edit Profile' %}</a>
+                    <a class="dropdown-item text-danger" href="{% url 'logout_form' %}"><i
+                            class="material-icons md-exit_to_app"></i>{% trans 'Logout' %}</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>

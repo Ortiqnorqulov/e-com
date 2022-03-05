@@ -1,0 +1,1374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 00:43+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: user/templates/About_us/about_add.html:38
+msgid "About us"
+msgstr "О нас"
+
+#: user/templates/About_us/about_add.html:45
+#: user/templates/About_us/about_edit.html:46
+#: user/templates/About_us/about_update.html:49
+#: user/templates/Adversiting/addadversiting.html:45
+#: user/templates/Adversiting/adversiting_edit.html:46
+#: user/templates/Adversiting/adversiting_update.html:48
+#: user/templates/Brands/add_brands.html:45
+#: user/templates/Brands/brand_edit.html:46
+#: user/templates/Brands/brand_update.html:48
+#: user/templates/Category/category_add.html:45
+#: user/templates/Category/category_update.html:48
+#: user/templates/Information/information_add.html:47
+#: user/templates/Information/information_update.html:47
+#: user/templates/News/news_add.html:45 user/templates/News/news_edit.html:46
+#: user/templates/News/news_update.html:48
+#: user/templates/Product/product_add.html:52
+#: user/templates/Product/product_update.html:52
+#: user/templates/Slider/slider_add.html:45
+#: user/templates/Slider/slider_edit.html:46
+#: user/templates/Slider/slider_update.html:48
+msgid "Title EN"
+msgstr "Название EN"
+
+#: user/templates/About_us/about_add.html:50
+#: user/templates/About_us/about_edit.html:52
+#: user/templates/About_us/about_update.html:54
+#: user/templates/Adversiting/addadversiting.html:50
+#: user/templates/Adversiting/adversiting_edit.html:52
+#: user/templates/Adversiting/adversiting_update.html:53
+#: user/templates/Brands/add_brands.html:50
+#: user/templates/Brands/brand_edit.html:52
+#: user/templates/Brands/brand_update.html:54
+#: user/templates/Category/category_add.html:50
+#: user/templates/Category/category_update.html:54
+#: user/templates/Information/information_add.html:52
+#: user/templates/Information/information_update.html:52
+#: user/templates/News/news_add.html:50 user/templates/News/news_edit.html:52
+#: user/templates/News/news_update.html:53
+#: user/templates/Product/product_add.html:57
+#: user/templates/Product/product_update.html:57
+#: user/templates/Slider/slider_add.html:50
+#: user/templates/Slider/slider_edit.html:52
+#: user/templates/Slider/slider_update.html:54
+msgid "Title RU"
+msgstr "Название RU"
+
+#: user/templates/About_us/about_add.html:55
+#: user/templates/About_us/about_edit.html:58
+#: user/templates/About_us/about_update.html:59
+#: user/templates/Adversiting/addadversiting.html:55
+#: user/templates/Adversiting/adversiting_edit.html:58
+#: user/templates/Adversiting/adversiting_update.html:58
+#: user/templates/Brands/add_brands.html:55
+#: user/templates/Brands/brand_edit.html:58
+#: user/templates/Brands/brand_update.html:60
+#: user/templates/Category/category_add.html:55
+#: user/templates/Category/category_update.html:60
+#: user/templates/Information/information_add.html:57
+#: user/templates/Information/information_update.html:57
+#: user/templates/News/news_add.html:55 user/templates/News/news_edit.html:58
+#: user/templates/News/news_update.html:58
+#: user/templates/Product/product_add.html:62
+#: user/templates/Product/product_update.html:62
+#: user/templates/Slider/slider_add.html:55
+#: user/templates/Slider/slider_edit.html:58
+#: user/templates/Slider/slider_update.html:60
+msgid "Title UZ"
+msgstr "Название UZ"
+
+#: user/templates/About_us/about_add.html:61
+#: user/templates/About_us/about_edit.html:63
+#: user/templates/Adversiting/addadversiting.html:61
+#: user/templates/Adversiting/adversiting_edit.html:65
+#: user/templates/Brands/add_brands.html:61
+#: user/templates/Brands/brand_edit.html:65
+#: user/templates/Category/category_add.html:61
+#: user/templates/Category/category_edit.html:71
+#: user/templates/Client/page-account.html:270
+#: user/templates/Client/user_update_client.html:121
+#: user/templates/Creator_add/add_user_permission.html:74
+#: user/templates/Details/detail_add.html:67
+#: user/templates/Details/detail_edit.html:67
+#: user/templates/News/news_add.html:61 user/templates/News/news_edit.html:65
+#: user/templates/Product/product_add.html:78
+#: user/templates/Product/product_edit.html:83
+#: user/templates/Slider/slider_add.html:61
+#: user/templates/Slider/slider_edit.html:65
+msgid "Image"
+msgstr "Изображение"
+
+#: user/templates/About_us/about_add.html:68
+#: user/templates/About_us/about_edit.html:70
+#: user/templates/Adversiting/addadversiting.html:68
+#: user/templates/Adversiting/adversiting_edit.html:72
+#: user/templates/Brands/add_brands.html:68
+#: user/templates/Brands/brand_edit.html:72
+#: user/templates/Category/category_add.html:68
+#: user/templates/Category/category_edit.html:78
+#: user/templates/Creator_add/add_user_permission.html:81
+#: user/templates/Details/detail_add.html:74
+#: user/templates/Details/detail_edit.html:74
+#: user/templates/News/news_add.html:68 user/templates/News/news_edit.html:73
+#: user/templates/Product/product_add.html:85
+#: user/templates/Product/product_edit.html:90
+#: user/templates/Slider/slider_add.html:68
+#: user/templates/Slider/slider_edit.html:72
+msgid "Upload"
+msgstr "Загрузить"
+
+#: user/templates/About_us/about_add.html:75
+#: user/templates/About_us/about_edit.html:76
+#: user/templates/About_us/about_update.html:65
+#: user/templates/Adversiting/addadversiting.html:75
+#: user/templates/Adversiting/adversiting_edit.html:80
+#: user/templates/Adversiting/adversiting_update.html:64
+#: user/templates/Brands/add_brands.html:75
+#: user/templates/Brands/brand_edit.html:79
+#: user/templates/Brands/brand_update.html:66
+#: user/templates/Category/category_add.html:79
+#: user/templates/Category/category_edit.html:99
+#: user/templates/Category/category_update.html:73
+#: user/templates/Client/page-account.html:110
+#: user/templates/Contact/contact_edit.html:80
+#: user/templates/Contact/contact_get.html:81
+#: user/templates/Creator/creator.html:205 user/templates/Faq/faq_add.html:67
+#: user/templates/Faq/faq_edit.html:71 user/templates/Faq/faq_update.html:76
+#: user/templates/Information/information_update.html:136
+#: user/templates/News/news_add.html:76 user/templates/News/news_edit.html:81
+#: user/templates/News/news_update.html:64
+#: user/templates/News_comment/news_comment_edit.html:72
+#: user/templates/News_comment/news_comment_get.html:75
+#: user/templates/Orders/order_detail.html:66
+#: user/templates/Orders/order_detail.html:71
+#: user/templates/Orders/orders_page.html:68
+#: user/templates/Product/product_add.html:97
+#: user/templates/Product/product_edit.html:102
+#: user/templates/Product/product_update.html:85
+#: user/templates/Product_comment/product_comment_edit.html:90
+#: user/templates/Product_comment/product_comment_get.html:86
+#: user/templates/Slider/slider_add.html:75
+#: user/templates/Slider/slider_edit.html:79
+#: user/templates/Slider/slider_update.html:66
+msgid "Status"
+msgstr "Статус"
+
+#: user/templates/About_us/about_add.html:83
+#: user/templates/About_us/about_edit.html:82
+#: user/templates/About_us/about_update.html:70
+#: user/templates/Category/category_add.html:87
+#: user/templates/Category/category_update.html:79
+#: user/templates/Information/information_add.html:130
+#: user/templates/Information/information_update.html:121
+#: user/templates/News/news_add.html:84 user/templates/News/news_edit.html:89
+#: user/templates/News/news_update.html:69
+#: user/templates/Product/product_add.html:105
+#: user/templates/Product/product_update.html:90
+#: user/templates/Slider/slider_add.html:83
+#: user/templates/Slider/slider_edit.html:87
+msgid "Description EN"
+msgstr "Описание EN"
+
+#: user/templates/About_us/about_add.html:89
+#: user/templates/About_us/about_edit.html:87
+#: user/templates/About_us/about_update.html:77
+#: user/templates/Category/category_add.html:93
+#: user/templates/Category/category_update.html:87
+#: user/templates/Information/information_add.html:136
+#: user/templates/Information/information_update.html:126
+#: user/templates/News/news_add.html:90 user/templates/News/news_edit.html:95
+#: user/templates/News/news_update.html:76
+#: user/templates/Product/product_add.html:111
+#: user/templates/Product/product_update.html:96
+#: user/templates/Slider/slider_add.html:89
+#: user/templates/Slider/slider_edit.html:92
+msgid "Description RU"
+msgstr "Описание RU"
+
+#: user/templates/About_us/about_add.html:95
+#: user/templates/About_us/about_edit.html:92
+#: user/templates/About_us/about_update.html:83
+#: user/templates/Category/category_add.html:99
+#: user/templates/Category/category_update.html:94
+#: user/templates/Information/information_add.html:142
+#: user/templates/Information/information_update.html:131
+#: user/templates/News/news_add.html:96 user/templates/News/news_edit.html:101
+#: user/templates/News/news_update.html:82
+#: user/templates/Product/product_add.html:117
+#: user/templates/Product/product_update.html:102
+#: user/templates/Slider/slider_add.html:95
+#: user/templates/Slider/slider_edit.html:97
+msgid "Description UZ"
+msgstr "Описание UZ"
+
+#: user/templates/About_us/about_add.html:99
+#: user/templates/About_us/about_edit.html:95
+#: user/templates/Adversiting/addadversiting.html:80
+#: user/templates/Adversiting/adversiting_edit.html:85
+#: user/templates/Brands/add_brands.html:81
+#: user/templates/Brands/brand_edit.html:85
+#: user/templates/Category/category_add.html:104
+#: user/templates/Category/category_edit.html:105
+#: user/templates/Client/user_password_client.html:59
+#: user/templates/Client/user_update_client.html:129
+#: user/templates/Creator_add/add_user_permission.html:87
+#: user/templates/Details/detail_add.html:80
+#: user/templates/Details/detail_edit.html:80
+#: user/templates/Faq/faq_add.html:91 user/templates/Faq/faq_edit.html:92
+#: user/templates/Information/information_add.html:154
+#: user/templates/Information/information_edit.html:168
+#: user/templates/News/news_add.html:100 user/templates/News/news_edit.html:105
+#: user/templates/Product/product_add.html:121
+#: user/templates/Product/product_edit.html:123
+#: user/templates/Product_comment/product_comment_edit.html:96
+#: user/templates/Slider/slider_add.html:99
+#: user/templates/Slider/slider_edit.html:100
+msgid "Submit"
+msgstr "Отправить"
+
+#: user/templates/About_us/about_edit.html:38
+#: user/templates/Menu/dashbourd_left_menu.html:168
+#: user/templates/News/news_add.html:38 user/templates/News/news_edit.html:38
+#: user/templates/News/news_update.html:39
+#: user/templates/News_comment/news_comment_edit.html:46
+#: user/templates/News_comment/news_comment_get.html:49
+msgid "News"
+msgstr "Новости"
+
+#: user/templates/About_us/about_update.html:34
+#: user/templates/Adversiting/adversiting_update.html:34
+#: user/templates/Brands/brand_update.html:34
+#: user/templates/Category/category_update.html:33
+#: user/templates/Contact/contact_edit.html:33
+#: user/templates/Contact/contact_get.html:34
+#: user/templates/Creator_add/get_users.html:34
+#: user/templates/News/news_update.html:33
+#: user/templates/News_comment/news_comment_get.html:34
+#: user/templates/Newsletter/newsletter_get.html:34
+#: user/templates/Orders/orders_page.html:36
+#: user/templates/Slider/slider_update.html:34
+msgid "All clean"
+msgstr "Очистить всё "
+
+#: user/templates/About_us/about_update.html:40
+#: user/templates/Creator_add/get_users.html:65
+#: user/templates/Menu/dashbourd_left_menu.html:198
+msgid "About"
+msgstr "О нас"
+
+#: user/templates/About_us/about_update.html:95
+#: user/templates/Adversiting/adversiting_update.html:74
+#: user/templates/Brands/brand_update.html:78
+#: user/templates/Category/category_update.html:101
+#: user/templates/Client/page-account.html:189
+#: user/templates/Client/page-account.html:204
+#: user/templates/Contact/contact_get.html:98
+#: user/templates/Creator_add/get_users.html:78
+#: user/templates/Details/detail_update.html:71
+#: user/templates/Faq/faq_update.html:97
+#: user/templates/Information/information_update.html:148
+#: user/templates/News/news_update.html:88
+#: user/templates/News_comment/news_comment_get.html:93
+#: user/templates/Product/product_update.html:108
+#: user/templates/Product_comment/product_comment_get.html:104
+#: user/templates/Slider/slider_update.html:78
+msgid "Edit"
+msgstr "Редактировать"
+
+#: user/templates/About_us/about_update.html:98
+#: user/templates/Adversiting/adversiting_update.html:77
+#: user/templates/Brands/brand_update.html:81
+#: user/templates/Category/category_update.html:104
+#: user/templates/Client/page_order_detail.html:89
+#: user/templates/Contact/contact_get.html:101
+#: user/templates/Creator_add/get_users.html:82
+#: user/templates/Details/detail_update.html:74
+#: user/templates/Faq/faq_update.html:100
+#: user/templates/Information/information_update.html:153
+#: user/templates/News/news_update.html:91
+#: user/templates/News_comment/news_comment_get.html:96
+#: user/templates/Newsletter/newsletter_get.html:70
+#: user/templates/Orders/order_detail.html:116
+#: user/templates/Product/product_update.html:111
+#: user/templates/Product_comment/product_comment_get.html:107
+#: user/templates/Slider/slider_update.html:81
+msgid "Delete"
+msgstr "Удалить"
+
+#: user/templates/Adversiting/addadversiting.html:38
+msgid "Add Advertising"
+msgstr "Добавить рекламу"
+
+#: user/templates/Adversiting/adversiting_edit.html:38
+msgid "Advertising Edit"
+msgstr "Изменить рекламу"
+
+#: user/templates/Adversiting/adversiting_update.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:223
+msgid "Advertising"
+msgstr "Реклама"
+
+#: user/templates/Authenticate/register_creator.html:29
+#, fuzzy
+#| msgid "Create at"
+msgid "Create admin"
+msgstr "Создано"
+
+#: user/templates/Authenticate/register_creator.html:30
+msgid "Admin can change everything!"
+msgstr "Админ может все изменить!"
+
+#: user/templates/Authenticate/register_creator.html:34
+#: user/templates/Authenticate/register_creator.html:42
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: user/templates/Authenticate/register_creator.html:46
+#: user/templates/Authenticate/register_creator.html:54
+#: user/templates/Client/page-account.html:101
+#: user/templates/Client/user_update_client.html:78
+#: user/templates/Creator/creator.html:196
+#: user/templates/Orders/order_detail.html:53
+#: user/templates/Orders/orders_page.html:55
+msgid "First Name"
+msgstr "Имя"
+
+#: user/templates/Authenticate/register_creator.html:58
+#: user/templates/Authenticate/register_creator.html:66
+#: user/templates/Client/page-account.html:230
+#: user/templates/Client/user_update_client.html:84
+#: user/templates/Orders/order_detail.html:54
+#: user/templates/Orders/orders_page.html:56
+msgid "Lastname"
+msgstr "Фамилия"
+
+#: user/templates/Authenticate/register_creator.html:70
+#: user/templates/Authenticate/register_creator.html:78
+#: user/templates/Client/page-account.html:243
+#: user/templates/Client/user_update_client.html:91
+#: user/templates/Contact/contact_edit.html:61
+#: user/templates/Contact/contact_get.html:62
+#: user/templates/Creator_add/get_users.html:111
+#: user/templates/Information/information_add.html:99
+#: user/templates/Information/information_edit.html:106
+#: user/templates/Information/information_update.html:95
+#: user/templates/News_comment/news_comment_edit.html:60
+#: user/templates/News_comment/news_comment_get.html:63
+#: user/templates/Newsletter/newsletter_get.html:50
+#: user/templates/Orders/order_detail.html:56
+#: user/templates/Orders/orders_page.html:58
+#: user/templates/Product_comment/product_comment_edit.html:58
+#: user/templates/Product_comment/product_comment_get.html:62
+msgid "Email"
+msgstr "Email"
+
+#: user/templates/Authenticate/register_creator.html:82
+#: user/templates/Authenticate/register_creator.html:91
+#, fuzzy
+#| msgid "Old Password"
+msgid "Password"
+msgstr "Прежний пароль"
+
+#: user/templates/Authenticate/register_creator.html:95
+#: user/templates/Authenticate/register_creator.html:104
+#, fuzzy
+#| msgid "Change Password"
+msgid "Confirm Password"
+msgstr "Изменить пароль"
+
+#: user/templates/Authenticate/user_password.html:8
+#, fuzzy
+#| msgid "Old Password"
+msgid "Reset Password"
+msgstr "Прежний пароль"
+
+#: user/templates/Authenticate/user_password.html:10
+#: user/templates/Authenticate/user_update.html:11
+#: user/templates/Reset_password/password_reset_complete.html:9
+msgid "Evara - home"
+msgstr "home"
+
+#: user/templates/Brands/add_brands.html:38
+#: user/templates/Menu/dashbourd_left_menu.html:81
+#, fuzzy
+#| msgid "Add Faq"
+msgid "Add Brand"
+msgstr "Добавить МЗВ"
+
+#: user/templates/Brands/brand_edit.html:38
+#, fuzzy
+#| msgid "Edit Order"
+msgid "Edit Brand"
+msgstr "Изменить заказ"
+
+#: user/templates/Brands/brand_update.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:61
+#: user/templates/Slider/slider_add.html:38
+#: user/templates/Slider/slider_edit.html:38
+#: user/templates/Slider/slider_update.html:40
+msgid "Slider"
+msgstr "Слайдер"
+
+#: user/templates/Category/category_add.html:38
+#: user/templates/Category/category_edit.html:38
+#: user/templates/Category/category_update.html:39
+#: user/templates/Creator/creator.html:50
+#: user/templates/Creator/creator.html:52
+#: user/templates/Creator/creator.html:78
+#: user/templates/Menu/dashbourd_left_menu.html:96
+#: user/templates/Product/product_add.html:45
+#: user/templates/Product/product_edit.html:45
+#: user/templates/Product/product_update.html:47
+#: user/templates/Product_gallery/gallery_id.html:65
+msgid "Category"
+msgstr "Категория"
+
+#: user/templates/Category/category_add.html:74
+#: user/templates/Category/category_edit.html:65
+#: user/templates/Category/category_update.html:66
+#: user/templates/Product/product_add.html:92
+#: user/templates/Product/product_edit.html:96
+#: user/templates/Product/product_update.html:80
+msgid "Slug"
+msgstr "Слаг"
+
+#: user/templates/Category/category_edit.html:46
+#: user/templates/Information/information_edit.html:45
+#: user/templates/Product/product_edit.html:52
+msgid "Title [EN]"
+msgstr "Название [EN]"
+
+#: user/templates/Category/category_edit.html:52
+#: user/templates/Information/information_edit.html:51
+#: user/templates/Product/product_edit.html:58
+msgid "Title [RU]"
+msgstr "Название [RU]"
+
+#: user/templates/Category/category_edit.html:58
+#: user/templates/Information/information_edit.html:57
+#: user/templates/Product/product_edit.html:64
+msgid "Title [UZ]"
+msgstr "Название [UZ]"
+
+#: user/templates/Category/category_edit.html:84
+#: user/templates/Information/information_edit.html:139
+#: user/templates/Product/product_edit.html:110
+msgid "Description [EN]"
+msgstr "Описание [EN]"
+
+#: user/templates/Category/category_edit.html:89
+#: user/templates/Information/information_edit.html:146
+#: user/templates/Product/product_edit.html:115
+msgid "Description [RU]"
+msgstr "Описание [RU]"
+
+#: user/templates/Category/category_edit.html:94
+#: user/templates/Information/information_edit.html:153
+#: user/templates/Product/product_edit.html:120
+msgid "Description [UZ]"
+msgstr "Описание [UZ]"
+
+#: user/templates/Client/page-account.html:10
+#: user/templates/Client/user_password_client.html:10
+#, fuzzy
+#| msgid "Evara - home"
+msgid "Evara - My Account"
+msgstr "home"
+
+#: user/templates/Client/page-account.html:43
+#: user/templates/Creator/creator.html:35
+#: user/templates/Menu/dashbourd_left_menu.html:29
+#: user/templates/Menu/navbar_client.html:7
+#: user/templates/Navbar/navbar_client.html:7
+#: user/templates/Searched/dashbourd_search.html:35
+msgid "Dashboard"
+msgstr "Приборная доска"
+
+#: user/templates/Client/page-account.html:48
+#: user/templates/Creator/creator.html:184
+#: user/templates/Menu/dashbourd_left_menu.html:271
+msgid "Orders"
+msgstr "Заказы"
+
+#: user/templates/Client/page-account.html:54
+#: user/templates/Client/page-account.html:153
+#: user/templates/Menu/dashbourd_left_menu.html:313
+#: user/templates/Menu/navbar_client.html:20
+#: user/templates/Navbar/navbar_client.html:20
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#: user/templates/Client/page-account.html:59
+#, fuzzy
+#| msgid "Address"
+msgid "My Address"
+msgstr "Адрес"
+
+#: user/templates/Client/page-account.html:64
+#, fuzzy
+#| msgid "Account Settings"
+msgid "Account details"
+msgstr "Настройки аккаунта"
+
+#: user/templates/Client/page-account.html:68
+#: user/templates/Header/header_client.html:48
+#: user/templates/Menu/dashbourd_left_menu.html:320
+msgid "Logout"
+msgstr "Выйти"
+
+#: user/templates/Client/page-account.html:79
+msgid "Hello"
+msgstr "Привет"
+
+#: user/templates/Client/page-account.html:83
+msgid ""
+"From your account dashboard you can easily check details, view your recent "
+"orders, manage your shipping and billing addresses and edit your password "
+"and accountdetails."
+msgstr ""
+"На панели управления вашей учетной записи вы можете легко проверять детали, "
+"просматривать свои последние заказы, управлять адресами доставки и "
+"выставления счетов, а также редактировать свой пароль и данные учетной "
+"записи."
+
+#: user/templates/Client/page-account.html:90
+#, fuzzy
+#| msgid "Product Orders"
+msgid "Your Orders"
+msgstr "Заказы продуктов"
+
+#: user/templates/Client/page-account.html:98
+#: user/templates/Creator/creator.html:193
+#: user/templates/Orders/order_detail.html:42
+msgid "Code"
+msgstr "Код"
+
+#: user/templates/Client/page-account.html:104
+#: user/templates/Client/page-account.html:236
+#: user/templates/Client/user_update_client.html:97
+#: user/templates/Creator/creator.html:199
+#: user/templates/Creator_add/get_users.html:119
+#: user/templates/Information/information_add.html:93
+#: user/templates/Information/information_edit.html:100
+#: user/templates/Information/information_update.html:90
+#: user/templates/Orders/order_detail.html:55
+#: user/templates/Orders/orders_page.html:57
+msgid "Phone"
+msgstr "Телефон"
+
+#: user/templates/Client/page-account.html:107
+#: user/templates/Creator/creator.html:202
+#: user/templates/Orders/order_detail.html:88
+#: user/templates/Orders/order_detail.html:110
+#: user/templates/Orders/orders_page.html:79
+#: user/templates/Orders/orders_page.html:101
+msgid "Total"
+msgstr "Всего"
+
+#: user/templates/Client/page-account.html:114
+#: user/templates/Creator/creator.html:209
+#: user/templates/Details/detail_add.html:39
+#: user/templates/Details/detail_edit.html:39
+#: user/templates/Details/detail_update.html:39
+msgid "Details"
+msgstr "Подробности"
+
+#: user/templates/Client/page-account.html:161
+#: user/templates/Client/user_password_client.html:41
+msgid "Old Password"
+msgstr "Прежний пароль"
+
+#: user/templates/Client/page-account.html:169
+#, fuzzy
+#| msgid "Change Password"
+msgid "Change Password "
+msgstr "Изменить пароль"
+
+#: user/templates/Client/page-account.html:182
+#, fuzzy
+#| msgid "ip address"
+msgid "Billing Address"
+msgstr "ip адрес"
+
+#: user/templates/Client/page-account.html:197
+#, fuzzy
+#| msgid "ip address"
+msgid "Shipping Address"
+msgstr "ip адрес"
+
+#: user/templates/Client/page-account.html:202
+#, fuzzy
+#| msgid "Phone"
+msgid "Phone:"
+msgstr "Телефон"
+
+#: user/templates/Client/page-account.html:215
+#, fuzzy
+#| msgid "Account Settings"
+msgid "Account Details"
+msgstr "Настройки аккаунта"
+
+#: user/templates/Client/page-account.html:223
+#: user/templates/Client/user_update_client.html:72
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: user/templates/Client/page-account.html:250
+#: user/templates/Client/user_update_client.html:114
+#: user/templates/Creator_add/get_users.html:131
+#: user/templates/Information/information_add.html:62
+#: user/templates/Information/information_edit.html:63
+#: user/templates/Information/information_update.html:62
+#: user/templates/Orders/order_detail.html:57
+#: user/templates/Orders/orders_page.html:59
+msgid "Country"
+msgstr "Страна"
+
+#: user/templates/Client/page-account.html:257
+#: user/templates/Client/user_update_client.html:108
+#: user/templates/Creator_add/get_users.html:139
+#: user/templates/Information/information_add.html:67
+#: user/templates/Information/information_edit.html:69
+#: user/templates/Information/information_update.html:67
+#: user/templates/Orders/order_detail.html:58
+#: user/templates/Orders/orders_page.html:60
+msgid "City"
+msgstr "Город"
+
+#: user/templates/Client/page-account.html:263
+#: user/templates/Client/user_update_client.html:102
+#: user/templates/Creator_add/get_users.html:147
+#: user/templates/Orders/order_detail.html:59
+#: user/templates/Orders/orders_page.html:61
+msgid "Address"
+msgstr "Адрес"
+
+#: user/templates/Client/page-account.html:281
+msgid "Save"
+msgstr "Сохранить"
+
+#: user/templates/Client/page_order_detail.html:10
+#, fuzzy
+#| msgid "Order Product Detail"
+msgid "Evara - Order Detail"
+msgstr "Детали заказа продукта"
+
+#: user/templates/Client/page_order_detail.html:42
+msgid "Product Name"
+msgstr "Имя товаров"
+
+#: user/templates/Client/page_order_detail.html:53
+#, fuzzy
+#| msgid "Product collar"
+msgid "Product color"
+msgstr "Цвет товаров"
+
+#: user/templates/Client/page_order_detail.html:60
+#: user/templates/Details/detail_add.html:60
+#: user/templates/Details/detail_edit.html:60
+#: user/templates/Details/detail_update.html:59
+#: user/templates/Orders/order_detail.html:89
+#: user/templates/Orders/orders_page.html:80
+msgid "Size"
+msgstr "Размер"
+
+#: user/templates/Client/page_order_detail.html:67
+msgid "Product Price"
+msgstr "Цена продукта"
+
+#: user/templates/Client/page_order_detail.html:73
+#: user/templates/Orders/order_detail.html:87
+#: user/templates/Orders/orders_page.html:78
+msgid "Quantity"
+msgstr "Количество"
+
+#: user/templates/Client/page_order_detail.html:80
+msgid "Total Price"
+msgstr "Итоговая цена"
+
+#: user/templates/Client/user_password_client.html:47
+msgid "New Password 1"
+msgstr "Новый пароль 1"
+
+#: user/templates/Client/user_password_client.html:53
+msgid "New Password 2"
+msgstr "Новый пароль 2"
+
+#: user/templates/Client/user_update_client.html:40
+msgid "Shop"
+msgstr "Магазин"
+
+#: user/templates/Client/user_update_client.html:53
+msgid "Edit profil"
+msgstr "Изменить профиль"
+
+#: user/templates/Client/user_update_client.html:64
+msgid "Update Client"
+msgstr "Обновить клиент"
+
+#: user/templates/Contact/contact_edit.html:39
+#: user/templates/Creator/creator.html:65
+#: user/templates/Creator/creator.html:67
+msgid "Contact"
+msgstr "Контакт"
+
+#: user/templates/Contact/contact_edit.html:48
+#: user/templates/Contact/contact_get.html:49
+#: user/templates/Creator_add/get_users.html:103
+#: user/templates/News_comment/news_comment_edit.html:53
+#: user/templates/News_comment/news_comment_get.html:56
+#: user/templates/Product_comment/product_comment_edit.html:52
+#: user/templates/Product_comment/product_comment_get.html:55
+msgid "Name"
+msgstr "Имя"
+
+#: user/templates/Contact/contact_edit.html:54
+#: user/templates/Contact/contact_get.html:55
+#, fuzzy
+#| msgid "Username"
+msgid "Surname"
+msgstr "Имя пользователя"
+
+#: user/templates/Contact/contact_edit.html:68
+#: user/templates/Contact/contact_get.html:69
+#: user/templates/Product_comment/product_comment_edit.html:65
+#: user/templates/Product_comment/product_comment_get.html:68
+msgid "Subject"
+msgstr "Предмет"
+
+#: user/templates/Contact/contact_edit.html:74
+#: user/templates/Contact/contact_get.html:75
+msgid "Message"
+msgstr "Сообщение"
+
+#: user/templates/Contact/contact_edit.html:87
+#: user/templates/Newsletter/newsletter_get.html:57
+msgid "IP"
+msgstr "IP"
+
+#: user/templates/Contact/contact_edit.html:93
+#: user/templates/Newsletter/newsletter_get.html:63
+#, fuzzy
+#| msgid "Create at"
+msgid "Create_at"
+msgstr "Создано"
+
+#: user/templates/Contact/contact_get.html:40
+#: user/templates/Menu/dashbourd_left_menu.html:285
+msgid "Contact_us messages"
+msgstr "Мгновенная связь"
+
+#: user/templates/Contact/contact_get.html:87
+#: user/templates/News_comment/news_comment_edit.html:79
+#: user/templates/News_comment/news_comment_get.html:81
+msgid "ip"
+msgstr "ip"
+
+#: user/templates/Contact/contact_get.html:93
+#: user/templates/Creator_add/get_users.html:155
+#: user/templates/News_comment/news_comment_edit.html:85
+#: user/templates/News_comment/news_comment_get.html:87
+#: user/templates/Orders/order_detail.html:65
+#: user/templates/Orders/orders_page.html:67
+#: user/templates/Product_comment/product_comment_edit.html:78
+#: user/templates/Product_comment/product_comment_get.html:98
+#: user/templates/Product_gallery/gallery_id.html:71
+msgid "Create at"
+msgstr "Создано"
+
+#: user/templates/Creator/creator.html:45
+msgid "New users"
+msgstr "Новые пользователи"
+
+#: user/templates/Creator/creator.html:47
+msgid "New Users"
+msgstr "Новые пользователи"
+
+#: user/templates/Creator/creator.html:55
+#: user/templates/Creator/creator.html:57
+#: user/templates/Creator/creator.html:128
+#: user/templates/Details/detail_add.html:46
+#: user/templates/Details/detail_edit.html:46
+#: user/templates/Details/detail_update.html:53
+#: user/templates/Menu/dashbourd_left_menu.html:120
+#: user/templates/Orders/order_detail.html:85
+#: user/templates/Orders/orders_page.html:76
+#: user/templates/Product/product_add.html:38
+#: user/templates/Product/product_edit.html:38
+#: user/templates/Product/product_update.html:39
+#: user/templates/Product_comment/product_comment_edit.html:46
+#: user/templates/Product_comment/product_comment_get.html:48
+#: user/templates/Product_gallery/gallery_id.html:47
+#: user/templates/Searched/dashbourd_search.html:43
+msgid "Product"
+msgstr "Продукт"
+
+#: user/templates/Creator/creator.html:60
+#: user/templates/Creator/creator.html:62
+msgid "Order"
+msgstr "Заказ"
+
+#: user/templates/Creator/creator.html:80
+#: user/templates/Creator/creator.html:130
+#: user/templates/Creator/creator.html:186
+#: user/templates/Searched/dashbourd_search.html:45
+msgid "Count"
+msgstr "Считать"
+
+#: user/templates/Creator/creator.html:87
+#: user/templates/Creator/creator.html:149
+#: user/templates/Searched/dashbourd_search.html:64
+msgid "CATEGORY"
+msgstr "КАТЕГОРИЯ"
+
+#: user/templates/Creator/creator.html:90
+#: user/templates/Creator/creator.html:140
+#: user/templates/Searched/dashbourd_search.html:55
+msgid "TITLE"
+msgstr "НАЗВАНИЕ"
+
+#: user/templates/Creator/creator.html:93
+msgid "STATUS"
+msgstr "СТАТУС"
+
+#: user/templates/Creator/creator.html:96
+msgid "CREATE AT"
+msgstr "СОЗДАНО"
+
+#: user/templates/Creator/creator.html:137
+#: user/templates/Searched/dashbourd_search.html:52
+msgid "PRODUCT"
+msgstr "ПРОДУКТ"
+
+#: user/templates/Creator/creator.html:143
+#: user/templates/Searched/dashbourd_search.html:58
+msgid "OLD PRICE"
+msgstr "СТАРАЯ ЦЕНА"
+
+#: user/templates/Creator/creator.html:146
+#: user/templates/Searched/dashbourd_search.html:61
+msgid "SELL PRICE"
+msgstr "ЦЕНА ПРОДАЖИ"
+
+#: user/templates/Creator_add/add_user_permission.html:38
+msgid "User Permission"
+msgstr "Разрешение пользователя"
+
+#: user/templates/Creator_add/add_user_permission.html:45
+msgid "User"
+msgstr "Пользователь"
+
+#: user/templates/Creator_add/get_users.html:40
+msgid "Clients"
+msgstr "Клиенты"
+
+#: user/templates/Creator_add/get_users.html:70
+msgid "Timeline"
+msgstr "Лента новостей"
+
+#: user/templates/Creator_add/get_users.html:95
+msgid "User Id"
+msgstr "ID пользователя"
+
+#: user/templates/Creator_add/get_users.html:163
+msgid "Your Bio"
+msgstr "Ваша биография"
+
+#: user/templates/Details/detail_add.html:54
+#: user/templates/Details/detail_edit.html:54
+msgid "Collor"
+msgstr "Цвет"
+
+#: user/templates/Details/detail_update.html:65
+msgid "Color"
+msgstr "Цвет"
+
+#: user/templates/Faq/faq_add.html:38 user/templates/Faq/faq_edit.html:38
+#: user/templates/Faq/faq_update.html:41
+#: user/templates/Menu/dashbourd_left_menu.html:247
+msgid "FAQ"
+msgstr "МЗВ"
+
+#: user/templates/Faq/faq_add.html:45 user/templates/Faq/faq_edit.html:45
+#: user/templates/Faq/faq_update.html:50
+msgid "Ordernumber"
+msgstr "Номер заказа"
+
+#: user/templates/Faq/faq_add.html:51 user/templates/Faq/faq_edit.html:52
+#: user/templates/Faq/faq_update.html:57
+msgid "Question EN"
+msgstr "Вопрос EN"
+
+#: user/templates/Faq/faq_add.html:56 user/templates/Faq/faq_edit.html:58
+#: user/templates/Faq/faq_update.html:63
+msgid "Question RU"
+msgstr "Вопрос RU"
+
+#: user/templates/Faq/faq_add.html:61 user/templates/Faq/faq_edit.html:64
+#: user/templates/Faq/faq_update.html:69
+msgid "Question UZ"
+msgstr "Вопрос UZ"
+
+#: user/templates/Faq/faq_add.html:75 user/templates/Faq/faq_edit.html:79
+#: user/templates/Faq/faq_update.html:81
+msgid "Answer EN"
+msgstr "Ответы EN"
+
+#: user/templates/Faq/faq_add.html:81 user/templates/Faq/faq_edit.html:84
+#: user/templates/Faq/faq_update.html:87
+msgid "Answer RU"
+msgstr "Ответы RU"
+
+#: user/templates/Faq/faq_add.html:87 user/templates/Faq/faq_edit.html:89
+#: user/templates/Faq/faq_update.html:92
+msgid "Answer UZ"
+msgstr "Ответы UZ"
+
+#: user/templates/Header/header_client.html:46
+msgid "Edit Profile"
+msgstr "Редактировать профиль"
+
+#: user/templates/Information/information_add.html:34
+#: user/templates/Information/information_edit.html:39
+#: user/templates/Information/information_update.html:40
+msgid "Informatsion"
+msgstr "Информация"
+
+#: user/templates/Information/information_add.html:73
+#: user/templates/Information/information_update.html:72
+msgid "Address EN"
+msgstr "Адрес EN"
+
+#: user/templates/Information/information_add.html:78
+#: user/templates/Information/information_update.html:78
+msgid "Address RU"
+msgstr "Адрес RU"
+
+#: user/templates/Information/information_add.html:83
+#: user/templates/Information/information_update.html:84
+msgid "Address UZ"
+msgstr "Адрес UZ"
+
+#: user/templates/Information/information_add.html:88
+#: user/templates/Information/information_edit.html:94
+#, fuzzy
+#| msgid "Information"
+msgid "Location"
+msgstr "Информация"
+
+#: user/templates/Information/information_add.html:105
+#: user/templates/Information/information_edit.html:112
+#: user/templates/Information/information_update.html:100
+msgid "Telegram"
+msgstr "Телеграм"
+
+#: user/templates/Information/information_add.html:111
+#: user/templates/Information/information_edit.html:118
+#: user/templates/Information/information_update.html:105
+msgid "Instagram"
+msgstr "Инстаграм"
+
+#: user/templates/Information/information_add.html:117
+#: user/templates/Information/information_edit.html:124
+#: user/templates/Information/information_update.html:110
+msgid "Facebook"
+msgstr "Фейсбук"
+
+#: user/templates/Information/information_add.html:123
+#: user/templates/Information/information_edit.html:130
+#: user/templates/Information/information_update.html:115
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: user/templates/Information/information_edit.html:75
+msgid "Address [EN]"
+msgstr "Адрес [EN]"
+
+#: user/templates/Information/information_edit.html:81
+msgid "Address [RU]"
+msgstr "Адрес [RU]"
+
+#: user/templates/Information/information_edit.html:87
+msgid "Address [UZ]"
+msgstr "Адрес [UZ]"
+
+#: user/templates/Menu/dashbourd_left_menu.html:18
+msgid "Super Admin"
+msgstr "Супер админ"
+
+#: user/templates/Menu/dashbourd_left_menu.html:37
+msgid "Information"
+msgstr "Информация"
+
+#: user/templates/Menu/dashbourd_left_menu.html:45
+msgid "Add Info"
+msgstr "Добавить информацию"
+
+#: user/templates/Menu/dashbourd_left_menu.html:51
+msgid "Update Info"
+msgstr "Обновить информацию"
+
+#: user/templates/Menu/dashbourd_left_menu.html:69
+msgid "Add Slider"
+msgstr "Добавить Слайдер"
+
+#: user/templates/Menu/dashbourd_left_menu.html:75
+msgid "Update Slider"
+msgstr "Обновить Слайдер"
+
+#: user/templates/Menu/dashbourd_left_menu.html:87
+#, fuzzy
+#| msgid "Update Info"
+msgid "Update Brand"
+msgstr "Обновить информацию"
+
+#: user/templates/Menu/dashbourd_left_menu.html:104
+msgid "Add Category"
+msgstr "Добавить Категорию"
+
+#: user/templates/Menu/dashbourd_left_menu.html:110
+msgid "Update Category"
+msgstr "Обновить Категорию"
+
+#: user/templates/Menu/dashbourd_left_menu.html:128
+msgid "Add Product"
+msgstr "Добавить Продукт"
+
+#: user/templates/Menu/dashbourd_left_menu.html:134
+msgid "Update Product"
+msgstr "Обновить Продукт"
+
+#: user/templates/Menu/dashbourd_left_menu.html:140
+msgid "Add Detail Product"
+msgstr "Добавить Деталь Продукта"
+
+#: user/templates/Menu/dashbourd_left_menu.html:146
+msgid "Update Detail Product"
+msgstr "Обновить Деталь Продукта"
+
+#: user/templates/Menu/dashbourd_left_menu.html:152
+msgid "Product Gallery"
+msgstr "Галерея продуктов"
+
+#: user/templates/Menu/dashbourd_left_menu.html:158
+#: user/templates/Product_comment/product_comment_edit.html:38
+#: user/templates/Product_comment/product_comment_get.html:39
+msgid "Comment Product"
+msgstr "Комментария Продукта"
+
+#: user/templates/Menu/dashbourd_left_menu.html:176
+msgid "Add News"
+msgstr "Добавить новость"
+
+#: user/templates/Menu/dashbourd_left_menu.html:182
+msgid "News Update"
+msgstr "Обновить новость"
+
+#: user/templates/Menu/dashbourd_left_menu.html:188
+#: user/templates/News_comment/news_comment_edit.html:37
+#: user/templates/News_comment/news_comment_get.html:40
+msgid "Comment News"
+msgstr "Комментария новостей"
+
+#: user/templates/Menu/dashbourd_left_menu.html:206
+msgid "Add Aboutus"
+msgstr "Добавить о нас"
+
+#: user/templates/Menu/dashbourd_left_menu.html:212
+msgid "About Update"
+msgstr "Обновить о нас"
+
+#: user/templates/Menu/dashbourd_left_menu.html:231
+msgid "Add Adversiting"
+msgstr "Добавить рекламу"
+
+#: user/templates/Menu/dashbourd_left_menu.html:237
+#, fuzzy
+#| msgid "News Update"
+msgid "Adversiting Update"
+msgstr "Обновить новость"
+
+#: user/templates/Menu/dashbourd_left_menu.html:255
+msgid "Add Faq"
+msgstr "Добавить МЗВ"
+
+#: user/templates/Menu/dashbourd_left_menu.html:261
+msgid "Faq Update"
+msgstr "Обновить МЗВ"
+
+#: user/templates/Menu/dashbourd_left_menu.html:278
+#: user/templates/Newsletter/newsletter_get.html:40
+msgid "Newsletter"
+msgstr "Новостная рассылка"
+
+#: user/templates/Menu/dashbourd_left_menu.html:292
+msgid "Users"
+msgstr "Пользователи"
+
+#: user/templates/Menu/dashbourd_left_menu.html:299
+msgid "Create Creator"
+msgstr "Создать администратора"
+
+#: user/templates/Menu/dashbourd_left_menu.html:306
+msgid "Update Admin"
+msgstr "Обновить администратора"
+
+#: user/templates/Menu/dashbourd_theme.html:8
+msgid "SIDEBAR SKINS"
+msgstr "ОБЛИЦОВКА БОКОВОЙ ПАНЕЛИ"
+
+#: user/templates/Menu/dashbourd_theme.html:11
+msgid "Light"
+msgstr "Светлый"
+
+#: user/templates/Menu/dashbourd_theme.html:15
+msgid "Dark"
+msgstr "Темный"
+
+#: user/templates/Menu/dashbourd_theme.html:17
+msgid "HEADER SKINS"
+msgstr "СКИНЫ ЗАГОЛОВКА"
+
+#: user/templates/Menu/dashbourd_top_menu.html:27
+msgid "Search for items..."
+msgstr "Поиск предметов..."
+
+#: user/templates/Menu/dashbourd_top_menu.html:36
+msgid "+ Create CATEGORY"
+msgstr "+ Создать КАТЕГОРИЮ"
+
+#: user/templates/Menu/dashbourd_top_menu.html:41
+msgid "+ Create PRODUCT"
+msgstr "+ Создать ПРОДУКТ"
+
+#: user/templates/Menu/navbar_client.html:12
+#: user/templates/Navbar/navbar_client.html:12
+msgid "Product Orders"
+msgstr "Заказы продуктов"
+
+#: user/templates/Menu/navbar_client.html:16
+#: user/templates/Navbar/navbar_client.html:16
+msgid "Client Update"
+msgstr "Обновление клиента"
+
+#: user/templates/Menu/navbar_client.html:26
+msgid "Log Out "
+msgstr "Выйти"
+
+#: user/templates/Navbar/navbar_client.html:25
+msgid "Log Out"
+msgstr "Выйти"
+
+#: user/templates/News_comment/news_comment_edit.html:66
+#: user/templates/News_comment/news_comment_get.html:69
+#: user/templates/Product_comment/product_comment_edit.html:72
+#: user/templates/Product_comment/product_comment_get.html:74
+msgid "Comment"
+msgstr "Комментарий"
+
+#: user/templates/Orders/order_detail.html:51
+#: user/templates/Orders/orders_page.html:53
+msgid "Order Address"
+msgstr "Адрес заказа"
+
+#: user/templates/Orders/order_detail.html:60
+#: user/templates/Orders/orders_page.html:62
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: user/templates/Orders/order_detail.html:86
+#: user/templates/Orders/orders_page.html:77
+msgid "Native Price"
+msgstr "Собственная цена"
+
+#: user/templates/Orders/order_detail.html:90
+#: user/templates/Orders/orders_page.html:81
+msgid "Collar"
+msgstr "Цвет"
+
+#: user/templates/Orders/order_detail.html:98
+#: user/templates/Orders/order_detail.html:100
+#: user/templates/Orders/order_detail.html:110
+#: user/templates/Orders/orders_page.html:89
+#: user/templates/Orders/orders_page.html:91
+msgid "sum"
+msgstr "сумм"
+
+#: user/templates/Orders/order_detail.html:109
+#: user/templates/Orders/orders_page.html:100
+msgid "Subtotal amount"
+msgstr "Итоговая сумма"
+
+#: user/templates/Orders/orders_page.html:47
+msgid "Code : "
+msgstr "Код :"
+
+#: user/templates/Orders/orders_page.html:102
+msgid "so'm"
+msgstr "сумм"
+
+#: user/templates/Orders/orders_page.html:108
+msgid "Detail"
+msgstr "Деталь"
+
+#: user/templates/Product/product_add.html:67
+#: user/templates/Product/product_edit.html:70
+#: user/templates/Product/product_update.html:67
+msgid "Old Price"
+msgstr "Старая цена"
+
+#: user/templates/Product/product_add.html:72
+#: user/templates/Product/product_edit.html:76
+#: user/templates/Product/product_update.html:73
+msgid "Sell Price"
+msgstr "Цена продажи"
+
+#: user/templates/Product_comment/product_comment_edit.html:84
+msgid "ip address"
+msgstr "ip адрес"
+
+#: user/templates/Product_comment/product_comment_get.html:80
+msgid "Rate"
+msgstr "Ставка"
+
+#: user/templates/Product_comment/product_comment_get.html:92
+msgid "Ip"
+msgstr "Ip"
+
+#: user/templates/Product_gallery/gallery.html:34
+msgid "Gallery"
+msgstr "Галерея"
+
+#: user/templates/Product_gallery/gallery.html:43
+msgid "light Gallery"
+msgstr "светлая галерея"
+
+#: user/templates/Product_gallery/gallery.html:45
+msgid "Click on any image to open in lightbox gallery"
+msgstr "Нажмите на любое изображение, чтобы открыть его в галерее лайтбоксов."
+
+#: user/templates/Product_gallery/gallery_id.html:39
+msgid "Product Details"
+msgstr "информация о продукте"
+
+#: user/templates/Product_gallery/gallery_id.html:53
+msgid "Sell price"
+msgstr "Цена продажи"
+
+#: user/templates/Product_gallery/gallery_id.html:59
+msgid "Old price"
+msgstr "Старая цена"
+
+#: user/templates/Reset_password/password_reset_complete.html:57
+msgid "Password Reset Complete"
+msgstr "Сброс пароля завершен"
+
+#: user/templates/Reset_password/password_reset_complete.html:58
+msgid "Your password has been reset. Please login now."
+msgstr "Ваш пароль был сброшен. Пожалуйста, войдите сейчас."
+
+#: user/templates/Reset_password/password_reset_done.html:46
+msgid "Recovery Email Sent"
+msgstr "Электронная почта для восстановления отправлена"
+
+#: user/templates/Reset_password/password_reset_done.html:47
+msgid "A Recovery Email has been sent to your Email ID, if it exists."
+msgstr ""
+"Электронное письмо для восстановления было отправлено на ваш адрес "
+"электронной почты, если он существует."
+
+#: user/templates/Searched/dashbourd_search.html:96
+#: user/templates/Searched/searched.html:55
+msgid "Sorry, we couldn't find any results matching your search"
+msgstr ""
+"К сожалению, мы не смогли найти результаты, соответствующие вашему запросу"
+
+#: user/templates/Searched/searched.html:34
+#: user/templates/Searched/searched.html:43
+msgid "Searched"
+msgstr "Поиск"
+
+#: user/templates/Searched/searched.html:45
+msgid "Click on any image to open in product"
+msgstr "Нажмите на любое изображение, чтобы открыть его в продукте"
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logo"
+#~ msgstr "Выйти"
+
+#~ msgid "Icon"
+#~ msgstr "Значок"
+
+#~ msgid "Order Products"
+#~ msgstr "Заказы"
+
+#~ msgid "Orders Product"
+#~ msgstr "Заказы"
+
+#~ msgid "Enter"
+#~ msgstr "Входить"
+
+#~ msgid "Last Name"
+#~ msgstr "Фамилия"
+
+#~ msgid "Copyright © 2022. All rights reserved"
+#~ msgstr "Copyright © 2022. Все права защищены."
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "QTY"
+#~ msgstr "Количество"
+
+#~ msgid "Code :"
+#~ msgstr "Код Code :"
+
+#~ msgid "First Name:"
+#~ msgstr "Имя:"
+
+#~ msgid "Last Name:"
+#~ msgstr "Фамилия :"
+
+#~ msgid "Create at Date : "
+#~ msgstr "Дата создания:"
+
+#~ msgid "STATUS :"
+#~ msgstr "СТАТУС :"
+
+#~ msgid "Subtotal amount:"
+#~ msgstr "Общее количество::"
+
+#~ msgid "Total : "
+#~ msgstr "Всего :"
+
+#~ msgid "Print"
+#~ msgstr "Распечатать"
+
+#~ msgid "Edit Order"
+#~ msgstr "Изменить заказ"
+
+#~ msgid "Wallet"
+#~ msgstr "Кошелек"
+
+#~ msgid "Billing"
+#~ msgstr "Выставление счетов"
+
+#~ msgid "Help center"
+#~ msgstr "Центр помощи"

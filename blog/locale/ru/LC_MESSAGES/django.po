@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 00:43+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: blog/templates/blog.html:10 blog/templates/blog_details.html:10
+msgid "Evara - blog"
+msgstr "blog"
+
+#: blog/templates/blog.html:35
+msgid "Our Blog"
+msgstr "Наш блог"
+
+#: blog/templates/blog.html:57
+msgid "Read more"
+msgstr "Читать далее"
+
+#: blog/templates/blog_details.html:41 blog/templates/blog_details.html:74
+msgid "Share this:"
+msgstr "Поделись этим:"
+
+#: blog/templates/blog_details.html:97
+msgid "Comments"
+msgstr "Комментарии"
+
+#: blog/templates/blog_details.html:122
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+#: blog/templates/blog_details.html:133
+msgid "Write Comment"
+msgstr "Написать комментарий"
+
+#: blog/templates/blog_details.html:139
+msgid "Name"
+msgstr "Имя"
+
+#: blog/templates/blog_details.html:145
+msgid "Email"
+msgstr "Email"
+
+#: blog/templates/blog_details.html:151
+msgid "Post Comment"
+msgstr "Оставить комментарий"
+
+#: blog/templates/blog_details.html:165
+msgid "Categories"
+msgstr "Категории"
+
+#: blog/templates/blog_details.html:180
+msgid "Also don't forget to read this news!"
+msgstr "Также не забудьте прочитать эту новость!"
+
+#: blog/templates/blog_details.html:203
+msgid "For All"
+msgstr "Для всех"
+
+#~ msgid "Buy right"
+#~ msgstr "Купить "
+
+#~ msgid "now"
+#~ msgstr "сейчас"
+
+#~ msgid "Shopping"
+#~ msgstr "покупка товаров"

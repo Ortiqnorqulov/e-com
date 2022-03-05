@@ -1,0 +1,295 @@
+﻿{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:20:36 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>{% trans 'Evara - My Account' %}</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <!-- CSS only -->
+
+
+</head>
+
+<body>
+<!-- Modal -->
+
+{% include 'header.html' %}
+<main class="main">
+    <section class="pt-150 pb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="dashboard-menu">
+                                <ul class="nav flex-column" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="dashboard-tab" data-bs-toggle="tab"
+                                           href="#dashboard" role="tab" aria-controls="dashboard" aria-selected="false"><i
+                                                class="fi-rs-settings-sliders mr-10"></i>{% trans 'Dashboard' %}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="orders-tab" data-bs-toggle="tab" href="#orders"
+                                           role="tab" aria-controls="orders" aria-selected="false"><i
+                                                class="fi-rs-shopping-bag mr-10"></i>{% trans 'Orders' %}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="track-orders-tab" data-bs-toggle="tab"
+                                           href="#track-orders" role="tab" aria-controls="track-orders"
+                                           aria-selected="false"><i
+                                                class="fi-rs-settings mr-10"></i>{% trans 'Change Password' %}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="account-detail-tab" data-bs-toggle="tab"
+                                           href="#account-detail" role="tab" aria-controls="account-detail"
+                                           aria-selected="true"><i
+                                                class="fi-rs-user mr-10"></i>{% trans 'Account details' %}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{% url 'logout_form' %}"><i
+                                                class="fi-rs-sign-out mr-10"></i>{% trans 'Logout' %}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="tab-content dashboard-content">
+                                <div class="tab-pane fade active show" id="dashboard" role="tabpanel"
+                                     aria-labelledby="dashboard-tab">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">{% trans 'Hello' %} <strong
+                                                    style="color: red;"> {{ client.user }}</strong></h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>{% trans 'From your account dashboard you can easily check details, view your recent orders, manage your shipping and billing addresses and edit your password and accountdetails.' %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="orders" role="tabpanel" aria-labelledby="orders-tab">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">{% trans 'Your Orders' %}</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>
+                                                            {% trans 'Code' %}
+                                                        </th>
+                                                        <th>
+                                                            {% trans 'First Name' %}
+                                                        </th>
+                                                        <th>
+                                                            {% trans 'Phone' %}
+                                                        </th>
+                                                        <th>
+                                                            {% trans 'Total' %}
+                                                        </th>
+                                                        <th>
+                                                            {% trans 'Status' %}
+                                                        </th>
+
+                                                        <th>
+                                                            {% trans 'Details' %}
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    {% for rs in order_product %}
+                                                        <tr>
+                                                            <td>
+                                                                {{ rs.order.code }}
+                                                            </td>
+                                                            <td>
+                                                                {{ rs.order.first_name }}
+                                                            </td>
+                                                            <td>
+                                                                {{ rs.order.phone }}
+                                                            </td>
+                                                            <td>
+                                                                {{ rs.order.total }}
+                                                            </td>
+                                                            <td>
+                                                                {{ rs.order.status }}
+                                                            </td>
+                                                            <td>
+                                                                <a href="{% url 'user_orders_product_detail' rs.id rs.order.id %}">
+                                                                    <i
+                                                                            class="fas fa-angle-double-right menu-icon"
+                                                                            style="padding-left: 20px">>></i></a>
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="track-orders" role="tabpanel"
+                                     aria-labelledby="account-detail-tab">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>{% trans 'Change Password' %}</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <form method="post" name="enq" enctype="multipart/form-data"
+                                                  action="{% url 'user_password_client' %}">
+                                                {% csrf_token %}
+                                                <div class="row">
+                                                    <div class="form-group col-md-12">
+                                                        <label>{% trans 'Old Password' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square"
+                                                               name="password"
+                                                               value="{{ client.user.password }}" disabled
+                                                               type="password">
+                                                    </div>
+                                                    <h4>
+                                                        <a href="{% url 'user_password_client' %}">{% trans 'Change Password ' %}>></a>
+                                                    </h4>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="account-detail" role="tabpanel"
+                                     aria-labelledby="account-detail-tab">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>{% trans 'Account Details' %}</h5>
+                                        </div>
+                                        <div class="card-body">
+
+                                            <form method="post" name="enq" enctype="multipart/form-data">
+                                                {% csrf_token %}
+                                                <div class="row">
+                                                    <div class="form-group col-md-6">
+                                                        <label>{% trans 'User Name' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="name"
+                                                               value="{{ client.user.first_name }}"
+                                                               type="text">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label>{% trans 'Lastname' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="phone"
+                                                               value="{{ client.user.last_name }}">
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <label>{% trans 'Phone' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="phone"
+                                                               value="{{ client.phone }}"
+                                                               type="tel">
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <label>{% trans 'Email' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="email"
+                                                               value="{{ client.email }}"
+                                                               type="email">
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <label>{% trans 'Country' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="country"
+                                                               value="{{ client.country }}"
+                                                               type="text">
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <label>{% trans 'City' %}<span class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="city"
+                                                               value="{{ client.city }}"
+                                                               type="text">
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <label>{% trans 'Address' %}<span
+                                                                class="required">*</span></label>
+                                                        <input required="" class="form-control square" name="adres"
+                                                               value="{{ client.address }}"
+                                                               type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>{% trans 'Image' %}</label>
+                                                        <div class="input-gr    oup col-xs-12">
+                                                            <input type="file" name="image"
+                                                                   class="form-control file-upload-info">
+                                                            <span class="input-group-append">
+
+                                                </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <button type="submit" class="btn btn-fill-out submit"
+                                                                name="submit" value="Submit">{% trans 'Save' %}
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+{% include 'footer.html' %}
+
+<!-- Vendor JS-->
+<script src="{% static 'assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/slick.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.syotimer.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/wow.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery-ui.js' %}"></script>
+<script src="{% static 'assets/js/plugins/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'assets/js/plugins/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/select2.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/waypoints.js' %}"></script>
+<script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/images-loaded.js' %}"></script>
+<script src="{% static 'assets/js/plugins/isotope.js' %}"></script>
+<script src="{% static 'assets/js/plugins/scrollup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.vticker-min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.theia.sticky.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.elevatezoom.js' %}"></script>
+<!-- Template  JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+<script src="{% static 'assets/js/shop.js' %}"></script>
+<!-- JavaScript Bundle with Popper -->
+
+
+</body>
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:25:49 GMT -->
+</html>

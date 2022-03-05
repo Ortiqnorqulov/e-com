@@ -1,0 +1,110 @@
+﻿{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/blog-category-fullwidth.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:27:15 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>{% trans 'Evara - blog' %}</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+</head>
+
+<body>
+{% include 'header.html' %}
+<main class="main">
+    <section class="mt-50 mb-50">
+        <div class="container custom">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-header mb-50 text-center">
+                        <h1 class="font-xxl text-brand">{% trans 'Our Blog' %}</h1>
+                    </div>
+                    <div class="loop-grid pr-30">
+                        <div class="row">
+                            {% for rs in blog %}
+                                <div class="col-lg-4">
+                                    <article class="wow fadeIn animated hover-up mb-30">
+                                        <div class="post-thumb img-hover-scale">
+                                            <a href="{% url 'blog_detail' rs.id %}">
+                                                <img src="{{ rs.image.url }}" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="entry-content-2">
+                                            <h3 class="post-title mb-15">
+                                                <a href="blog-post-right.html">{{ rs.title }}</a>
+                                            </h3>
+                                            <p class="post-exerpt mb-30">{{ rs.description |safe |slice:"90" }}....</p>
+                                            <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
+                                                <div>
+                                                    <span class="post-on"> <i
+                                                            class="fi-rs-clock"></i> {{ rs.create_at }}</span>
+                                                </div>
+                                                <a href="{% url 'blog_detail' rs.id %}" class="text-brand">{% trans 'Read more' %} <i
+                                                        class="fi-rs-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            {% endfor %}
+                            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                                {% include 'paginator.html' with page=blog %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+{% include 'footer.html' %}
+
+
+<!-- Vendor JS-->
+<script src="{% static 'assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/slick.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.syotimer.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/wow.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery-ui.js' %}"></script>
+<script src="{% static 'assets/js/plugins/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'assets/js/plugins/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/select2.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/waypoints.js' %}"></script>
+<script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/images-loaded.js' %}"></script>
+<script src="{% static 'assets/js/plugins/isotope.js' %}"></script>
+<script src="{% static 'assets/js/plugins/scrollup.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.vticker-min.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.theia.sticky.js' %}"></script>
+<script src="{% static 'assets/js/plugins/jquery.elevatezoom.js' %}"></script>
+<!-- Template  JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+<script src="{% static 'assets/js/shop.js' %}"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/blog-category-fullwidth.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:27:15 GMT -->
+</html>
